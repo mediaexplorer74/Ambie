@@ -1,4 +1,4 @@
-# Ambie for Windows 10 Mobile
+# Ambie 0.8 for Windows 10 Mobile
 
 A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed.
 

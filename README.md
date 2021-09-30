@@ -29,5 +29,9 @@ Pull requests are welcome! Please keep in mind the motivation behind Ambie, howe
 
 ### WARNING
 
-Caution: this is my uncompleted work of porting Ambie Sounds onto Windows 10 Mobile OS. Big problem: grid "buttons" don't wont to be clicked... 
+Caution: this is my uncompleted work of porting eraly build of famous Ambie Sounds tool (Ambie 0.8) onto Windows 10 Mobile OS. Big problem: grid "buttons" don't wont to be clicked... 
 I think there are some GridView/ XAML control bugs appeared when I switch SDK to 15063 os target .
+
+Best wishes,
+
+  [m][e] 2021

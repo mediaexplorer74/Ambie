@@ -1,8 +1,8 @@
-# Ambie
+# Ambie for Windows 10 Mobile
 
 A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed.
 
-![](images/shot1.png)
+![Ambie 0.8 proto on Lumia 950](images/shot1.png)
 
 ## Motivation
 
@@ -22,6 +22,11 @@ Pull requests are welcome! Please keep in mind the motivation behind Ambie, howe
 - [Sounds](https://freesound.org). Specific file attributions are in `Data.json`.
 - [Images](https://unsplash.com/). Specific image attributions are in `Data.json`.
 - [Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
+
+## Thanks
+- [Jenius Apps](https://github.com/jenius-apps)
+- [Daniel Paulino](https://github.com/jenius-apps)
+- [Ambie Project / AmbientSounds](https://github.com/jenius-apps/ambie)
 
 ### WARNING
 

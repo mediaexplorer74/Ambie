@@ -1,4 +1,4 @@
-# AmbieX (Xamarin edition for Android, iOS, and Windows 10/Mobile)
+# AmbieX  (Xamarin edition for Android, iOS, and Windows 10/Mobile)
 
 A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed.
 

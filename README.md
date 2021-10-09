@@ -1,16 +1,19 @@
-# Ambie for Windows 10 Mobile
+# Ambie v 1.0 for ARM (Windows 10 Mobile)
 
 A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed.
 
-![Ambie 0.8 proto on Lumia 950](images/shot1.png)
+![Ambie 1.0 on Lumia 950](images/shot1.png)
 
 ## Motivation
 
-The motivation behind Ambie is to build a simple but beautiful soothing sounds player for Windows. Animations are used to enhance the experience. Only a few UI elements are available in the app. This is on purpose because for Ambie, _less is more_.
+The motivation behind Ambie is to build a simple but beautiful soothing sounds player for Windows. 
+Animations are used to enhance the experience. Only a few UI elements are available in the app. 
+This is on purpose because for Ambie, _less is more_.
 
 ## Contributors
 
-Pull requests are welcome! Please keep in mind the motivation behind Ambie, however: _Less is more_. New sounds are greatly appreciated. New sounds must
+Pull requests are welcome! Please keep in mind the motivation behind Ambie, however: _Less is more_. 
+New sounds are greatly appreciated. New sounds must
 - Have a license that can work with Ambie
 - Have an image
 - Have attributions for sound and image
@@ -28,10 +31,10 @@ Pull requests are welcome! Please keep in mind the motivation behind Ambie, howe
 - [Daniel Paulino](https://github.com/jenius-apps)
 - [Ambie Project / AmbientSounds](https://github.com/jenius-apps/ambie)
 
-### WARNING
+### One more little thing 
 
-Caution: this is my uncompleted work of porting early Desktop build of famous Ambie Sounds tool (Ambie 0.8) onto Windows 10 Mobile OS. Big problem: grid "buttons" don't wont to be clicked... 
-I think there are some GridView/ XAML control bugs appeared when I switch SDK to 15063 os target .
+I solved the strange problem when grid "buttons" don't wont to be clicked... Now all is ok, sound contral enabled!
+Enjoy a little xaml fluent implementation (thanx to special dlls at Libs folder for xaml ui "emulation")
 
 Best wishes,
 

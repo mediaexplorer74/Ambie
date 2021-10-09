@@ -61,5 +61,17 @@ namespace AmbientSounds.ViewModels
                 svm.Play();
             }
         }
+
+        /*
+        public void GridViewSelectionChanged(object sender, Windows.UI.Xaml.Controls.SelectionChangedEventArgs e)
+        {
+            object BBB = sender;
+            Windows.UI.Xaml.Controls.SelectionChangedEventArgs Event = e;
+            //if (e.ClickedItem is SoundViewModel svm)
+            //{
+            //    svm.Play();
+            //}
+        }
+        */
     }
 }

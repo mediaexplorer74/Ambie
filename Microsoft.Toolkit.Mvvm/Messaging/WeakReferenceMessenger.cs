@@ -9,7 +9,7 @@ using System.Threading;
 using Microsoft.Collections.Extensions;
 using Microsoft.Toolkit.Mvvm.Messaging.Internals;
 
-#if NETSTANDARD2_0
+#if NETSTANDARD1_4||NETSTANDARD2_0
 using RecipientsTable = Microsoft.Toolkit.Mvvm.Messaging.Internals.ConditionalWeakTable2<object, Microsoft.Collections.Extensions.IDictionarySlim>;
 #else
 using RecipientsTable = System.Runtime.CompilerServices.ConditionalWeakTable<object, Microsoft.Collections.Extensions.IDictionarySlim>;
@@ -218,7 +218,7 @@ namespace Microsoft.Toolkit.Mvvm.Messaging
                 // to enumerate all the existing recipients for the token and message types pair
                 // corresponding to the generic arguments for this invocation, and then track the
                 // handlers with a matching token, and their corresponding recipients.
-                /*
+                
                 foreach (KeyValuePair<object, IDictionarySlim> pair in table)
                 {
                     var map = Unsafe.As<DictionarySlim<TToken, object>>(pair.Value);
@@ -230,7 +230,7 @@ namespace Microsoft.Toolkit.Mvvm.Messaging
                         i++;
                     }
                 }
-                */
+                
             }
 
             try
@@ -324,19 +324,19 @@ namespace Microsoft.Toolkit.Mvvm.Messaging
                 // the ones we find to remove them outside of the loop (can't modify during enumeration).
 
                 //foreach (KeyValuePair<object, IDictionarySlim> pair in enumerator.Value)
-                /*
-                foreach (KeyValuePair<object, IDictionarySlim> pair1 in enumerator.Value)
+                
+                foreach (KeyValuePair<object, IDictionarySlim> pair in enumerator.Value)
                 {
-                    if (pair1.Value.Count == 0)
+                    if (pair.Value.Count == 0)
                     {
-                        emptyRecipients.Add(pair1.Key);
+                        emptyRecipients.Add(pair.Key);
                     }
                     else
                     {
                         hasAtLeastOneHandler = true;
                     }
                 }
-                */
+                
 
                 // Remove the handler maps for recipients that are still alive but with no handlers
                 foreach (object recipient in emptyRecipients.Span)

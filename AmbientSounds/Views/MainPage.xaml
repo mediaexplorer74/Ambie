@@ -76,41 +76,60 @@
              IsItemClickEnabled="True"
             SelectionMode="None" 
             -->
-                <GridView
-                animations:ReorderGridAnimation.Duration="300"
-               
-                ItemContainerStyle="{StaticResource GridViewItemExpanded}"
-                ItemsSource="{x:Bind Vm.Sounds}"
-                ScrollViewer.HorizontalScrollMode="Disabled"
-                ScrollViewer.VerticalScrollMode="Disabled"
-                SelectionMode="Extended" 
-                IsTapEnabled="true"
-                IsItemClickEnabled="true"
-                ItemClick="{x:Bind Vm.GridViewSoundClicked}"
-                    >
-                    
-                <TransitionCollection>
+                <GridView x:Name="MainGridView"
+                    animations:ReorderGridAnimation.Duration="300"
+                    ItemContainerStyle="{StaticResource GridViewItemExpanded}"
+                    ItemsSource="{x:Bind Vm.Sounds}"
+                    ScrollViewer.HorizontalScrollMode="Disabled"
+                    ScrollViewer.VerticalScrollMode="Disabled"
+                    SelectionMode="Extended" 
+                    IsTapEnabled="true"
+                    IsItemClickEnabled="true"
+                    ItemClick="{x:Bind Vm.GridViewSoundClicked}"
+                >
+
+                <!--
+                    SelectionMode="Extended" 
+                    IsTapEnabled="true"
+                    IsItemClickEnabled="true"
+                    ItemClick="{x:Bind Vm.GridViewSoundClicked}"    
+                -->
+
+                <!--TransitionCollection>
                     <EntranceThemeTransition IsStaggeringEnabled="True" />
-                </TransitionCollection>
+                </TransitionCollection-->
+                    
                 <GridView.ItemTemplate>
                     <DataTemplate x:DataType="viewmodels:SoundViewModel">
-                        <GridViewItem Width="300" Height="180">
+                        
+                        <GridViewItem x:Name="IntGridViewItem"
+                            Width="300" 
+                            Height="180"
+                            IsTapEnabled="False"
+                            IsEnabled="False">
+
                             <GridViewItem.Resources>
                                 <!--  These two removes the border on hover and on pressed  -->
                                 <SolidColorBrush x:Key="SystemControlHighlightListLowBrush" Color="Transparent" />
                                 <SolidColorBrush x:Key="SystemControlHighlightListMediumBrush" Color="Transparent" />
                             </GridViewItem.Resources>
-                            <Grid
+
+                            
+                                                       
+                            <Grid x:Name="IntGrid"
                                 Width="280"
                                 Height="160"
                                 Margin="4"
                                 PointerEntered="GridScaleUp"
-                                PointerExited="GridScaleNormal">
-                             
+                                PointerExited="GridScaleNormal"     
+                             >
+
+
 
                                 <Grid.Background>
                                     <ImageBrush ImageSource="{x:Bind SoundImageSource}" Stretch="UniformToFill" />
                                 </Grid.Background>
+
                                 <TextBlock
                                     Margin="12,0,0,4"
                                     VerticalAlignment="Bottom"
@@ -121,19 +140,24 @@
                                     Text="{x:Bind Name}"
                                     TextWrapping="Wrap" />
                             </Grid>
+                            
                             <GridViewItem.ContextFlyout>
+                               
                                 <Flyout Placement="Bottom">
                                     <StackPanel Width="300">
                                         <TextBlock FontWeight="SemiBold" Text="Attribution" />
                                         <TextBlock
                                             Margin="0,8,0,0"
-                                            IsTextSelectionEnabled="True"
+                                            IsTextSelectionEnabled="False"
                                             Text="{x:Bind Attribution}"
                                             TextWrapping="Wrap" />
                                     </StackPanel>
                                 </Flyout>
+                            
                             </GridViewItem.ContextFlyout>
+                            
                         </GridViewItem>
+                        
                     </DataTemplate>
                 </GridView.ItemTemplate>
             </GridView>

@@ -33,9 +33,11 @@ New sounds are greatly appreciated. New sounds must
 
 ### One more little thing 
 
-I solved the strange problem when grid "buttons" don't wont to be clicked... Now all is ok, sound contral enabled!
-Enjoy a little xaml fluent implementation (thanx to special dlls at Libs folder for xaml ui "emulation")
+I solved the strange "sdk 15063"-specific problem when grid "buttons" don't wont to be clicked... 
+All is ok, sound control enabled at now =)
+Enjoy a little xaml fluent implementation (thanx to special dlls at Libs folder for xaml ui "emulation").
+I hope, this funny mini-project could be continued... 
 
-Best wishes,
+...Best wishes,
 
   [m][e] 2021

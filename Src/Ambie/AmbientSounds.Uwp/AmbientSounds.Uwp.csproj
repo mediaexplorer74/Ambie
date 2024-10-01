@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B0BA021E-FA43-4921-A25A-0004A43F7C40}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AmbientSounds</RootNamespace>
+    <AssemblyName>AmbientSounds.Uwp</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22621.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <UseDotNetNativeSharedAssemblyFrameworkPackage>false</UseDotNetNativeSharedAssemblyFrameworkPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Animations\AnimationConstants.cs" />
+    <Compile Include="Animations\SoundItemAnimations.cs" />
+    <Compile Include="App.Configuration.xaml.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AboutControl.xaml.cs">
+      <DependentUpon>AboutControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ActiveTrackItem.xaml.cs">
+      <DependentUpon>ActiveTrackItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ActiveTrackList.xaml.cs">
+      <DependentUpon>ActiveTrackList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AuthDialog.xaml.cs">
+      <DependentUpon>AuthDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CatalogueRowControl.xaml.cs">
+      <DependentUpon>CatalogueRowControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CompactFocusTimerModule.xaml.cs">
+      <DependentUpon>CompactFocusTimerModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DownloadMissingList.xaml.cs">
+      <DependentUpon>DownloadMissingList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditTextDialog.xaml.cs">
+      <DependentUpon>EditTextDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FocusHistoryDetails.xaml.cs">
+      <DependentUpon>FocusHistoryDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FocusHistoryModule.xaml.cs">
+      <DependentUpon>FocusHistoryModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FocusTaskModule.xaml.cs">
+      <DependentUpon>FocusTaskModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FocusTimer2.xaml.cs">
+      <DependentUpon>FocusTimer2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FocusTimerModule.xaml.cs">
+      <DependentUpon>FocusTimerModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GuideShimmer.xaml.cs">
+      <DependentUpon>GuideShimmer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HistoryStat.xaml.cs">
+      <DependentUpon>HistoryStat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ICanInitialize.cs" />
+    <Compile Include="Controls\InterruptionDialog.xaml.cs">
+      <DependentUpon>InterruptionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InterruptionInsights.xaml.cs">
+      <DependentUpon>InterruptionInsights.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LogoControl.xaml.cs">
+      <DependentUpon>LogoControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuItemControl.xaml.cs">
+      <DependentUpon>MenuItemControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NoPaddingDialog.xaml.cs">
+      <DependentUpon>NoPaddingDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ObservableUserControl.cs" />
+    <Compile Include="Controls\PlayerControl.xaml.cs">
+      <DependentUpon>PlayerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PremiumControl.xaml.cs">
+      <DependentUpon>PremiumControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PriceButtonContent.xaml.cs">
+      <DependentUpon>PriceButtonContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RecentFocusSettingsControl.xaml.cs">
+      <DependentUpon>RecentFocusSettingsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RenameInputBox.xaml.cs">
+      <DependentUpon>RenameInputBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SaveMixButton.xaml.cs">
+      <DependentUpon>SaveMixButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Screensaver.xaml.cs">
+      <DependentUpon>Screensaver.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchItemShimmer.xaml.cs">
+      <DependentUpon>SearchItemShimmer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SegmentItem.xaml.cs">
+      <DependentUpon>SegmentItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SettingsControl.xaml.cs">
+      <DependentUpon>SettingsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ShareControl.xaml.cs">
+      <DependentUpon>ShareControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ShareDialog.xaml.cs">
+      <DependentUpon>ShareDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Shimmer.xaml.cs">
+      <DependentUpon>Shimmer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SleepTimerButton.xaml.cs">
+      <DependentUpon>SleepTimerButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Slideshow.xaml.cs">
+      <DependentUpon>Slideshow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoundDownloadDialog.xaml.cs">
+      <DependentUpon>SoundDownloadDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoundGridControl.xaml.cs">
+      <DependentUpon>SoundGridControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoundItemControl.xaml.cs">
+      <DependentUpon>SoundItemControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoundListItem.xaml.cs">
+      <DependentUpon>SoundListItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SparkleLottie.cs" />
+    <Compile Include="Controls\SplitView.xaml.cs">
+      <DependentUpon>SplitView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StatDetail.xaml.cs">
+      <DependentUpon>StatDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TaskTicker.xaml.cs">
+      <DependentUpon>TaskTicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeBanner.xaml.cs">
+      <DependentUpon>TimeBanner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimerData.xaml.cs">
+      <DependentUpon>TimerData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimerSlider.xaml.cs">
+      <DependentUpon>TimerSlider.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TitleBarLogo.xaml.cs">
+      <DependentUpon>TitleBarLogo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TutorialControl.xaml.cs">
+      <DependentUpon>TutorialControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TutorialDialog.xaml.cs">
+      <DependentUpon>TutorialDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TwoToneButton.cs" />
+    <Compile Include="Controls\UIHelper.cs" />
+    <Compile Include="Controls\VideosMenu.xaml.cs">
+      <DependentUpon>VideosMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XboxSoundItem.xaml.cs">
+      <DependentUpon>XboxSoundItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XboxTrackList.xaml.cs">
+      <DependentUpon>XboxTrackList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\LocalizationConverter.cs" />
+    <Compile Include="Converters\ThemeConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceDictionaries\SharedTemplates.xaml.cs">
+      <DependentUpon>SharedTemplates.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Services\AppServiceController.cs" />
+    <Compile Include="Services\AppSettings.cs" />
+    <Compile Include="Services\BackgroundDownloadService.cs" />
+    <Compile Include="Services\BackgroundTaskService.cs" />
+    <Compile Include="Services\CompactNavigator.cs" />
+    <Compile Include="Services\FilePicker.cs" />
+    <Compile Include="Services\ImagePicker.cs" />
+    <Compile Include="Services\PreviewService.cs" />
+    <Compile Include="Services\ProtocolLaunchController.cs" />
+    <Compile Include="Services\StoreService.cs" />
+    <Compile Include="Services\DialogService.cs" />
+    <Compile Include="Services\FileWriter.cs" />
+    <Compile Include="Services\Navigator.cs" />
+    <Compile Include="Services\PartnerCentreNotificationRegistrar.cs" />
+    <Compile Include="Services\ScreensaverService.cs" />
+    <Compile Include="Services\ToastService.cs" />
+    <Compile Include="Services\WindowsDownloadManager.cs" />
+    <Compile Include="StateTriggers\TenFootTrigger.cs" />
+    <Compile Include="Strings\en-US\Resources.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resw</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AssetsReader.cs" />
+    <Compile Include="Tools\MicrosoftStoreRatings.cs" />
+    <Compile Include="Tools\WindowsMediaPlayerFactory.cs" />
+    <Compile Include="Tools\WindowsSystemMediaControls.cs" />
+    <Compile Include="Views\BlankPage.xaml.cs">
+      <DependentUpon>BlankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CataloguePage.xaml.cs">
+      <DependentUpon>CataloguePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompactFocusPage.xaml.cs">
+      <DependentUpon>CompactFocusPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompactHomePage.xaml.cs">
+      <DependentUpon>CompactHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompactInterruptionPage.xaml.cs">
+      <DependentUpon>CompactInterruptionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompactPage.xaml.cs">
+      <DependentUpon>CompactPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FocusPage.xaml.cs">
+      <DependentUpon>FocusPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MeditatePage.xaml.cs">
+      <DependentUpon>MeditatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScreensaverPage.xaml.cs">
+      <DependentUpon>ScreensaverPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchPage.xaml.cs">
+      <DependentUpon>SearchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShellPage.xaml.cs">
+      <DependentUpon>ShellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdatesPage.xaml.cs">
+      <DependentUpon>UpdatesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\XboxCataloguePage.xaml.cs">
+      <DependentUpon>XboxCataloguePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\XboxSettingsPage.xaml.cs">
+      <DependentUpon>XboxSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\XboxShellPage.xaml.cs">
+      <DependentUpon>XboxShellPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\ambie_plus_banner.png" />
+    <Content Include="Assets\Backgrounds\blisslike.png" />
+    <Content Include="Assets\Backgrounds\gradient.png" />
+    <Content Include="Assets\Backgrounds\water.png" />
+    <Content Include="Assets\Backgrounds\sand.png" />
+    <Content Include="Assets\Backgrounds\znone.png" />
+    <Content Include="Assets\Backgrounds\rosyhill.png" />
+    <Content Include="Assets\construction_3d.png" />
+    <Content Include="Assets\headphone_3d.png" />
+    <Content Include="Assets\Images\beach.png" />
+    <Content Include="Assets\Images\birds.png" />
+    <Content Include="Assets\Images\citystreet.png" />
+    <Content Include="Assets\Images\coffeeshop.png" />
+    <Content Include="Assets\Images\creek.png" />
+    <Content Include="Assets\Images\fireplace.png" />
+    <Content Include="Assets\Images\rain.png" />
+    <Content Include="Assets\Images\rainforest.png" />
+    <Content Include="Assets\Images\thunder.png" />
+    <Content Include="Assets\Images\underwater.png" />
+    <Content Include="Assets\Images\waterfall.png" />
+    <Content Include="Assets\Images\whitenoise.png" />
+    <Content Include="Assets\Images\wind.png" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-125.png" />
+    <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-125.png" />
+    <Content Include="Assets\SmallTile.scale-150.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-400.png" />
+    <Content Include="Assets\smiling_face_with_sunglasses_3d.png" />
+    <Content Include="Assets\SoundEffects\bell.wav" />
+    <Content Include="Assets\SoundEffects\chime.mp3" />
+    <Content Include="Assets\Sounds\beach.wav" />
+    <Content Include="Assets\Sounds\birds.wav" />
+    <Content Include="Assets\Sounds\citystreet.wav" />
+    <Content Include="Assets\Sounds\coffeeshop.mp3" />
+    <Content Include="Assets\Sounds\creek.wav" />
+    <Content Include="Assets\Sounds\fireplace.wav" />
+    <Content Include="Assets\Sounds\rain.wav" />
+    <Content Include="Assets\Sounds\Rainforest.mp3" />
+    <Content Include="Assets\Sounds\thunder.mp3" />
+    <Content Include="Assets\Sounds\underwater.wav" />
+    <Content Include="Assets\Sounds\waterfall.wav" />
+    <Content Include="Assets\Sounds\whitenoise.wav" />
+    <Content Include="Assets\Sounds\wind.wav" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\squinting_face_with_tongue_3d.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\undraw_going_up_ttm5.png" />
+    <Content Include="Assets\undraw_press_play_bx2d.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Controls\AboutControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ActiveTrackItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ActiveTrackList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\AuthDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\CatalogueRowControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\CompactFocusTimerModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\DownloadMissingList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\EditTextDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FocusHistoryDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FocusHistoryModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FocusTaskModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FocusTimer2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FocusTimerModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GuideShimmer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\HistoryStat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\InterruptionDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\InterruptionInsights.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LogoControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\MenuItemControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\NoPaddingDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PlayerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PremiumControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PriceButtonContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\RecentFocusSettingsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\RenameInputBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SaveMixButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Screensaver.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SearchItemShimmer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SegmentItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SettingsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ShareControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ShareDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Shimmer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SleepTimerButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Slideshow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SoundDownloadDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SoundGridControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SoundItemControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SoundListItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SplitView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\StatDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TaskTicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TimeBanner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TimerData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TimerSlider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TitleBarLogo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TutorialControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TutorialDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\VideosMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\XboxSoundItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\XboxTrackList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceDictionaries\SharedTemplates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\BlankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CataloguePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompactFocusPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompactHomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompactInterruptionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompactPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FocusPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MeditatePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ScreensaverPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SearchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ShellPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdatesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\XboxCataloguePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\XboxSettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\XboxShellPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Labs.Extensions.DependencyInjection">
+      <Version>0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="CommunityToolkit.Labs.Uwp.SettingsControls">
+      <Version>0.0.11</Version>
+    </PackageReference>
+    <PackageReference Include="CommunityToolkit.Labs.Uwp.Shimmer">
+      <Version>0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+      <Version>7.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.14</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Services.Store.Engagement">
+      <Version>10.1901.28001</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp">
+      <Version>6.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Connectivity">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Animations">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Behaviors">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Controls">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Media">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.UI.Xaml">
+      <Version>2.8.6</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Uwp.Managed">
+      <Version>2.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="QueryString.NET">
+      <Version>1.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Data.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AmbientSounds.Tasks\AmbientSounds.Tasks.csproj">
+      <Project>{ef926887-a6b2-461e-97ca-1c25b065e0c6}</Project>
+      <Name>AmbientSounds.Tasks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AmbientSounds\AmbientSounds.csproj">
+      <Project>{e8943da1-afdd-4c4b-a216-05af46142cab}</Project>
+      <Name>AmbientSounds</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JeniusApps.Common.Uwp\JeniusApps.Common.Uwp.csproj">
+      <Project>{3354de16-cd32-4c68-8268-297fa1cdc0e5}</Project>
+      <Name>JeniusApps.Common.Uwp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\en-US\Resources.resw">
+      <SubType>Designer</SubType>
+      <Generator>ReswPlusGenerator</Generator>
+      <LastGenOutput>Resources.generated.cs</LastGenOutput>
+    </PRIResource>
+    <PRIResource Include="Strings\ko-KR\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\it-IT\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\es-ES\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\cs-CZ\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\hu-HU\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\sv-SE\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\fluentui.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.Services.Store.Engagement, Version=10.0">
+      <Name>Microsoft Engagement Framework</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.ar.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.bg.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.cs-CZ.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.da-DK.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.de-DE.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.el.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.es-ES.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.fa-IR.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.fr-FR.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.he-IL.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.hr-HR.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.hu-HU.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.it-IT.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.ja-JP.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.ko-KR.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.nl-BE.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.pl-PL.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.pt-PT.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.ro-MD.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.ro-RO.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.sv-SE.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.tr.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.uk-UA.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.zh-CN.xlf" />
+    <XliffResource Include="MultilingualResources\AmbientSounds.Uwp.zh-Hant.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\fr-FR\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\tr\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\da-DK\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\nl-BE\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="appsettings.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\de-DE\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\zh-CN\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\ja-JP\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\hr-HR\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\pt-PT\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\he-IL\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\pl-PL\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\uk-UA\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\bg\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\el\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\fa-IR\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\ar\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\zh-Hant\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\fluentuicustom.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\ro-MD\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\ro-RO\Resources.resw" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

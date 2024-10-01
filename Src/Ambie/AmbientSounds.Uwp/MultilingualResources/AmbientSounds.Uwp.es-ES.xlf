@@ -1,0 +1,1240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="AMBIENTSOUNDS.UWP/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="AMBIENTSOUNDS.UWP/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="CloseCompactMode.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Close Ambie Mini</source>
+          <target state="translated">Cerrar Ambie Mini</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="CloseCompactMode.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Close Ambie Mini</source>
+          <target state="translated">Cerrar Ambie Mini</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="CloseText" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="translated">Cerrar</target>
+        </trans-unit>
+        <trans-unit id="Copyright.Text" translate="yes" xml:space="preserve">
+          <source>Copyright</source>
+          <target state="translated">Copyright</target>
+        </trans-unit>
+        <trans-unit id="CopyrightJeniusApps.Text" translate="yes" xml:space="preserve">
+          <source>Copyright Jenius Apps</source>
+          <target state="translated">Copyright Jenius Apps</target>
+        </trans-unit>
+        <trans-unit id="HelloFromVancouver.Text" translate="yes" xml:space="preserve">
+          <source>Hello from Vancouver</source>
+          <target state="translated">Hola desde Vancouver</target>
+        </trans-unit>
+        <trans-unit id="LogoButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>View app information</source>
+          <target state="translated">Ver información de la aplicación</target>
+        </trans-unit>
+        <trans-unit id="MoreButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>View more options</source>
+          <target state="translated">Ver más opciones</target>
+        </trans-unit>
+        <trans-unit id="CompactMode" translate="yes" xml:space="preserve">
+          <source>Ambie Mini</source>
+          <target state="translated">Ambie Mini</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="MoreButtonContact.Label" translate="yes" xml:space="preserve">
+          <source>Contact the creator</source>
+          <target state="translated">Contactar con el creador</target>
+        </trans-unit>
+        <trans-unit id="RateUsText" translate="yes" xml:space="preserve">
+          <source>Rate us</source>
+          <target state="translated">Valóranos</target>
+        </trans-unit>
+        <trans-unit id="MoreButtonSettings.Label" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Configuración</target>
+        </trans-unit>
+        <trans-unit id="MoreButtonShare.Label" translate="yes" xml:space="preserve">
+          <source>Share link for Ambie</source>
+          <target state="translated">Compartir sitio web de Ambie</target>
+        </trans-unit>
+        <trans-unit id="MoreButtonTranslate.Label" translate="yes" xml:space="preserve">
+          <source>Add or improve translations</source>
+          <target state="translated">Agregar o mejorar traducciones</target>
+        </trans-unit>
+        <trans-unit id="OffTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Off</source>
+          <target state="translated">Deshabilitado</target>
+        </trans-unit>
+        <trans-unit id="OnTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>On</source>
+          <target state="translated">Habilitado</target>
+        </trans-unit>
+        <trans-unit id="PauseTimerButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Pause the timer</source>
+          <target state="translated">Pausar el temporizador</target>
+        </trans-unit>
+        <trans-unit id="PlayerPauseText" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="translated">Pausar</target>
+        </trans-unit>
+        <trans-unit id="PlayerPlayText" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated">Reproducir</target>
+        </trans-unit>
+        <trans-unit id="PlayTimerButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Continue the timer</source>
+          <target state="translated">Reanudar el temporizador</target>
+        </trans-unit>
+        <trans-unit id="ReadyToPlayText" translate="yes" xml:space="preserve">
+          <source>Ready to play</source>
+          <target state="translated">Listo para reproducir</target>
+        </trans-unit>
+        <trans-unit id="SettingsTelemetrySwitch.Header" translate="yes" xml:space="preserve">
+          <source>Telemetry</source>
+          <target state="translated">Telemetría</target>
+        </trans-unit>
+        <trans-unit id="SettingsText" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Configuración</target>
+        </trans-unit>
+        <trans-unit id="SleepTimerButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>View sleep timer options</source>
+          <target state="translated">Ver opciones del temporizador</target>
+        </trans-unit>
+        <trans-unit id="SleepTimerButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>View sleep timer options</source>
+          <target state="translated">Ver opciones del temporizador</target>
+        </trans-unit>
+        <trans-unit id="Soundbeach" translate="yes" xml:space="preserve">
+          <source>Beach</source>
+          <target state="translated">Playa</target>
+        </trans-unit>
+        <trans-unit id="Soundbirds" translate="yes" xml:space="preserve">
+          <source>Birds</source>
+          <target state="translated">Aves</target>
+        </trans-unit>
+        <trans-unit id="Soundcitystreet" translate="yes" xml:space="preserve">
+          <source>City street</source>
+          <target state="translated">Calle urbana</target>
+        </trans-unit>
+        <trans-unit id="Soundcoffeeshop" translate="yes" xml:space="preserve">
+          <source>Coffee shop</source>
+          <target state="translated">Cafetería</target>
+        </trans-unit>
+        <trans-unit id="Soundcreek" translate="yes" xml:space="preserve">
+          <source>Creek</source>
+          <target state="translated">Riachuelo</target>
+        </trans-unit>
+        <trans-unit id="Soundfireplace" translate="yes" xml:space="preserve">
+          <source>Fireplace</source>
+          <target state="translated">Hoguera</target>
+        </trans-unit>
+        <trans-unit id="Soundrain" translate="yes" xml:space="preserve">
+          <source>Rain</source>
+          <target state="translated">Lluvia</target>
+        </trans-unit>
+        <trans-unit id="Soundrainforest" translate="yes" xml:space="preserve">
+          <source>Rainforest</source>
+          <target state="translated">Bosque tropical</target>
+        </trans-unit>
+        <trans-unit id="Soundunderwater" translate="yes" xml:space="preserve">
+          <source>Underwater</source>
+          <target state="translated">Bajo el mar</target>
+        </trans-unit>
+        <trans-unit id="Soundwaterfall" translate="yes" xml:space="preserve">
+          <source>Waterfall</source>
+          <target state="translated">Cascada</target>
+        </trans-unit>
+        <trans-unit id="Soundwhitenoise" translate="yes" xml:space="preserve">
+          <source>White noise</source>
+          <target state="translated">Ruido blanco</target>
+        </trans-unit>
+        <trans-unit id="SoundsLoadingRing.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Sounds are loading</source>
+          <target state="translated">Se están cargando los sonidos</target>
+        </trans-unit>
+        <trans-unit id="SoundUnplayable" translate="yes" xml:space="preserve">
+          <source>Cannot play sound</source>
+          <target state="translated">No se puede reproducir el sonido</target>
+        </trans-unit>
+        <trans-unit id="StopTimerButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Stop the timer and clear the time</source>
+          <target state="translated">Detener el temporizador y limpiar el tiempo</target>
+        </trans-unit>
+        <trans-unit id="VolumeSlider.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Global volume</source>
+          <target state="translated">Volumen general</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="SettingsThemeHeader.Text" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="translated">Tema</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeDefaultRadio.Content" translate="yes" xml:space="preserve">
+          <source>Auto</source>
+          <target state="translated">Automático</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeDarkRadio.Content" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="translated">Oscuro</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeLightRadio.Content" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="translated">Claro</target>
+        </trans-unit>
+        <trans-unit id="Soundvacuum" translate="yes" xml:space="preserve">
+          <source>Vacuum</source>
+          <target state="translated">Aspiradora</target>
+        </trans-unit>
+        <trans-unit id="Soundthunder" translate="yes" xml:space="preserve">
+          <source>Thunder</source>
+          <target state="translated">Trueno</target>
+        </trans-unit>
+        <trans-unit id="SettingsNotificationsSwitch.Header" translate="yes" xml:space="preserve">
+          <source>Notification for new sounds</source>
+          <target state="translated">Notificaciones de nuevos sonidos</target>
+        </trans-unit>
+        <trans-unit id="Soundwind" translate="yes" xml:space="preserve">
+          <source>Wind</source>
+          <target state="translated">Viento</target>
+        </trans-unit>
+        <trans-unit id="BackButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Go back</source>
+          <target state="translated">Retroceder</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Going back to the previous page</note>
+        </trans-unit>
+        <trans-unit id="DownloadSoundButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Download sound</source>
+          <target state="translated">Descargar sonido</target>
+        </trans-unit>
+        <trans-unit id="DownloadSoundButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Download sound</source>
+          <target state="translated">Descargar sonido</target>
+        </trans-unit>
+        <trans-unit id="AlreadyDownloaded" translate="yes" xml:space="preserve">
+          <source>Already downloaded</source>
+          <target state="translated">Ya descargado</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">The sound is already downloaded</note>
+        </trans-unit>
+        <trans-unit id="CanDownload" translate="yes" xml:space="preserve">
+          <source>Can be downloaded</source>
+          <target state="translated">Se puede descargar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">The sound can be downloaded</note>
+        </trans-unit>
+        <trans-unit id="OnlineSoundsList.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Sound catalogue</source>
+          <target state="translated">Catálogo de sonidos</target>
+        </trans-unit>
+        <trans-unit id="SoundsGridView.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Sounds</source>
+          <target state="translated">Sonidos</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">List of sounds</note>
+        </trans-unit>
+        <trans-unit id="PrivacyPolicyButton.Content" translate="yes" xml:space="preserve">
+          <source>Privacy policy</source>
+          <target state="translated">Política de privacidad</target>
+        </trans-unit>
+        <trans-unit id="PrivacyPolicyButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Privacy policy</source>
+          <target state="translated">Política de privacidad</target>
+        </trans-unit>
+        <trans-unit id="DeleteButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Delete sound</source>
+          <target state="translated">Eliminar sonido</target>
+        </trans-unit>
+        <trans-unit id="DeleteTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Eliminar</target>
+        </trans-unit>
+        <trans-unit id="DownloadTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated">Descargar</target>
+        </trans-unit>
+        <trans-unit id="DeleteAppBarButton.Label" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Eliminar</target>
+        </trans-unit>
+        <trans-unit id="RandomButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Play random sound</source>
+          <target state="translated">Reproducir sonido aleatorio</target>
+        </trans-unit>
+        <trans-unit id="RandomButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Play random sound</source>
+          <target state="translated">Reproducir sonido aleatorio</target>
+        </trans-unit>
+        <trans-unit id="ScreensaverMode" translate="yes" xml:space="preserve">
+          <source>Screensaver mode</source>
+          <target state="translated">Modo salvapantallas</target>
+        </trans-unit>
+        <trans-unit id="SettingsScreensaverSwitch.Header" translate="yes" xml:space="preserve">
+          <source>Screensaver</source>
+          <target state="translated">Salvapantallas</target>
+        </trans-unit>
+        <trans-unit id="BuyButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Purchase sound</source>
+          <target state="translated">Comprar sonido</target>
+        </trans-unit>
+        <trans-unit id="PreviewButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Preview sound</source>
+          <target state="translated">Escucha previa</target>
+        </trans-unit>
+        <trans-unit id="PreviewButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Preview sound</source>
+          <target state="translated">Escucha previa</target>
+        </trans-unit>
+        <trans-unit id="Paused" translate="yes" xml:space="preserve">
+          <source>Paused</source>
+          <target state="translated">Pausado</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Sound is paused</note>
+        </trans-unit>
+        <trans-unit id="Playing" translate="yes" xml:space="preserve">
+          <source>Playing</source>
+          <target state="translated">Reproduciéndose</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Sound is playing</note>
+        </trans-unit>
+        <trans-unit id="VolumeSliderSound.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Sound volume</source>
+          <target state="translated">Volumen del sonido</target>
+        </trans-unit>
+        <trans-unit id="ActiveTrackListView.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Active sounds</source>
+          <target state="translated">Activar sonidos</target>
+        </trans-unit>
+        <trans-unit id="ClearActiveButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Clear all active sounds</source>
+          <target state="translated">Limpiar todos los sonidos activos</target>
+        </trans-unit>
+        <trans-unit id="ClearActiveButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Clear all active sounds</source>
+          <target state="translated">Limpiar todos los sonidos activos</target>
+        </trans-unit>
+        <trans-unit id="ConfirmSaveButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Confirm save</source>
+          <target state="translated">Confirmar guardado</target>
+        </trans-unit>
+        <trans-unit id="GlobalVolume" translate="yes" xml:space="preserve">
+          <source>Global volume</source>
+          <target state="translated">Volumen general</target>
+        </trans-unit>
+        <trans-unit id="NameInputBox.Header" translate="yes" xml:space="preserve">
+          <source>Sound mix name</source>
+          <target state="translated">Nombre de la mezcla</target>
+        </trans-unit>
+        <trans-unit id="NameInputBox.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Optional</source>
+          <target state="translated">Opcional</target>
+        </trans-unit>
+        <trans-unit id="SaveMixButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Save custom sound mix</source>
+          <target state="translated">Guardar mezcla personalizada de sonidos</target>
+        </trans-unit>
+        <trans-unit id="SaveMixButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Save custom sound mix (Ctrl+S)</source>
+          <target state="translated">Guardar mezcla personalizada de sonidos (Ctrl+S)</target>
+        </trans-unit>
+        <trans-unit id="CancelText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">Cancelar</target>
+        </trans-unit>
+        <trans-unit id="RenameText" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">Renombrar</target>
+        </trans-unit>
+        <trans-unit id="RenameAppBarButton.Label" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">Renombrar</target>
+        </trans-unit>
+        <trans-unit id="SignOutAppBarButton.Label" translate="yes" xml:space="preserve">
+          <source>Sign out</source>
+          <target state="translated">Cerrar sesión</target>
+        </trans-unit>
+        <trans-unit id="SignInDescriptionText" translate="yes" xml:space="preserve">
+          <source>This will enable sound gallery sync across your devices.</source>
+          <target state="translated">Esto habilitará la sincronización de la galería de sonidos entre dispositivos.</target>
+        </trans-unit>
+        <trans-unit id="AccountOptionsButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>View account options</source>
+          <target state="translated">Ver opciones de cuenta</target>
+        </trans-unit>
+        <trans-unit id="AccountOptionsButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>View account options</source>
+          <target state="translated">Ver opciones de cuenta</target>
+        </trans-unit>
+        <trans-unit id="SignInButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Sign in</source>
+          <target state="translated">Iniciar sesión</target>
+        </trans-unit>
+        <trans-unit id="SignInButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Sign in</source>
+          <target state="translated">Iniciar sesión</target>
+        </trans-unit>
+        <trans-unit id="SyncAppBarButton.Label" translate="yes" xml:space="preserve">
+          <source>Sync</source>
+          <target state="translated">Sincronización</target>
+        </trans-unit>
+        <trans-unit id="BrowseText" translate="yes" xml:space="preserve">
+          <source>Browse</source>
+          <target state="translated">Explorar</target>
+        </trans-unit>
+        <trans-unit id="Attribution" translate="yes" xml:space="preserve">
+          <source>Attribution</source>
+          <target state="translated">Atribución</target>
+        </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Nombre</target>
+        </trans-unit>
+        <trans-unit id="NewSound" translate="yes" xml:space="preserve">
+          <source>New sound</source>
+          <target state="translated">Nueva música</target>
+        </trans-unit>
+        <trans-unit id="Refresh" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="translated">Renovar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Text for a button that will refresh a list with new data</note>
+        </trans-unit>
+        <trans-unit id="SignIn" translate="yes" xml:space="preserve">
+          <source>Sign in</source>
+          <target state="translated">Iniciar sesión</target>
+        </trans-unit>
+        <trans-unit id="AreYouSure" translate="yes" xml:space="preserve">
+          <source>Are you sure?</source>
+          <target state="translated">¿Estás seguro?</target>
+        </trans-unit>
+        <trans-unit id="Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Sí</target>
+        </trans-unit>
+        <trans-unit id="Optional" translate="yes" xml:space="preserve">
+          <source>Optional</source>
+          <target state="translated">Opcional</target>
+        </trans-unit>
+        <trans-unit id="Required" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="translated">Obligatorio</target>
+        </trans-unit>
+        <trans-unit id="Donate" translate="yes" xml:space="preserve">
+          <source>Donate</source>
+          <target state="translated">Donar</target>
+        </trans-unit>
+        <trans-unit id="TermsOfUse" translate="yes" xml:space="preserve">
+          <source>Terms of Use</source>
+          <target state="translated">Condiciones de uso</target>
+        </trans-unit>
+        <trans-unit id="FollowTwitter" translate="yes" xml:space="preserve">
+          <source>Follow us on Twitter</source>
+          <target state="translated">Síguenos en Twitter</target>
+        </trans-unit>
+        <trans-unit id="Dismiss" translate="yes" xml:space="preserve">
+          <source>Dismiss</source>
+          <target state="translated">Despedir</target>
+        </trans-unit>
+        <trans-unit id="FirstLaunchMessage" translate="yes" xml:space="preserve">
+          <source>Thank you for trying Ambie. For the best experience, try pinning us to your taskbar! Enjoy your relaxing stay 🏝</source>
+          <target state="translated">Thank you for trying Ambie. For the best experience, try pinning us to your taskbar! Enjoy your stay 🏝</target>
+        </trans-unit>
+        <trans-unit id="HelloAndWelcome" translate="yes" xml:space="preserve">
+          <source>Hello and welcome!</source>
+          <target state="translated">¡Bienvenido!</target>
+        </trans-unit>
+        <trans-unit id="PinToTaskbar" translate="yes" xml:space="preserve">
+          <source>Pin to taskbar</source>
+          <target state="translated">Anclar a Taskbar</target>
+        </trans-unit>
+        <trans-unit id="Preview" translate="yes" xml:space="preserve">
+          <source>Preview</source>
+          <target state="translated">Vista previa</target>
+        </trans-unit>
+        <trans-unit id="Catalogue" translate="yes" xml:space="preserve">
+          <source>Catalogue</source>
+          <target state="translated">Catálogo</target>
+        </trans-unit>
+        <trans-unit id="Home" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="translated">Inicio</target>
+        </trans-unit>
+        <trans-unit id="SelectSoundsPlaceholder" translate="yes" xml:space="preserve">
+          <source>Mix and match up to 3 sounds</source>
+          <target state="translated">Mezcla 3 sonidos</target>
+        </trans-unit>
+        <trans-unit id="RemoveActiveButton" translate="yes" xml:space="preserve">
+          <source>Remove {0} from active list</source>
+          <target state="translated">Eliminar {0} de la lista activa</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Remove a sound from the list of active playing sounds. The parameter is the name of the sound to remove.</note>
+        </trans-unit>
+        <trans-unit id="ThemeSettings" translate="yes" xml:space="preserve">
+          <source>Theme settings</source>
+          <target state="translated">Configuración del tema</target>
+        </trans-unit>
+        <trans-unit id="PricePerMonth" translate="yes" xml:space="preserve">
+          <source>{0} per month</source>
+          <target state="translated">{0} por mes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Price per month, where the parameter {0} is a price like $1.00.</note>
+        </trans-unit>
+        <trans-unit id="ThankYouForSub" translate="yes" xml:space="preserve">
+          <source>Thank you for subscribing!</source>
+          <target state="translated">¡Gracias por suscribirse!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Thank you message shown after user purchases a subscription.</note>
+        </trans-unit>
+        <trans-unit id="SubscriptionText1" translate="yes" xml:space="preserve">
+          <source>Access premium, high quality sounds</source>
+          <target state="translated">Accede a sonidos premium y de alta calidad</target>
+        </trans-unit>
+        <trans-unit id="SubscriptionText2" translate="yes" xml:space="preserve">
+          <source>Download video screensavers</source>
+          <target state="translated">Descargar videos</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="SubscriptionText3" translate="yes" xml:space="preserve">
+          <source>Support development</source>
+          <target state="translated">Apóyanos</target>
+        </trans-unit>
+        <trans-unit id="HelloAgain" translate="yes" xml:space="preserve">
+          <source>Hello again 👋🏽</source>
+          <target state="translated">Hola de nuevo 👋🏽</target>
+        </trans-unit>
+        <trans-unit id="RateUsMessage" translate="yes" xml:space="preserve">
+          <source>Enjoying Ambie? Please consider rating us!</source>
+          <target state="translated">¿Disfrutando de Ambie? ¡Considere calificarnos!</target>
+        </trans-unit>
+        <trans-unit id="SettingsResumeOnLaunch" translate="yes" xml:space="preserve">
+          <source>Auto resume when Ambie opens</source>
+          <target state="translated">Reanudar la música cuando se inicie Ambie</target>
+        </trans-unit>
+        <trans-unit id="DownloadText" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated">Descargar</target>
+        </trans-unit>
+        <trans-unit id="MissingSoundsMessage" translate="yes" xml:space="preserve">
+          <source>We need to download some sounds in order to play this. Once downloaded, try playing this again. Start download?</source>
+          <target state="translated">Necesitamos descargar algunos sonidos para reproducir esto. Una vez descargado, intente reproducir esto nuevamente. ¿Iniciar la descarga?</target>
+        </trans-unit>
+        <trans-unit id="MissingSoundsTitle" translate="yes" xml:space="preserve">
+          <source>Missing sounds</source>
+          <target state="translated">Falta música</target>
+        </trans-unit>
+        <trans-unit id="Default" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Predeterminado</target>
+        </trans-unit>
+        <trans-unit id="DeleteText" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Borrar</target>
+        </trans-unit>
+        <trans-unit id="SizeMegaByte" translate="yes" xml:space="preserve">
+          <source>{0} MB</source>
+          <target state="translated">{0} MB</target>
+        </trans-unit>
+        <trans-unit id="MoreScreensavers" translate="yes" xml:space="preserve">
+          <source>More screensavers</source>
+          <target state="translated">Más videos</target>
+        </trans-unit>
+        <trans-unit id="ScreensaverCatalogue" translate="yes" xml:space="preserve">
+          <source>Screensaver catalogue</source>
+          <target state="translated">Catálogo de vídeos</target>
+        </trans-unit>
+        <trans-unit id="ViewPremiumInfo" translate="yes" xml:space="preserve">
+          <source>View premium info</source>
+          <target state="translated">Ver información premium</target>
+        </trans-unit>
+        <trans-unit id="ToggleFullscreen" translate="yes" xml:space="preserve">
+          <source>Toggle fullscreen</source>
+          <target state="translated">Alternar pantalla completa</target>
+        </trans-unit>
+        <trans-unit id="GetAmbiePlus" translate="yes" xml:space="preserve">
+          <source>Get Ambie+</source>
+          <target state="translated">Compra Ambie+</target>
+        </trans-unit>
+        <trans-unit id="FocusText" translate="yes" xml:space="preserve">
+          <source>Focus</source>
+          <target state="translated">Enfoque</target>
+        </trans-unit>
+        <trans-unit id="PauseTimer" translate="yes" xml:space="preserve">
+          <source>Pause timer</source>
+          <target state="translated">Temporizador de pausa</target>
+        </trans-unit>
+        <trans-unit id="StartTimer" translate="yes" xml:space="preserve">
+          <source>Start timer</source>
+          <target state="translated">Temporizador de inicio</target>
+        </trans-unit>
+        <trans-unit id="FocusSessionCompleteMessage" translate="yes" xml:space="preserve">
+          <source>Well done!</source>
+          <target state="translated">¡Bien hecho!</target>
+        </trans-unit>
+        <trans-unit id="FocusSessionCompleteTitle" translate="yes" xml:space="preserve">
+          <source>Focus session complete</source>
+          <target state="translated">Sesión de enfoque completa</target>
+        </trans-unit>
+        <trans-unit id="FocusSessionFocusMessage" translate="yes" xml:space="preserve">
+          <source>Time to focus</source>
+          <target state="translated">Tiempo de concentrarse</target>
+        </trans-unit>
+        <trans-unit id="FocusSessionRestMessage" translate="yes" xml:space="preserve">
+          <source>Time to rest</source>
+          <target state="translated">Tiempo de descansar</target>
+        </trans-unit>
+        <trans-unit id="RestText" translate="yes" xml:space="preserve">
+          <source>Rest</source>
+          <target state="translated">Descansar</target>
+        </trans-unit>
+        <trans-unit id="FocusDotTooltip" translate="yes" xml:space="preserve">
+          <source>Focus session is active!</source>
+          <target state="translated">La sesión de enfoque está activa</target>
+        </trans-unit>
+        <trans-unit id="SessionTypeFocus" translate="yes" xml:space="preserve">
+          <source>Focusing</source>
+          <target state="translated">Enfoque</target>
+        </trans-unit>
+        <trans-unit id="SessionTypeRest" translate="yes" xml:space="preserve">
+          <source>Resting</source>
+          <target state="translated">Descansando</target>
+        </trans-unit>
+        <trans-unit id="Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="translated">Pausa</target>
+        </trans-unit>
+        <trans-unit id="Reset" translate="yes" xml:space="preserve">
+          <source>Reset</source>
+          <target state="translated">Reiniciar</target>
+        </trans-unit>
+        <trans-unit id="ResetTimer" translate="yes" xml:space="preserve">
+          <source>Reset timer</source>
+          <target state="translated">Restablecer temporizador</target>
+        </trans-unit>
+        <trans-unit id="Start" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="translated">Empezar</target>
+        </trans-unit>
+        <trans-unit id="FocusLength" translate="yes" xml:space="preserve">
+          <source>Focus minutes</source>
+          <target state="translated">Minutos de atención</target>
+        </trans-unit>
+        <trans-unit id="FocusNotesPlaceholder" translate="yes" xml:space="preserve">
+          <source>You can jot down any notes here 🙂</source>
+          <target state="translated">Puedes escribir cualquier nota aquí 🙂</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="FocusPlanningHeader" translate="yes" xml:space="preserve">
+          <source>What's the plan?</source>
+          <target state="translated">¿Cuál es el plan?</target>
+        </trans-unit>
+        <trans-unit id="Notepad" translate="yes" xml:space="preserve">
+          <source>Notepad</source>
+          <target state="translated">Notas</target>
+        </trans-unit>
+        <trans-unit id="RestLength" translate="yes" xml:space="preserve">
+          <source>Rest minutes</source>
+          <target state="translated">Minutos de descanso</target>
+        </trans-unit>
+        <trans-unit id="Repeats" translate="yes" xml:space="preserve">
+          <source>Repeats</source>
+          <target state="translated">Se repite</target>
+        </trans-unit>
+        <trans-unit id="FocusTimerHelpAction" translate="yes" xml:space="preserve">
+          <source>Show me how to use it</source>
+          <target state="translated">Muéstrame cómo usarlo</target>
+        </trans-unit>
+        <trans-unit id="FocusTimerHelpMessage" translate="yes" xml:space="preserve">
+          <source>This is an interval timer inspired by the pomodoro technique. The goal is to focus on a task for an extended period of time, then take a shorter rest break. Repeat this cycle to keep focusing!</source>
+          <target state="translated">Este es un cronómetro de intervalos inspirado en la técnica pomodoro. El objetivo es concentrarse en una tarea durante un período prolongado de tiempo y luego tomar un descanso más corto. ¡Repita este ciclo para seguir enfocándose!</target>
+        </trans-unit>
+        <trans-unit id="FocusTimerHelpTitle" translate="yes" xml:space="preserve">
+          <source>Welcome to Focus Timer!</source>
+          <target state="translated">¡Bienvenido al temporizador de enfoque!</target>
+        </trans-unit>
+        <trans-unit id="Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="translated">Ayuda</target>
+        </trans-unit>
+        <trans-unit id="Next" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="translated">Próximo</target>
+        </trans-unit>
+        <trans-unit id="TipFocusMessage" translate="yes" xml:space="preserve">
+          <source>Each cycle has a focus segment and a rest segment. Choose how long each focus segment will be. We recommend 25 minutes to start!</source>
+          <target state="translated">Cada ciclo tiene un segmento de enfoque y un segmento de descanso. Elija la duración de cada segmento de enfoque. ¡Recomendamos 25 minutos para comenzar!</target>
+        </trans-unit>
+        <trans-unit id="TipFocusTitle" translate="yes" xml:space="preserve">
+          <source>Set focus minutes</source>
+          <target state="translated">Establecer minutos de enfoque</target>
+        </trans-unit>
+        <trans-unit id="TipRepeatsMessage" translate="yes" xml:space="preserve">
+          <source>Each focus and rest cycle can repeat multiple times. Try adding 1 repeat!</source>
+          <target state="translated">Cada ciclo de enfoque y descanso puede repetirse varias veces. ¡Intenta agregar 1 repetición!</target>
+        </trans-unit>
+        <trans-unit id="TipRepeatsTitle" translate="yes" xml:space="preserve">
+          <source>Set repeats</source>
+          <target state="translated">Establecer repeticiones</target>
+        </trans-unit>
+        <trans-unit id="TipRestMessage" translate="yes" xml:space="preserve">
+          <source>Now, choose how long each rest segment will be. We recommend about 5 minutes for now!</source>
+          <target state="translated">Ahora, elige cuánto durará cada segmento de descanso. ¡Recomendamos unos 5 minutos por ahora!</target>
+        </trans-unit>
+        <trans-unit id="TipRestTitle" translate="yes" xml:space="preserve">
+          <source>Set rest minutes</source>
+          <target state="translated">Establecer minutos de descanso</target>
+        </trans-unit>
+        <trans-unit id="TipStartButtonMessage" translate="yes" xml:space="preserve">
+          <source>Start the timer and work on your tasks. We'll send you notifications when it's time to rest. Work hard!</source>
+          <target state="translated">Inicie el temporizador y trabaje en sus tareas. Te enviaremos notificaciones cuando sea el momento de descansar. ¡Trabaja duro!</target>
+        </trans-unit>
+        <trans-unit id="TipStartButtonTitle" translate="yes" xml:space="preserve">
+          <source>Ready, set, go</source>
+          <target state="translated">En sus marcas, listos, fuera</target>
+        </trans-unit>
+        <trans-unit id="RecentFocusAccessibleName" translate="yes" xml:space="preserve">
+          <source>{0} focus minutes, {1} rest minutes, {2} repeats.</source>
+          <target state="translated">{0} minutos de concentración, {1} minutos de descanso, {2} repeticiones.</target>
+        </trans-unit>
+        <trans-unit id="RecentFocusList" translate="yes" xml:space="preserve">
+          <source>List of recent focus configurations.</source>
+          <target state="translated">Lista de configuraciones de enfoque recientes.</target>
+        </trans-unit>
+        <trans-unit id="ZeroToMax" translate="yes" xml:space="preserve">
+          <source>0 to {0}</source>
+          <target state="translated">0 a {0}</target>
+        </trans-unit>
+        <trans-unit id="History" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="translated">Historia</target>
+        </trans-unit>
+        <trans-unit id="Interruptions" translate="yes" xml:space="preserve">
+          <source>Interruptions</source>
+          <target state="translated">Interrupciones</target>
+        </trans-unit>
+        <trans-unit id="FocusHistoryPlaceholderText" translate="yes" xml:space="preserve">
+          <source>Your recent history will appear here</source>
+          <target state="translated">Su historial reciente aparecerá aquí</target>
+        </trans-unit>
+        <trans-unit id="LogInterruption" translate="yes" xml:space="preserve">
+          <source>Log interruption</source>
+          <target state="translated">Registrar la interrupción</target>
+        </trans-unit>
+        <trans-unit id="Confirm" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <target state="translated">Confirmar</target>
+        </trans-unit>
+        <trans-unit id="InterruptionMinutesTitle" translate="yes" xml:space="preserve">
+          <source>Minutes interrupted</source>
+          <target state="translated">Minutos interrumpidos</target>
+        </trans-unit>
+        <trans-unit id="Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="translated">Notas</target>
+        </trans-unit>
+        <trans-unit id="InterruptionMinutesHelpMessage" translate="yes" xml:space="preserve">
+          <source>Were you interrupted by something? Keep track of your interruptions here, so you can review them later in your history.</source>
+          <target state="translated">¿Te interrumpió algo? Mantenga un registro de sus interrupciones aquí, para que pueda revisarlas más adelante en su historial.</target>
+        </trans-unit>
+        <trans-unit id="HistoryRecent" translate="yes" xml:space="preserve">
+          <source>Recent history</source>
+          <target state="translated">Historia reciente</target>
+        </trans-unit>
+        <trans-unit id="RoundsCompleted" translate="yes" xml:space="preserve">
+          <source>Rounds completed</source>
+          <target state="translated">Rondas completadas</target>
+        </trans-unit>
+        <trans-unit id="ResultMessageFail1" translate="yes" xml:space="preserve">
+          <source>Good effort</source>
+          <target state="translated">Buen esfuerzo</target>
+        </trans-unit>
+        <trans-unit id="ResultMessageSuccess1" translate="yes" xml:space="preserve">
+          <source>You're amazing</source>
+          <target state="translated">Eres increíble</target>
+        </trans-unit>
+        <trans-unit id="AppDisplayName" translate="yes" xml:space="preserve">
+          <source>Ambie</source>
+          <target state="translated">Ambie</target>
+        </trans-unit>
+        <trans-unit id="TaskModuleNewTaskPlaceholder" translate="yes" xml:space="preserve">
+          <source>Add tasks to focus on, then press the start button</source>
+          <target state="translated">Agregue tareas para concentrarse, luego presione el botón de inicio</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="TaskModuleTitle" translate="yes" xml:space="preserve">
+          <source>Tasks</source>
+          <target state="translated">Tareas</target>
+        </trans-unit>
+        <trans-unit id="TaskModuleRecentCompleted" translate="yes" xml:space="preserve">
+          <source>Recently completed</source>
+          <target state="translated">Terminado</target>
+        </trans-unit>
+        <trans-unit id="EditText" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="translated">Editar</target>
+        </trans-unit>
+        <trans-unit id="TasksCompleted" translate="yes" xml:space="preserve">
+          <source>Tasks completed</source>
+          <target state="translated">Tareas completadas</target>
+        </trans-unit>
+        <trans-unit id="Timer" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="translated">Temporizador</target>
+        </trans-unit>
+        <trans-unit id="TaskTitle" translate="yes" xml:space="preserve">
+          <source>Task {0}</source>
+          <target state="translated">Tarea {0}</target>
+        </trans-unit>
+        <trans-unit id="SettingsCompactMode" translate="yes" xml:space="preserve">
+          <source>Open Ambie Mini when focusing</source>
+          <target state="translated">Abre Ambie Mini al enfocar</target>
+        </trans-unit>
+        <trans-unit id="DurationText" translate="yes" xml:space="preserve">
+          <source>Duration</source>
+          <target state="translated">Duración</target>
+        </trans-unit>
+        <trans-unit id="EndTimeText" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="translated">Final</target>
+        </trans-unit>
+        <trans-unit id="MiniText" translate="yes" xml:space="preserve">
+          <source>Mini</source>
+          <target state="translated">Mini</target>
+        </trans-unit>
+        <trans-unit id="CompactModeTooltipTitle" translate="yes" xml:space="preserve">
+          <source>Open Ambie Mini</source>
+          <target state="translated">Abrir Ambie Mini</target>
+        </trans-unit>
+        <trans-unit id="CompactModeTooltipMessage" translate="yes" xml:space="preserve">
+          <source>With Ambie Mini, we'll shrink the window and display only the necessary items to help you focus.</source>
+          <target state="translated">Con Ambie Mini, reduciremos la ventana y mostraremos solo los elementos necesarios para ayudarlo a concentrarse.</target>
+        </trans-unit>
+        <trans-unit id="PausesText" translate="yes" xml:space="preserve">
+          <source>Pauses</source>
+          <target state="translated">Pausas</target>
+        </trans-unit>
+        <trans-unit id="EmptyHomeMessage" translate="yes" xml:space="preserve">
+          <source>Download sounds from the catalogue</source>
+          <target state="translated">Descargar sonidos del catálogo</target>
+        </trans-unit>
+        <trans-unit id="EditHomePage" translate="yes" xml:space="preserve">
+          <source>Edit home page</source>
+          <target state="translated">Editar página de inicio</target>
+        </trans-unit>
+        <trans-unit id="EditHomePageMessage" translate="yes" xml:space="preserve">
+          <source>Drag and drop sounds to personalize your home page. Try it now!</source>
+          <target state="translated">Arrastra y suelta sonidos para personalizar tu edad de inicio. ¡Pruebalo ahora!</target>
+        </trans-unit>
+        <trans-unit id="EmptyCatalogueMessage" translate="yes" xml:space="preserve">
+          <source>Sorry about that! We couldn't load the catalogue. Try checking your internet connection.</source>
+          <target state="translated">¡Lo siento por eso! No pudimos cargar el catálogo. Prueba a comprobar tu conexión a Internet.</target>
+        </trans-unit>
+        <trans-unit id="AboutAmbie" translate="yes" xml:space="preserve">
+          <source>About Ambie</source>
+          <target state="translated">Información de la aplicación</target>
+        </trans-unit>
+        <trans-unit id="SettingsCompactModeDescription" translate="yes" xml:space="preserve">
+          <source>Ambie Mini will open automatically when focusing</source>
+          <target state="translated">Ambie Mini se abrirá automáticamente al enfocar</target>
+        </trans-unit>
+        <trans-unit id="SettingsNotificationsSwitchDescription" translate="yes" xml:space="preserve">
+          <source>We'll notify you know when new sounds are available</source>
+          <target state="translated">Te avisaremos cuando haya nuevos sonidos disponibles</target>
+        </trans-unit>
+        <trans-unit id="SettingsResumeOnLaunchDescription" translate="yes" xml:space="preserve">
+          <source>On launch, Ambie will resume playing automatically</source>
+          <target state="translated">En el lanzamiento, Ambie reanudará la reproducción automática</target>
+        </trans-unit>
+        <trans-unit id="SettingsTelemetrySwitchDescription" translate="yes" xml:space="preserve">
+          <source>Crashes and anonymous usage info are reported to help improve Ambie</source>
+          <target state="translated">Se notifican errores e información de uso anónima para ayudar a mejorar Ambie</target>
+        </trans-unit>
+        <trans-unit id="BackgroundImage" translate="yes" xml:space="preserve">
+          <source>Background image</source>
+          <target state="translated">Imagen de fondo</target>
+        </trans-unit>
+        <trans-unit id="CustomImage" translate="yes" xml:space="preserve">
+          <source>Custom image</source>
+          <target state="translated">Imagen personalizada</target>
+        </trans-unit>
+        <trans-unit id="SettingsGeneralHeader" translate="yes" xml:space="preserve">
+          <source>General settings</source>
+          <target state="translated">Configuración general</target>
+        </trans-unit>
+        <trans-unit id="SettingsTheme" translate="yes" xml:space="preserve">
+          <source>Choose your mode</source>
+          <target state="translated">Elige tu modo</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeDescription" translate="yes" xml:space="preserve">
+          <source>Change the colours that appear in Ambie</source>
+          <target state="translated">Cambiar los colores que aparecen en Ambie</target>
+        </trans-unit>
+        <trans-unit id="ShareMessage" translate="yes" xml:space="preserve">
+          <source>Share what you're listening to</source>
+          <target state="translated">Comparte lo que estás escuchando</target>
+        </trans-unit>
+        <trans-unit id="MissingShareSoundsMessage" translate="yes" xml:space="preserve">
+          <source>Let's see if they can be downloaded.</source>
+          <target state="translated">A ver si se pueden descargar.</target>
+        </trans-unit>
+        <trans-unit id="MissingShareSoundsTitle" translate="yes" xml:space="preserve">
+          <source>You're missing some sounds</source>
+          <target state="translated">Te falta musica</target>
+        </trans-unit>
+        <trans-unit id="ReviewText" translate="yes" xml:space="preserve">
+          <source>Review</source>
+          <target state="translated">Revisar</target>
+        </trans-unit>
+        <trans-unit id="ShareText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="translated">Cuota</target>
+        </trans-unit>
+        <trans-unit id="CopiedText" translate="yes" xml:space="preserve">
+          <source>Copied!</source>
+          <target state="translated">¡Copiado!</target>
+        </trans-unit>
+        <trans-unit id="CopyText" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="translated">Copiar</target>
+        </trans-unit>
+        <trans-unit id="OrText" translate="yes" xml:space="preserve">
+          <source>Or</source>
+          <target state="translated">o</target>
+        </trans-unit>
+        <trans-unit id="BuyDurableTooltip" translate="yes" xml:space="preserve">
+          <source>Unlock this sound</source>
+          <target state="translated">Desbloquea este sonido</target>
+        </trans-unit>
+        <trans-unit id="PriceForLifetime" translate="yes" xml:space="preserve">
+          <source>{0} lifetime</source>
+          <target state="translated">{0} vida</target>
+        </trans-unit>
+        <trans-unit id="CheckForUpdatesText" translate="yes" xml:space="preserve">
+          <source>Check for updates</source>
+          <target state="translated">Buscar actualizaciones</target>
+        </trans-unit>
+        <trans-unit id="UpdatesPageMessage1" translate="yes" xml:space="preserve">
+          <source>Check here for updates to your sounds and videos.</source>
+          <target state="translated">Consulta aquí las actualizaciones de tus sonidos y vídeos.</target>
+        </trans-unit>
+        <trans-unit id="UpdatesPageMessage2" translate="yes" xml:space="preserve">
+          <source>Updates contain improvements to translations, sound quality, and more.</source>
+          <target state="translated">Las actualizaciones contienen mejoras en las traducciones, la calidad del sonido y mucho más.</target>
+        </trans-unit>
+        <trans-unit id="UpdatesText" translate="yes" xml:space="preserve">
+          <source>Updates</source>
+          <target state="translated">Actualizaciones</target>
+        </trans-unit>
+        <trans-unit id="UpdateAllText" translate="yes" xml:space="preserve">
+          <source>Update all</source>
+          <target state="translated">Actualizar todo</target>
+        </trans-unit>
+        <trans-unit id="DataVersionColon" translate="yes" xml:space="preserve">
+          <source>Data version:</source>
+          <target state="translated">Versión de datos:</target>
+        </trans-unit>
+        <trans-unit id="FileVersionColon" translate="yes" xml:space="preserve">
+          <source>File version:</source>
+          <target state="translated">Versión del archivo:</target>
+        </trans-unit>
+        <trans-unit id="UpdatesPlaceholderText" translate="yes" xml:space="preserve">
+          <source>Fully up-to-date. You're all set.</source>
+          <target state="translated">Totalmente actualizado. Ya está todo listo.</target>
+        </trans-unit>
+        <trans-unit id="UpdateReasonFile" translate="yes" xml:space="preserve">
+          <source>Improves playback quality</source>
+          <target state="translated">Mejora la calidad de reproducción</target>
+        </trans-unit>
+        <trans-unit id="UpdateReasonMetaData" translate="yes" xml:space="preserve">
+          <source>Improves translations and other metadata</source>
+          <target state="translated">Mejora las traducciones y otros metadatos</target>
+        </trans-unit>
+        <trans-unit id="UpdateReasonMetaDataAndFile" translate="yes" xml:space="preserve">
+          <source>Improves playback quality, translations, and other metadata</source>
+          <target state="translated">Mejora la calidad de reproducción, traducciones y otros metadatos</target>
+        </trans-unit>
+        <trans-unit id="InterruptionInsightsMessage" translate="yes" xml:space="preserve">
+          <source>Is there anything we can learn to avoid future interruptions?</source>
+          <target state="translated">¿Hay algo que podamos aprender para evitar futuras interrupciones?</target>
+        </trans-unit>
+        <trans-unit id="RecentInterruptionsText" translate="yes" xml:space="preserve">
+          <source>Recent interruptions</source>
+          <target state="translated">Interrupciones recientes</target>
+        </trans-unit>
+        <trans-unit id="InterruptionInsightsButtonText" translate="yes" xml:space="preserve">
+          <source>Need help with interruptions?</source>
+          <target state="translated">¿Necesita ayuda con las interrupciones?</target>
+        </trans-unit>
+        <trans-unit id="SettingsOutputDevice" translate="yes" xml:space="preserve">
+          <source>Output device</source>
+          <target state="translated">Dispositivo de salida</target>
+        </trans-unit>
+        <trans-unit id="SettingsOutputDeviceDescription" translate="yes" xml:space="preserve">
+          <source>Choose where to play sound</source>
+          <target state="translated">Elegir dónde reproducir sonido</target>
+        </trans-unit>
+        <trans-unit id="SettingsPlayAfterFocusDescription" translate="yes" xml:space="preserve">
+          <source>Sounds will continue to play after your focus session ends</source>
+          <target state="translated">Los sonidos seguirán reproduciéndose después de que finalice la sesión de concentración.</target>
+        </trans-unit>
+        <trans-unit id="SettingsPlayAfterFocusHeader" translate="yes" xml:space="preserve">
+          <source>Continue sounds after focusing</source>
+          <target state="translated">Continuar con los sonidos después de enfocar</target>
+        </trans-unit>
+        <trans-unit id="RelaxText" translate="yes" xml:space="preserve">
+          <source>Relax</source>
+          <target state="translated">Relajar</target>
+        </trans-unit>
+        <trans-unit id="BackgroundSoundsText" translate="yes" xml:space="preserve">
+          <source>Background sounds</source>
+          <target state="translated">Sonidos de fondo</target>
+        </trans-unit>
+        <trans-unit id="MeditatingText" translate="yes" xml:space="preserve">
+          <source>Meditating</source>
+          <target state="translated">Meditando</target>
+        </trans-unit>
+        <trans-unit id="AlwaysAskMeText" translate="yes" xml:space="preserve">
+          <source>Always ask me</source>
+          <target state="translated">Pregúntame siempre</target>
+        </trans-unit>
+        <trans-unit id="PlayRandom" translate="yes" xml:space="preserve">
+          <source>Play random sound</source>
+          <target state="translated">Reproducir sonido aleatorio</target>
+        </trans-unit>
+        <trans-unit id="NowPlayingText" translate="yes" xml:space="preserve">
+          <source>Now playing</source>
+          <target state="translated">Ahora jugando</target>
+        </trans-unit>
+        <trans-unit id="SearchPageHeader" translate="yes" xml:space="preserve">
+          <source>Results for "{0}"</source>
+          <target state="translated">Resultados para "{0}"</target>
+        </trans-unit>
+        <trans-unit id="SearchEmptyPlaceholderText" translate="yes" xml:space="preserve">
+          <source>Oops! We couldn't find that sound. We'll see if we can add it in the future</source>
+          <target state="translated">¡Vaya! No pudimos encontrar ese sonido. Veremos si podemos añadirlo en el futuro</target>
+        </trans-unit>
+        <trans-unit id="SearchText" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="translated">Buscar</target>
+        </trans-unit>
+        <trans-unit id="QuickResumeTitle" translate="yes" xml:space="preserve">
+          <source>Quick Resume</source>
+          <target state="translated">Currículum rápido</target>
+        </trans-unit>
+        <trans-unit id="QuickResumeToastMessage" translate="yes" xml:space="preserve">
+          <source>Resume your last ambience</source>
+          <target state="translated">Reanuda tu último ambiente</target>
+        </trans-unit>
+        <trans-unit id="QuickResumeDescription" translate="yes" xml:space="preserve">
+          <source>Resume your last ambience with one click when your PC starts up</source>
+          <target state="translated">Reanude su último ambiente con un solo clic cuando se inicie su PC</target>
+        </trans-unit>
+        <trans-unit id="HomePageDownloadMessage" translate="yes" xml:space="preserve">
+          <source>Get more sounds from the catalogue</source>
+          <target state="translated">Obtén más sonidos del catálogo</target>
+        </trans-unit>
+        <trans-unit id="SkipThisSegment" translate="yes" xml:space="preserve">
+          <source>Skip this segment</source>
+          <target state="translated">Omitir este segmento</target>
+        </trans-unit>
+        <trans-unit id="DayPlural" translate="yes" xml:space="preserve">
+          <source>{0} days</source>
+          <target state="translated">{0} días</target>
+        </trans-unit>
+        <trans-unit id="DaySingular" translate="yes" xml:space="preserve">
+          <source>1 day</source>
+          <target state="translated">1 día</target>
+        </trans-unit>
+        <trans-unit id="StreakHeader" translate="yes" xml:space="preserve">
+          <source>My streak</source>
+          <target state="translated">Mi racha</target>
+        </trans-unit>
+        <trans-unit id="StreakReminderMessage" translate="yes" xml:space="preserve">
+          <source>Keep your streak alive!</source>
+          <target state="translated">¡Mantén viva tu racha!</target>
+        </trans-unit>
+        <trans-unit id="StreakReminderTitle" translate="yes" xml:space="preserve">
+          <source>{0}-day streak</source>
+          <target state="translated">Racha de {0} días</target>
+        </trans-unit>
+        <trans-unit id="DayStreakPhrase" translate="yes" xml:space="preserve">
+          <source>day streak</source>
+          <target state="translated">Racha de días</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A portion of a phrase that looks like '5-day streak'</note>
+        </trans-unit>
+        <trans-unit id="StreakHelpMessage" translate="yes" xml:space="preserve">
+          <source>Listening daily grows your streak, but skipping a day resets it!</source>
+          <target state="translated">Escuchar a diario aumenta tu racha, ¡pero saltarte un día la restablece!</target>
+        </trans-unit>
+        <trans-unit id="SettingsStreakReminderDescription" translate="yes" xml:space="preserve">
+          <source>Receive reminders to help keep your daily streak active</source>
+          <target state="translated">Recibe recordatorios para ayudarte a mantener activa tu racha diaria</target>
+        </trans-unit>
+        <trans-unit id="SettingsStreakReminderHeader" translate="yes" xml:space="preserve">
+          <source>Streak reminders</source>
+          <target state="translated">Recordatorios de rachas</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackgroundDescription" translate="yes" xml:space="preserve">
+          <source>Your background is currently disabled to help you save battery!</source>
+          <target state="translated">¡Su fondo está actualmente deshabilitado para ayudarlo a ahorrar batería!</target>
+        </trans-unit>
+        <trans-unit id="AddNewTaskText" translate="yes" xml:space="preserve">
+          <source>Add new task</source>
+          <target state="translated">Agregar nueva tarea</target>
+        </trans-unit>
+        <trans-unit id="CatalogueSubtitle" translate="yes" xml:space="preserve">
+          <source>Access the built-in catalogue of sounds. Download your next favourite music here.</source>
+          <target state="translated">Accede al catálogo de sonidos incorporado. Descarga tu próxima música favorita aquí.</target>
+        </trans-unit>
+        <trans-unit id="FocusSubtitle" translate="yes" xml:space="preserve">
+          <source>Are you working or studying? Use our innovative focus timer to help you be productive.</source>
+          <target state="translated">¿Estás trabajando o estudiando? Utilice nuestro innovador temporizador de enfoque para ayudarle a ser productivo.</target>
+        </trans-unit>
+        <trans-unit id="HomeSubtitle" translate="yes" xml:space="preserve">
+          <source>View the sounds you have installed, play up to 3 sounds, and find your favourite combination.</source>
+          <target state="translated">Visualiza los sonidos que has instalado, reproduce hasta 3 sonidos y encuentra tu combinación favorita.</target>
+        </trans-unit>
+        <trans-unit id="MeditateSubtitle" translate="yes" xml:space="preserve">
+          <source>Use our meditation guides to help you relax or to calm your nerves.</source>
+          <target state="translated">Utiliza nuestras guías de meditación para ayudarte a relajarte o calmar tus nervios.</target>
+        </trans-unit>
+        <trans-unit id="SettingsSubtitle" translate="yes" xml:space="preserve">
+          <source>Toggle your settings here.</source>
+          <target state="translated">Alterna tu configuración aquí.</target>
+        </trans-unit>
+        <trans-unit id="UpdatesSubtitle" translate="yes" xml:space="preserve">
+          <source>Check here occasionally for updates to the sounds you have installed.</source>
+          <target state="translated">Compruebe aquí de vez en cuando las actualizaciones de los sonidos que ha instalado.</target>
+        </trans-unit>
+        <trans-unit id="AddTaskPlaceholder" translate="yes" xml:space="preserve">
+          <source>Click + to add a task</source>
+          <target state="translated">Haga clic en + para agregar una tarea</target>
+        </trans-unit>
+        <trans-unit id="ModifyText" translate="yes" xml:space="preserve">
+          <source>Modify</source>
+          <target state="translated">Modificar</target>
+        </trans-unit>
+        <trans-unit id="SettingsModifySubDescription" translate="yes" xml:space="preserve">
+          <source>Modify your subscription</source>
+          <target state="translated">Modificar la suscripción</target>
+        </trans-unit>
+        <trans-unit id="AppUpdateDescription" translate="yes" xml:space="preserve">
+          <source>There's a new update available! Restart now to apply the update.</source>
+          <target state="translated">¡Hay una nueva actualización disponible! Reinicie ahora para aplicar la actualización.</target>
+        </trans-unit>
+        <trans-unit id="RestartText" translate="yes" xml:space="preserve">
+          <source>Restart</source>
+          <target state="translated">Reanudar</target>
+        </trans-unit>
+        <trans-unit id="SleepTimerDescription" translate="yes" xml:space="preserve">
+          <source>Ambie will pause when the timer ends</source>
+          <target state="translated">Ambie se detendrá cuando finalice el temporizador</target>
+        </trans-unit>
+        <trans-unit id="SleepTimerText" translate="yes" xml:space="preserve">
+          <source>Sleep Timer</source>
+          <target state="translated">Temporizador</target>
+        </trans-unit>
+        <trans-unit id="UnlockText" translate="yes" xml:space="preserve">
+          <source>Unlock</source>
+          <target state="translated">Abrir</target>
+        </trans-unit>
+        <trans-unit id="AdjustSoundVolume" translate="yes" xml:space="preserve">
+          <source>Adjust sound volume</source>
+          <target state="translated">Ajustar el volumen del sonido</target>
+        </trans-unit>
+        <trans-unit id="DownloadSounds" translate="yes" xml:space="preserve">
+          <source>Download sounds</source>
+          <target state="translated">Descargar sonidos</target>
+        </trans-unit>
+        <trans-unit id="DisplayMode" translate="yes" xml:space="preserve">
+          <source>Dispaly mode</source>
+          <target state="translated">Modo Dispaly</target>
+        </trans-unit>
+        <trans-unit id="DisplayModeDarkScreen" translate="yes" xml:space="preserve">
+          <source>Dark screen</source>
+          <target state="translated">Pantalla oscura</target>
+        </trans-unit>
+        <trans-unit id="DisplayModeDarkScreenDescription" translate="yes" xml:space="preserve">
+          <source>Helps with sleeping</source>
+          <target state="translated">Ayuda a dormir</target>
+        </trans-unit>
+        <trans-unit id="DisplayModeSlideshow" translate="yes" xml:space="preserve">
+          <source>Slideshow</source>
+          <target state="translated">Presentación de diapositivas</target>
+        </trans-unit>
+        <trans-unit id="DisplayModeSlideshowDescription" translate="yes" xml:space="preserve">
+          <source>Carousel of images</source>
+          <target state="translated">Carrusel de imágenes</target>
+        </trans-unit>
+        <trans-unit id="DisplayModeVideo" translate="yes" xml:space="preserve">
+          <source>Videos</source>
+          <target state="new">Videos</target>
+        </trans-unit>
+        <trans-unit id="DisplayModeVideoDescription" translate="yes" xml:space="preserve">
+          <source>Plays videos, if available</source>
+          <target state="translated">Reproduce vídeos, si están disponibles</target>
+        </trans-unit>
+        <trans-unit id="SettingsNotificationsSwitchHeader" translate="yes" xml:space="preserve">
+          <source>Notification for new sounds</source>
+          <target state="translated">Notificación de nuevos sonidos</target>
+        </trans-unit>
+        <trans-unit id="SettingsTelemetrySwitchHeader" translate="yes" xml:space="preserve">
+          <source>Telemetry</source>
+          <target state="translated">Telemetría</target>
+        </trans-unit>
+        <trans-unit id="DownloadingVideoMessage" translate="yes" xml:space="preserve">
+          <source>Downloading your video. We'll be ready soon.</source>
+          <target state="translated">Descargando tu video. Pronto estaremos listos.</target>
+        </trans-unit>
+        <trans-unit id="DownloadingText" translate="yes" xml:space="preserve">
+          <source>Downloading</source>
+          <target state="translated">Descargar</target>
+        </trans-unit>
+        <trans-unit id="UnlockVideoText" translate="yes" xml:space="preserve">
+          <source>Unlock video</source>
+          <target state="translated">Desbloquear video</target>
+        </trans-unit>
+        <trans-unit id="AvailableText" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="translated">Disponible</target>
+        </trans-unit>
+        <trans-unit id="IncludedText" translate="yes" xml:space="preserve">
+          <source>Included</source>
+          <target state="translated">Incluido</target>
+        </trans-unit>
+        <trans-unit id="SlideshowImagesText" translate="yes" xml:space="preserve">
+          <source>Slideshow images</source>
+          <target state="translated">Imágenes de presentación de diapositivas</target>
+        </trans-unit>
+        <trans-unit id="VideoBackgroundText" translate="yes" xml:space="preserve">
+          <source>Video background</source>
+          <target state="translated">Fondo de vídeo</target>
+        </trans-unit>
+        <trans-unit id="StartFreeTrialText" translate="yes" xml:space="preserve">
+          <source>Start free trial</source>
+          <target state="translated">Iniciar prueba gratuita</target>
+        </trans-unit>
+        <trans-unit id="SubWithTrialCaptionTemplate" translate="yes" xml:space="preserve">
+          <source>{0} free, then {1}</source>
+          <target state="translated">{0} gratis, luego {1}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">E.g. 1 week free, then $1.49/month</note>
+        </trans-unit>
+        <trans-unit id="ContactUsText" translate="yes" xml:space="preserve">
+          <source>Contact us</source>
+          <target state="translated">Contáctenos</target>
+        </trans-unit>
+        <trans-unit id="FeedbackText" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated">Retroalimentación</target>
+        </trans-unit>
+        <trans-unit id="SettingsFeedbackDescription" translate="yes" xml:space="preserve">
+          <source>Contact us if you have feedback, questions, or issues</source>
+          <target state="translated">Póngase en contacto con nosotros si tiene comentarios, preguntas o problemas</target>
+        </trans-unit>
+        <trans-unit id="FreeTrialTipDescription" translate="yes" xml:space="preserve">
+          <source>Claim your free 7 days of Ambie+</source>
+          <target state="needs-review-translation">Reclama tus 7 días gratis</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="FreeTrialTipTitle" translate="yes" xml:space="preserve">
+          <source>Free trial available</source>
+          <target state="translated">Prueba gratuita disponible</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,288 @@
+﻿<UserControl
+    x:Class="AmbientSounds.Controls.SettingsControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:labs="using:CommunityToolkit.Labs.WinUI"
+    xmlns:local="using:AmbientSounds.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:strings="using:AmbientSounds.Strings"
+    xmlns:winui="using:Microsoft.UI.Xaml.Controls"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    mc:Ignorable="d">
+
+    <StackPanel Spacing="3">
+        <StackPanel.ChildrenTransitions>
+            <EntranceThemeTransition FromVerticalOffset="50" IsStaggeringEnabled="True" />
+            <RepositionThemeTransition IsStaggeringEnabled="False" />
+        </StackPanel.ChildrenTransitions>
+
+        <TextBlock
+            Margin="1,0,0,5"
+            Style="{StaticResource BodyStrongTextBlockStyle}"
+            Text="{x:Bind strings:Resources.ThemeSettings}" />
+
+        <labs:SettingsCard Description="{x:Bind strings:Resources.SettingsThemeDescription}" Header="{x:Bind strings:Resources.SettingsTheme}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphPaintBrush}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ComboBox SelectedIndex="{x:Bind ViewModel.CurrentThemeIndex, Mode=OneWay}" SelectionChanged="OnThemeSelectionChanged">
+                <ComboBoxItem x:Uid="SettingsThemeDefaultRadio" Tag="default" />
+                <ComboBoxItem x:Uid="SettingsThemeDarkRadio" Tag="dark" />
+                <ComboBoxItem x:Uid="SettingsThemeLightRadio" Tag="light" />
+            </ComboBox>
+        </labs:SettingsCard>
+
+        <labs:SettingsExpander Description="{x:Bind ViewModel.BackgroundImageDescription, Mode=OneWay}" Header="{x:Bind strings:Resources.BackgroundImage}">
+            <labs:SettingsExpander.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphPallete}" />
+            </labs:SettingsExpander.HeaderIcon>
+
+            <labs:SettingsExpander.Items>
+                <labs:SettingsCard HorizontalContentAlignment="Stretch" ContentAlignment="Vertical">
+                    <Grid>
+                        <GridView
+                            Margin="0,4,0,0"
+                            HorizontalAlignment="Stretch"
+                            IsItemClickEnabled="True"
+                            ItemClick="OnImageClicked"
+                            ItemsSource="{x:Bind ViewModel.ImagePaths}"
+                            ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                            ScrollViewer.VerticalScrollMode="Disabled"
+                            SelectionMode="None">
+                            <interactivity:Interaction.Behaviors>
+                                <core:EventTriggerBehavior EventName="Loaded">
+                                    <core:InvokeCommandAction Command="{x:Bind ViewModel.LoadImagesCommand}" />
+                                </core:EventTriggerBehavior>
+                            </interactivity:Interaction.Behaviors>
+                            <GridView.ItemTemplate>
+                                <DataTemplate x:DataType="x:String">
+                                    <Grid
+                                        Width="100"
+                                        Height="60"
+                                        CornerRadius="8">
+                                        <Image Stretch="UniformToFill">
+                                            <Image.Source>
+                                                <BitmapImage DecodePixelHeight="60" UriSource="{x:Bind}" />
+                                            </Image.Source>
+                                        </Image>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+                    </Grid>
+                </labs:SettingsCard>
+                <labs:SettingsCard Header="{x:Bind strings:Resources.CustomImage}">
+                    <Button
+                        MinWidth="120"
+                        Command="{x:Bind ViewModel.BrowseCommand}"
+                        Content="{x:Bind strings:Resources.BrowseText}" />
+                </labs:SettingsCard>
+
+            </labs:SettingsExpander.Items>
+        </labs:SettingsExpander>
+
+        <TextBlock
+            Margin="1,29,0,5"
+            Style="{StaticResource BodyStrongTextBlockStyle}"
+            Text="{x:Bind strings:Resources.SettingsGeneralHeader}" />
+
+        <!--  feedback  -->
+        <labs:SettingsCard Description="{x:Bind strings:Resources.SettingsFeedbackDescription}" Header="{x:Bind strings:Resources.FeedbackText}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphFeedback}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <Button Command="{x:Bind ViewModel.RedirectToFeedbackFormCommand}">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBlock VerticalAlignment="Center" Text="{x:Bind strings:Resources.ContactUsText}" />
+                    <FontIcon
+                        FontFamily="{StaticResource FluentUIGlyphs}"
+                        FontSize="14"
+                        Glyph="{StaticResource GlyphRedirect}" />
+                </StackPanel>
+            </Button>
+        </labs:SettingsCard>
+
+        <!--  streak reminder  -->
+        <labs:SettingsCard Description="{x:Bind strings:Resources.SettingsStreakReminderDescription}" Header="{x:Bind strings:Resources.SettingsStreakReminderHeader}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphFire}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.StreaksReminderEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <!--  Telemetry  -->
+        <labs:SettingsCard x:Uid="SettingsTelemetrySwitch" Description="{x:Bind strings:Resources.SettingsTelemetrySwitchDescription}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphDiagnostics}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.TelemetryEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <!--  New sound notifications  -->
+        <labs:SettingsCard x:Uid="SettingsNotificationsSwitch" Description="{x:Bind strings:Resources.SettingsNotificationsSwitchDescription}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphNotification}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.NotificationsEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <!--  Resume on launch  -->
+        <labs:SettingsCard Description="{x:Bind strings:Resources.SettingsResumeOnLaunchDescription}" Header="{x:Bind strings:Resources.SettingsResumeOnLaunch}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphPlay}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.ResumeOnLaunchEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <!--  Ambie Mini on focus  -->
+        <labs:SettingsCard Description="{x:Bind strings:Resources.SettingsCompactModeDescription}" Header="{x:Bind strings:Resources.SettingsCompactMode}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphCompact}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.AmbieMiniEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <!--  Continue playing sounds after focus session ends  -->
+        <labs:SettingsCard Description="{x:Bind strings:Resources.SettingsPlayAfterFocusDescription}" Header="{x:Bind strings:Resources.SettingsPlayAfterFocusHeader}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphFocus}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.PlayAfterFocusEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <!--  Launch on PC startup  -->
+        <labs:SettingsCard Description="{x:Bind strings:Resources.QuickResumeDescription}" Header="{x:Bind strings:Resources.QuickResumeTitle}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphs}" Glyph="{StaticResource GlyphPcStartup}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <ToggleSwitch IsOn="{x:Bind ViewModel.QuickResumeEnabled, Mode=TwoWay}">
+                <ToggleSwitch.OffContent>
+                    <TextBlock x:Uid="OffTextBlock" />
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock x:Uid="OnTextBlock" />
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+        </labs:SettingsCard>
+
+        <labs:SettingsCard
+            Description="{x:Bind strings:Resources.SettingsModifySubDescription}"
+            Header="Ambie+"
+            Visibility="{x:Bind ViewModel.ManageSubscriptionVisible, Mode=OneWay}">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon FontFamily="{StaticResource FluentUIGlyphsCustom}" Glyph="{StaticResource GlyphCustomPremium}" />
+            </labs:SettingsCard.HeaderIcon>
+
+            <Button Command="{x:Bind ViewModel.RedirectToMsAccountCommand}">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBlock VerticalAlignment="Center" Text="{x:Bind strings:Resources.ModifyText}" />
+                    <FontIcon
+                        FontFamily="{StaticResource FluentUIGlyphs}"
+                        FontSize="14"
+                        Glyph="{StaticResource GlyphRedirect}" />
+                </StackPanel>
+            </Button>
+        </labs:SettingsCard>
+
+        <labs:SettingsExpander Header="{x:Bind strings:Resources.AboutAmbie}">
+            <labs:SettingsExpander.Description>
+                <TextBlock Text="© Jenius Apps" />
+            </labs:SettingsExpander.Description>
+            <labs:SettingsExpander.HeaderIcon>
+                <BitmapIcon ShowAsMonochrome="False" UriSource="ms-appx:///Assets/logo.png" />
+            </labs:SettingsExpander.HeaderIcon>
+            <TextBlock
+                Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                IsTextSelectionEnabled="True"
+                Style="{StaticResource CaptionTextBlockStyle}"
+                Text="{x:Bind Version}" />
+            <labs:SettingsExpander.Items>
+                <labs:SettingsCard>
+
+                    <labs:SettingsCard.Header>
+                        <TextBlock DoubleTapped="OnDoubleTapped">
+                            <Run Text="🍁" />
+                            <Run x:Uid="HelloFromVancouver" />
+                        </TextBlock>
+                    </labs:SettingsCard.Header>
+                </labs:SettingsCard>
+                <labs:SettingsCard ContentAlignment="Left">
+                    <StackPanel Margin="-12,0,0,0" Orientation="Vertical">
+                        <HyperlinkButton x:Uid="PrivacyPolicyButton" NavigateUri="https://github.com/jenius-apps/ambie/blob/main/privacypolicy.md" />
+                        <HyperlinkButton Content="{x:Bind strings:Resources.TermsOfUse}" NavigateUri="https://github.com/jenius-apps/ambie/blob/main/termsofuse.md" />
+                        <HyperlinkButton Content="{x:Bind strings:Resources.FollowTwitter}" NavigateUri="https://twitter.com/ambie_app" />
+                        <HyperlinkButton Command="{x:Bind ViewModel.RequestRatingCommand}" Content="{x:Bind strings:Resources.RateUsText}" />
+                        <HyperlinkButton Command="{x:Bind ViewModel.TryUpdateCommand}" Content="{x:Bind strings:Resources.CheckForUpdatesText}" />
+                        <winui:ProgressBar
+                            Width="200"
+                            Margin="12,4,0,4"
+                            IsIndeterminate="True"
+                            Visibility="{x:Bind ViewModel.UpdateBarVisible}" />
+                    </StackPanel>
+                </labs:SettingsCard>
+            </labs:SettingsExpander.Items>
+        </labs:SettingsExpander>
+
+        <StackPanel x:Name="ExperimentalPanel" Visibility="Collapsed">
+            <TextBlock
+                Margin="1,29,0,5"
+                Style="{StaticResource BodyStrongTextBlockStyle}"
+                Text="Experimental features" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

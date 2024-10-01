@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CloseCompactMode.AutomationProperties.Name" xml:space="preserve">
+    <value>앰비 미니 닫기</value>
+  </data>
+  <data name="CloseCompactMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>앰비 미니 닫기</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Copyright.Text" xml:space="preserve">
+    <value>저작권</value>
+  </data>
+  <data name="CopyrightJeniusApps.Text" xml:space="preserve">
+    <value>저작권 Jenius Apps</value>
+  </data>
+  <data name="HelloFromVancouver.Text" xml:space="preserve">
+    <value>밴쿠버에서 안녕하세요</value>
+  </data>
+  <data name="LogoButton.AutomationProperties.Name" xml:space="preserve">
+    <value>앱 정보 보기</value>
+  </data>
+  <data name="MoreButton.AutomationProperties.Name" xml:space="preserve">
+    <value>더 많은 옵션 보기</value>
+  </data>
+  <data name="MoreButtonContact.Label" xml:space="preserve">
+    <value>개발자 연락하기</value>
+  </data>
+  <data name="RateUsText" xml:space="preserve">
+    <value>리뷰하기</value>
+  </data>
+  <data name="MoreButtonSettings.Label" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="MoreButtonShare.Label" xml:space="preserve">
+    <value>앰비 링크 공유하기</value>
+  </data>
+  <data name="MoreButtonTranslate.Label" xml:space="preserve">
+    <value>번역 개선</value>
+  </data>
+  <data name="OffTextBlock.Text" xml:space="preserve">
+    <value>끄기</value>
+  </data>
+  <data name="OnTextBlock.Text" xml:space="preserve">
+    <value>켜기</value>
+  </data>
+  <data name="PauseTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>타이머 일시정지</value>
+  </data>
+  <data name="PlayerPauseText" xml:space="preserve">
+    <value>일시정지</value>
+  </data>
+  <data name="PlayerPlayText" xml:space="preserve">
+    <value>재생</value>
+  </data>
+  <data name="PlayTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>타이머 재시작</value>
+  </data>
+  <data name="ReadyToPlayText" xml:space="preserve">
+    <value>재생 준비 완료</value>
+  </data>
+  <data name="SettingsTelemetrySwitch.Header" xml:space="preserve">
+    <value>텔레메트리</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="SleepTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>수면 타이머 설정 보기</value>
+  </data>
+  <data name="SleepTimerButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>수면 타이머 설정 보기</value>
+  </data>
+  <data name="Soundbeach" xml:space="preserve">
+    <value>해변</value>
+  </data>
+  <data name="Soundbirds" xml:space="preserve">
+    <value>새소리</value>
+  </data>
+  <data name="Soundcitystreet" xml:space="preserve">
+    <value>길거리</value>
+  </data>
+  <data name="Soundcoffeeshop" xml:space="preserve">
+    <value>커피숍</value>
+  </data>
+  <data name="Soundcreek" xml:space="preserve">
+    <value>개울</value>
+  </data>
+  <data name="Soundfireplace" xml:space="preserve">
+    <value>벽난로</value>
+  </data>
+  <data name="Soundrain" xml:space="preserve">
+    <value>비</value>
+  </data>
+  <data name="Soundrainforest" xml:space="preserve">
+    <value>숲</value>
+  </data>
+  <data name="Soundunderwater" xml:space="preserve">
+    <value>수중</value>
+  </data>
+  <data name="Soundwaterfall" xml:space="preserve">
+    <value>폭포</value>
+  </data>
+  <data name="Soundwhitenoise" xml:space="preserve">
+    <value>백색 소음</value>
+  </data>
+  <data name="SoundsLoadingRing.AutomationProperties.Name" xml:space="preserve">
+    <value>소리를 로딩중입니다</value>
+  </data>
+  <data name="SoundUnplayable" xml:space="preserve">
+    <value>소리를 재생 할수 없습니다</value>
+  </data>
+  <data name="StopTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>타이머 종료 및 시간 초기화</value>
+  </data>
+  <data name="VolumeSlider.AutomationProperties.Name" xml:space="preserve">
+    <value>전체 음량</value>
+  </data>
+  <data name="SettingsThemeHeader.Text" xml:space="preserve">
+    <value>테마</value>
+  </data>
+  <data name="SettingsThemeDefaultRadio.Content" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="SettingsThemeDarkRadio.Content" xml:space="preserve">
+    <value>다크 모드</value>
+  </data>
+  <data name="SettingsThemeLightRadio.Content" xml:space="preserve">
+    <value>라이트 모드</value>
+  </data>
+  <data name="Soundvacuum" xml:space="preserve">
+    <value>진공 청소기</value>
+  </data>
+  <data name="Soundthunder" xml:space="preserve">
+    <value>천둥</value>
+  </data>
+  <data name="SettingsNotificationsSwitch.Header" xml:space="preserve">
+    <value>새로운 소리가 등록될 시 알림</value>
+  </data>
+  <data name="Soundwind" xml:space="preserve">
+    <value>바람</value>
+  </data>
+  <data name="BackButton.AutomationProperties.Name" xml:space="preserve">
+    <value>뒤로 가기</value>
+    <comment>Going back to the previous page</comment>
+  </data>
+  <data name="DownloadSoundButton.AutomationProperties.Name" xml:space="preserve">
+    <value>소리 다운로드</value>
+  </data>
+  <data name="DownloadSoundButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>소리 다운로드</value>
+  </data>
+  <data name="AlreadyDownloaded" xml:space="preserve">
+    <value>이미 다운로드 완료</value>
+    <comment>The sound is already downloaded</comment>
+  </data>
+  <data name="CanDownload" xml:space="preserve">
+    <value>다운로드 가능</value>
+    <comment>The sound can be downloaded</comment>
+  </data>
+  <data name="OnlineSoundsList.AutomationProperties.Name" xml:space="preserve">
+    <value>소리 카탈로그</value>
+  </data>
+  <data name="SoundsGridView.AutomationProperties.Name" xml:space="preserve">
+    <value>소리 목록</value>
+    <comment>List of sounds</comment>
+  </data>
+  <data name="PrivacyPolicyButton.Content" xml:space="preserve">
+    <value>개인정보취급방침</value>
+  </data>
+  <data name="PrivacyPolicyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>개인정보취급방침</value>
+  </data>
+  <data name="DeleteButton.AutomationProperties.Name" xml:space="preserve">
+    <value>소리 삭제</value>
+  </data>
+  <data name="DeleteTextBlock.Text" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DownloadTextBlock.Text" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="DeleteAppBarButton.Label" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="RandomButton.AutomationProperties.Name" xml:space="preserve">
+    <value>임의의 소리 재생</value>
+  </data>
+  <data name="RandomButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>임의의 소리 재생</value>
+  </data>
+  <data name="ScreensaverMode" xml:space="preserve">
+    <value>화면 보호기 모드</value>
+  </data>
+  <data name="SettingsScreensaverSwitch.Header" xml:space="preserve">
+    <value>화면 보호기</value>
+  </data>
+  <data name="BuyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>소리 구매</value>
+  </data>
+  <data name="PreviewButton.AutomationProperties.Name" xml:space="preserve">
+    <value>소리 미리보기</value>
+  </data>
+  <data name="PreviewButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>소리 미리보기</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>일시 중지</value>
+    <comment>Sound is paused</comment>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>재생 중</value>
+    <comment>Sound is playing</comment>
+  </data>
+  <data name="VolumeSliderSound.AutomationProperties.Name" xml:space="preserve">
+    <value>음량</value>
+  </data>
+  <data name="ActiveTrackListView.AutomationProperties.Name" xml:space="preserve">
+    <value>활성화된 소리들</value>
+  </data>
+  <data name="ClearActiveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>활성화된 소리들을 모두 지웁니다</value>
+  </data>
+  <data name="ClearActiveButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>활성화된 소리들을 모두 지웁니다</value>
+  </data>
+  <data name="ConfirmSaveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>저장 확인</value>
+  </data>
+  <data name="GlobalVolume" xml:space="preserve">
+    <value>전체 음량</value>
+  </data>
+  <data name="NameInputBox.Header" xml:space="preserve">
+    <value>사운드 믹스 이름</value>
+  </data>
+  <data name="NameInputBox.PlaceholderText" xml:space="preserve">
+    <value>선택 항목</value>
+  </data>
+  <data name="SaveMixButton.AutomationProperties.Name" xml:space="preserve">
+    <value>커스텀 사운드 믹스 저장</value>
+  </data>
+  <data name="SaveMixButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>커스텀 사운드 믹스 저장 (Ctrl+S)</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="RenameText" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="RenameAppBarButton.Label" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="CompactMode" xml:space="preserve">
+    <value>앰비 미니</value>
+  </data>
+  <data name="SignOutAppBarButton.Label" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="SignInDescriptionText" xml:space="preserve">
+    <value>이것으로 장치 간에 사운드 갤러리 동기화가 활성화됩니다.</value>
+  </data>
+  <data name="AccountOptionsButton.AutomationProperties.Name" xml:space="preserve">
+    <value>계정 설정 보기</value>
+  </data>
+  <data name="AccountOptionsButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>계정 설정 보기</value>
+  </data>
+  <data name="SignInButton.AutomationProperties.Name" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="SignInButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="SyncAppBarButton.Label" xml:space="preserve">
+    <value>동기화</value>
+  </data>
+  <data name="BrowseText" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Attribution" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="NewSound" xml:space="preserve">
+    <value>새로운 소리</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>새로 고침</value>
+    <comment>Text for a button that will refresh a list with new data</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>확실합니까?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>선택 항목</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>필수</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>기부하기</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>이용약관</value>
+  </data>
+  <data name="FollowTwitter" xml:space="preserve">
+    <value>트위터 팔로우</value>
+  </data>
+  <data name="Dismiss" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="FirstLaunchMessage" xml:space="preserve">
+    <value>앰비를 사용해 주셔서 감사합니다. 최상의 경험을 위해 작업 표시줄에 고정해 보세요!</value>
+  </data>
+  <data name="HelloAndWelcome" xml:space="preserve">
+    <value>안녕하세요 환영합니다!</value>
+  </data>
+  <data name="PinToTaskbar" xml:space="preserve">
+    <value>작업 표시 줄에 고정</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>미리보기</value>
+  </data>
+  <data name="Catalogue" xml:space="preserve">
+    <value>카탈로그</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="SelectSoundsPlaceholder" xml:space="preserve">
+    <value>소리를 최대 3개까지 조합해보세요</value>
+  </data>
+  <data name="RemoveActiveButton" xml:space="preserve">
+    <value>활성 목록에서 {0} 제거</value>
+    <comment>Remove a sound from the list of active playing sounds. The parameter is the name of the sound to remove.</comment>
+  </data>
+  <data name="ThemeSettings" xml:space="preserve">
+    <value>테마 설정</value>
+  </data>
+  <data name="PricePerMonth" xml:space="preserve">
+    <value>월 {0}</value>
+    <comment>Price per month, where the parameter {0} is a price like $1.00.</comment>
+  </data>
+  <data name="ThankYouForSub" xml:space="preserve">
+    <value>구독해주셔서 감사합니다!</value>
+    <comment>Thank you message shown after user purchases a subscription.</comment>
+  </data>
+  <data name="SubscriptionText1" xml:space="preserve">
+    <value>고품질의 프리미엄 소리들</value>
+  </data>
+  <data name="SubscriptionText2" xml:space="preserve">
+    <value>비디오 화면 보호기</value>
+  </data>
+  <data name="SubscriptionText3" xml:space="preserve">
+    <value>개발 지원</value>
+  </data>
+  <data name="HelloAgain" xml:space="preserve">
+    <value>또 뵙네요 👋🏽</value>
+  </data>
+  <data name="RateUsMessage" xml:space="preserve">
+    <value>앰비를 잘 쓰고 계신가요? 괜찮으시다면 평가해 주세요!</value>
+  </data>
+  <data name="SettingsResumeOnLaunch" xml:space="preserve">
+    <value>앰비 실행 시 소리 자동재생</value>
+  </data>
+  <data name="DownloadText" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="MissingSoundsMessage" xml:space="preserve">
+    <value>이것을 재생하려면 몇 가지 소리를 다운로드해야 합니다. 다운로드가 완료되면 다시 재생해 보세요. 다운로드를 시작하겠습니까?</value>
+  </data>
+  <data name="MissingSoundsTitle" xml:space="preserve">
+    <value>누락된 소리</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>기본값</value>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="SizeMegaByte" xml:space="preserve">
+    <value>{0}MB</value>
+  </data>
+  <data name="MoreScreensavers" xml:space="preserve">
+    <value>더 많은 화면 보호기</value>
+  </data>
+  <data name="ScreensaverCatalogue" xml:space="preserve">
+    <value>화면 보호기 카탈로그</value>
+  </data>
+  <data name="ViewPremiumInfo" xml:space="preserve">
+    <value>프리미엄 정보 보기</value>
+  </data>
+  <data name="ToggleFullscreen" xml:space="preserve">
+    <value>전체 화면 전환</value>
+  </data>
+  <data name="GetAmbiePlus" xml:space="preserve">
+    <value>앰비+ 구매</value>
+  </data>
+  <data name="FocusText" xml:space="preserve">
+    <value>포커스</value>
+  </data>
+  <data name="PauseTimer" xml:space="preserve">
+    <value>타이머 일시 중지</value>
+  </data>
+  <data name="StartTimer" xml:space="preserve">
+    <value>타이머 시작</value>
+  </data>
+  <data name="FocusSessionCompleteMessage" xml:space="preserve">
+    <value>수고하셨습니다!</value>
+  </data>
+  <data name="FocusSessionCompleteTitle" xml:space="preserve">
+    <value>집중 세션 완료</value>
+  </data>
+  <data name="FocusSessionFocusMessage" xml:space="preserve">
+    <value>집중 할 시간 입니다</value>
+  </data>
+  <data name="FocusSessionRestMessage" xml:space="preserve">
+    <value>휴식 시간 입니다</value>
+  </data>
+  <data name="RestText" xml:space="preserve">
+    <value>휴식</value>
+  </data>
+  <data name="FocusDotTooltip" xml:space="preserve">
+    <value>집중 세션이 활성 상태입니다</value>
+  </data>
+  <data name="SessionTypeFocus" xml:space="preserve">
+    <value>집중하는 중</value>
+  </data>
+  <data name="SessionTypeRest" xml:space="preserve">
+    <value>휴식중</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>일시정지</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="ResetTimer" xml:space="preserve">
+    <value>타이머 초기화</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="FocusLength" xml:space="preserve">
+    <value>집중 시간(분)</value>
+  </data>
+  <data name="FocusNotesPlaceholder" xml:space="preserve">
+    <value>여기에 메모를 작성할 수 있습니다</value>
+  </data>
+  <data name="FocusPlanningHeader" xml:space="preserve">
+    <value>무엇을 하실 계획이신가요?</value>
+  </data>
+  <data name="Notepad" xml:space="preserve">
+    <value>메모장</value>
+  </data>
+  <data name="RestLength" xml:space="preserve">
+    <value>휴식 시간(분)</value>
+  </data>
+  <data name="Repeats" xml:space="preserve">
+    <value>반복 횟수</value>
+  </data>
+  <data name="FocusTimerHelpAction" xml:space="preserve">
+    <value>사용법을 가르쳐 주세요</value>
+  </data>
+  <data name="FocusTimerHelpMessage" xml:space="preserve">
+    <value>뽀모도로 기법에서 영감을 받은 인터벌 타이머입니다. 목표는 오랜 시간 동안 작업에 집중한 다음 작업 시간 보다 짧은 휴식을 취하는 것입니다. 계속 초점을 맞추려면 이 주기를 반복하세요!</value>
+  </data>
+  <data name="FocusTimerHelpTitle" xml:space="preserve">
+    <value>집중 타이머에 오신 것을 환영합니다!</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="TipFocusMessage" xml:space="preserve">
+    <value>각 주기에는 집중 구간과 휴식 구간이 있습니다. 각 집중 구간의 길이를 선택하십시오. 처음이라면 25분을 권장합니다!</value>
+  </data>
+  <data name="TipFocusTitle" xml:space="preserve">
+    <value>집중 시간(분) 설정</value>
+  </data>
+  <data name="TipRepeatsMessage" xml:space="preserve">
+    <value>각 집중 및 휴식 주기는 여러 번 반복될 수 있습니다. 1회 반복을 추가해 보세요!</value>
+  </data>
+  <data name="TipRepeatsTitle" xml:space="preserve">
+    <value>반복 횟수 설정</value>
+  </data>
+  <data name="TipRestMessage" xml:space="preserve">
+    <value>이제 각 휴식 구간의 시간을 선택합니다. 지금은 5분 정도를 권장합니다!</value>
+  </data>
+  <data name="TipRestTitle" xml:space="preserve">
+    <value>휴식 시간(분) 설정</value>
+  </data>
+  <data name="TipStartButtonMessage" xml:space="preserve">
+    <value>타이머를 시작하고 작업을 수행합니다. 휴식 시간이 되면 알림을 보내드리겠습니다. 화이팅!</value>
+  </data>
+  <data name="TipStartButtonTitle" xml:space="preserve">
+    <value>제자리에, 준비하시고, 시작!</value>
+  </data>
+  <data name="RecentFocusAccessibleName" xml:space="preserve">
+    <value>{0}분 집중, {1}분 휴식, {2}회 반복</value>
+  </data>
+  <data name="RecentFocusList" xml:space="preserve">
+    <value>최근 집중 구성 목록</value>
+  </data>
+  <data name="ZeroToMax" xml:space="preserve">
+    <value>0 ~ {0}</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>이전 기록</value>
+  </data>
+  <data name="Interruptions" xml:space="preserve">
+    <value>중단</value>
+  </data>
+  <data name="FocusHistoryPlaceholderText" xml:space="preserve">
+    <value>최근 기록이 여기에 표시됩니다</value>
+  </data>
+  <data name="LogInterruption" xml:space="preserve">
+    <value>방해 기록하기</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="InterruptionMinutesTitle" xml:space="preserve">
+    <value>잠시 중단됨</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="InterruptionMinutesHelpMessage" xml:space="preserve">
+    <value>무언가에 방해를 받았나요? 나중에 검토할 수 있도록 이곳에 방해를 기록해보세요</value>
+  </data>
+  <data name="HistoryRecent" xml:space="preserve">
+    <value>최근 기록</value>
+  </data>
+  <data name="RoundsCompleted" xml:space="preserve">
+    <value>완료된 라운드</value>
+  </data>
+  <data name="ResultMessageFail1" xml:space="preserve">
+    <value>수고하셨습니다</value>
+  </data>
+  <data name="ResultMessageSuccess1" xml:space="preserve">
+    <value>굉장해요</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>앰비</value>
+  </data>
+  <data name="TaskModuleNewTaskPlaceholder" xml:space="preserve">
+    <value>집중할 작업을 추가하고 시작 버튼을 누르세요</value>
+  </data>
+  <data name="TaskModuleTitle" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="TaskModuleRecentCompleted" xml:space="preserve">
+    <value>최근 완료</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="TasksCompleted" xml:space="preserve">
+    <value>완료된 작업</value>
+  </data>
+  <data name="Timer" xml:space="preserve">
+    <value>타이머</value>
+  </data>
+  <data name="TaskTitle" xml:space="preserve">
+    <value>작업 {0}</value>
+  </data>
+  <data name="SettingsCompactMode" xml:space="preserve">
+    <value>집중할 때 앰비 미니 열기</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>집중 시간</value>
+  </data>
+  <data name="EndTimeText" xml:space="preserve">
+    <value>예상 종료 시간</value>
+  </data>
+  <data name="MiniText" xml:space="preserve">
+    <value>미니</value>
+  </data>
+  <data name="CompactModeTooltipTitle" xml:space="preserve">
+    <value>앰비 미니 열기</value>
+  </data>
+  <data name="CompactModeTooltipMessage" xml:space="preserve">
+    <value>앰비 미니를 사용하면 창 크기를 줄이고 집중하는데 필요한 항목만 표시합니다</value>
+  </data>
+  <data name="PausesText" xml:space="preserve">
+    <value>일시정지</value>
+  </data>
+  <data name="EmptyHomeMessage" xml:space="preserve">
+    <value>카탈로그에서 소리를 다운로드 하세요</value>
+  </data>
+  <data name="EditHomePage" xml:space="preserve">
+    <value>홈 페이지 수정</value>
+  </data>
+  <data name="EditHomePageMessage" xml:space="preserve">
+    <value>소리를 드래그 앤 드롭하여 자신만의 홈 페이지를 만들 수 있습니다. 지금 당장 해보세요!</value>
+  </data>
+  <data name="EmptyCatalogueMessage" xml:space="preserve">
+    <value>죄송합니다! 카탈로그를 로드할 수 없습니다. 인터넷 연결을 확인해보세요.</value>
+  </data>
+  <data name="AboutAmbie" xml:space="preserve">
+    <value>앰비에 대해여</value>
+  </data>
+  <data name="SettingsCompactModeDescription" xml:space="preserve">
+    <value>집중할 때 앰비 미니가 자동으로 열립니다</value>
+  </data>
+  <data name="SettingsNotificationsSwitchDescription" xml:space="preserve">
+    <value>새로운 소리가 추가되면 알림으로 알려드립니다</value>
+  </data>
+  <data name="SettingsResumeOnLaunchDescription" xml:space="preserve">
+    <value>실행 시 앰비가 자동으로 가장 최근 들었던 소리를 다시 재생합니다</value>
+  </data>
+  <data name="SettingsTelemetrySwitchDescription" xml:space="preserve">
+    <value>오류 및 익명 사용 정보를 앰비 개선에 도움이 되도록 보고됩니다.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>배경 이미지</value>
+  </data>
+  <data name="CustomImage" xml:space="preserve">
+    <value>사용자 지정 이미지</value>
+  </data>
+  <data name="SettingsGeneralHeader" xml:space="preserve">
+    <value>일반 설정</value>
+  </data>
+  <data name="SettingsTheme" xml:space="preserve">
+    <value>모드 선택</value>
+  </data>
+  <data name="SettingsThemeDescription" xml:space="preserve">
+    <value>앰비에 표시되는 색상 변경</value>
+  </data>
+  <data name="ShareMessage" xml:space="preserve">
+    <value>지금 듣고 있는 소리들을 공유해보세요</value>
+  </data>
+  <data name="MissingShareSoundsMessage" xml:space="preserve">
+    <value>다운로드가 가능한지 알아봅시다.</value>
+  </data>
+  <data name="MissingShareSoundsTitle" xml:space="preserve">
+    <value>음악이 누락되었습니다</value>
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>리뷰 작성</value>
+  </data>
+  <data name="ShareText" xml:space="preserve">
+    <value>공유</value>
+  </data>
+  <data name="CopiedText" xml:space="preserve">
+    <value>복사했습니다!</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="OrText" xml:space="preserve">
+    <value>혹은</value>
+  </data>
+  <data name="BuyDurableTooltip" xml:space="preserve">
+    <value>이 소리 잠금 해제</value>
+  </data>
+  <data name="PriceForLifetime" xml:space="preserve">
+    <value>평생 {0}</value>
+  </data>
+  <data name="CheckForUpdatesText" xml:space="preserve">
+    <value>업데이트 확인</value>
+  </data>
+  <data name="UpdatesPageMessage1" xml:space="preserve">
+    <value>여기에서 소리 및 비디오에 대한 업데이트를 확인하세요.</value>
+  </data>
+  <data name="UpdatesPageMessage2" xml:space="preserve">
+    <value>업데이트에는 번역, 음질 등에 대한 개선 사항이 포함되어 있습니다.</value>
+  </data>
+  <data name="UpdatesText" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="UpdateAllText" xml:space="preserve">
+    <value>모두 업데이트</value>
+  </data>
+  <data name="DataVersionColon" xml:space="preserve">
+    <value>데이터 버전:</value>
+  </data>
+  <data name="FileVersionColon" xml:space="preserve">
+    <value>파일 버전:</value>
+  </data>
+  <data name="UpdatesPlaceholderText" xml:space="preserve">
+    <value>완전히 최신 상태입니다. 모든 준비가 완료되었습니다.</value>
+  </data>
+  <data name="UpdateReasonFile" xml:space="preserve">
+    <value>재생 품질 향상</value>
+  </data>
+  <data name="UpdateReasonMetaData" xml:space="preserve">
+    <value>번역 및 기타 메타데이터 개선</value>
+  </data>
+  <data name="UpdateReasonMetaDataAndFile" xml:space="preserve">
+    <value>재생 품질, 번역 및 기타 메타데이터 개선</value>
+  </data>
+  <data name="InterruptionInsightsMessage" xml:space="preserve">
+    <value>다음번에 방해받는 것을 피하기 위해 개선점이 있습니까?</value>
+  </data>
+  <data name="RecentInterruptionsText" xml:space="preserve">
+    <value>최근 방해 기록</value>
+  </data>
+  <data name="InterruptionInsightsButtonText" xml:space="preserve">
+    <value>방해와 관련하여 도움이 필요하십니까?</value>
+  </data>
+  <data name="SettingsOutputDevice" xml:space="preserve">
+    <value>출력 장치</value>
+  </data>
+  <data name="SettingsOutputDeviceDescription" xml:space="preserve">
+    <value>소리 재생 위치 선택</value>
+  </data>
+  <data name="SettingsPlayAfterFocusDescription" xml:space="preserve">
+    <value>집중 세션이 끝난 뒤에도 소리가 계속 재생됩니다</value>
+  </data>
+  <data name="SettingsPlayAfterFocusHeader" xml:space="preserve">
+    <value>집중 후에도 소리를 계속 재생하기</value>
+  </data>
+  <data name="RelaxText" xml:space="preserve">
+    <value>릴렉스</value>
+  </data>
+  <data name="BackgroundSoundsText" xml:space="preserve">
+    <value>배경음</value>
+  </data>
+  <data name="MeditatingText" xml:space="preserve">
+    <value>명상</value>
+  </data>
+  <data name="AlwaysAskMeText" xml:space="preserve">
+    <value>항상 묻기</value>
+  </data>
+  <data name="PlayRandom" xml:space="preserve">
+    <value>랜덤 사운드 재생</value>
+  </data>
+  <data name="NowPlayingText" xml:space="preserve">
+    <value>지금 재생 중</value>
+  </data>
+  <data name="SearchPageHeader" xml:space="preserve">
+    <value>"{0}"에 대한 결과</value>
+  </data>
+  <data name="SearchEmptyPlaceholderText" xml:space="preserve">
+    <value>이런! 그 소리를 찾을 수 없었습니다. 차후 추가를 고려해보겠습니다</value>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="QuickResumeTitle" xml:space="preserve">
+    <value>빠른 재시작</value>
+  </data>
+  <data name="QuickResumeToastMessage" xml:space="preserve">
+    <value>마지막으로 들었던 소리들을 바로 재생하세요</value>
+  </data>
+  <data name="QuickResumeDescription" xml:space="preserve">
+    <value>PC가 시작될 때 클릭 한 번으로 마지막으로 들었던 소리들을 바로 재생하세요.</value>
+  </data>
+  <data name="HomePageDownloadMessage" xml:space="preserve">
+    <value>카탈로그에서 더 많은 소리 가져오기</value>
+  </data>
+  <data name="SkipThisSegment" xml:space="preserve">
+    <value>이 구간 건너뛰기</value>
+  </data>
+  <data name="DayPlural" xml:space="preserve">
+    <value>{0} 일</value>
+  </data>
+  <data name="DaySingular" xml:space="preserve">
+    <value>1 일</value>
+  </data>
+  <data name="StreakHeader" xml:space="preserve">
+    <value>내 행진</value>
+  </data>
+  <data name="StreakReminderMessage" xml:space="preserve">
+    <value>연승 행진을 이어가세요!</value>
+  </data>
+  <data name="StreakReminderTitle" xml:space="preserve">
+    <value>{0}일 연속</value>
+  </data>
+  <data name="DayStreakPhrase" xml:space="preserve">
+    <value>일 연속</value>
+    <comment>A portion of a phrase that looks like '5-day streak'</comment>
+  </data>
+  <data name="StreakHelpMessage" xml:space="preserve">
+    <value>매일 들으면 연속 기록이 늘어나지만 하루를 건너뛰면 재설정됩니다!</value>
+  </data>
+  <data name="SettingsStreakReminderDescription" xml:space="preserve">
+    <value>일일 행진을 활발하게 유지하는 데 도움이 되는 알림을 받으세요.</value>
+  </data>
+  <data name="SettingsStreakReminderHeader" xml:space="preserve">
+    <value>연속 알림</value>
+  </data>
+  <data name="SettingsBackgroundDescription" xml:space="preserve">
+    <value>배터리를 절약하기 위해 현재 배경이 비활성화되어 있습니다!</value>
+  </data>
+  <data name="AddNewTaskText" xml:space="preserve">
+    <value>새 작업 추가</value>
+  </data>
+  <data name="CatalogueSubtitle" xml:space="preserve">
+    <value>내장된 사운드 카탈로그에 액세스하십시오. 여기에서 좋아하는 음악을 다운로드하세요.</value>
+  </data>
+  <data name="FocusSubtitle" xml:space="preserve">
+    <value>당신은 일하고 있습니까, 아니면 공부하고 있습니까? 혁신적인 포커스 타이머를 사용하여 생산성을 높일 수 있습니다.</value>
+  </data>
+  <data name="HomeSubtitle" xml:space="preserve">
+    <value>설치한 사운드를 보고, 최대 3개의 사운드를 재생하고, 좋아하는 조합을 찾으십시오.</value>
+  </data>
+  <data name="MeditateSubtitle" xml:space="preserve">
+    <value>명상 가이드를 사용하여 긴장을 풀거나 신경을 진정시키세요.</value>
+  </data>
+  <data name="SettingsSubtitle" xml:space="preserve">
+    <value>여기에서 설정을 전환합니다.</value>
+  </data>
+  <data name="UpdatesSubtitle" xml:space="preserve">
+    <value>설치한 사운드에 대한 업데이트를 수시로 확인하십시오.</value>
+  </data>
+  <data name="AddTaskPlaceholder" xml:space="preserve">
+    <value>+를 클릭하여 작업을 추가합니다.</value>
+  </data>
+  <data name="ModifyText" xml:space="preserve">
+    <value>수정하다</value>
+  </data>
+  <data name="SettingsModifySubDescription" xml:space="preserve">
+    <value>구독 수정</value>
+  </data>
+  <data name="AppUpdateDescription" xml:space="preserve">
+    <value>새로운 업데이트가 있습니다! 업데이트를 적용하려면 지금 다시 시작하십시오.</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>다시 시작할</value>
+  </data>
+  <data name="SleepTimerDescription" xml:space="preserve">
+    <value>타이머가 끝나면 Ambie가 일시 중지됩니다.</value>
+  </data>
+  <data name="SleepTimerText" xml:space="preserve">
+    <value>취침 타이머</value>
+  </data>
+  <data name="UnlockText" xml:space="preserve">
+    <value>잠금 해제</value>
+  </data>
+  <data name="AdjustSoundVolume" xml:space="preserve">
+    <value>음량 조절하기</value>
+  </data>
+  <data name="DownloadSounds" xml:space="preserve">
+    <value>사운드 다운로드하기</value>
+  </data>
+  <data name="DisplayMode" xml:space="preserve">
+    <value>디스플레이 모드</value>
+  </data>
+  <data name="DisplayModeDarkScreen" xml:space="preserve">
+    <value>어두운 화면</value>
+  </data>
+  <data name="DisplayModeDarkScreenDescription" xml:space="preserve">
+    <value>수면에 도움</value>
+  </data>
+  <data name="DisplayModeSlideshow" xml:space="preserve">
+    <value>슬라이드 쇼</value>
+  </data>
+  <data name="DisplayModeSlideshowDescription" xml:space="preserve">
+    <value>이미지 캐러셀</value>
+  </data>
+  <data name="DisplayModeVideo" xml:space="preserve">
+    <value>동영상</value>
+  </data>
+  <data name="DisplayModeVideoDescription" xml:space="preserve">
+    <value>가능한 경우 비디오를 재생합니다.</value>
+  </data>
+  <data name="SettingsNotificationsSwitchHeader" xml:space="preserve">
+    <value>새로운 소리에 대한 알림</value>
+  </data>
+  <data name="SettingsTelemetrySwitchHeader" xml:space="preserve">
+    <value>원격</value>
+  </data>
+  <data name="DownloadingVideoMessage" xml:space="preserve">
+    <value>동영상 다운로드. 곧 준비하겠습니다.</value>
+  </data>
+  <data name="DownloadingText" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="UnlockVideoText" xml:space="preserve">
+    <value>비디오 잠금 해제</value>
+  </data>
+  <data name="AvailableText" xml:space="preserve">
+    <value>이용할 수 있는</value>
+  </data>
+  <data name="IncludedText" xml:space="preserve">
+    <value>포함</value>
+  </data>
+  <data name="SlideshowImagesText" xml:space="preserve">
+    <value>슬라이드 쇼 이미지</value>
+  </data>
+  <data name="VideoBackgroundText" xml:space="preserve">
+    <value>비디오 배경</value>
+  </data>
+  <data name="StartFreeTrialText" xml:space="preserve">
+    <value>무료 평가판 시작</value>
+  </data>
+  <data name="SubWithTrialCaptionTemplate" xml:space="preserve">
+    <value>{0} 무료, 그 다음에는 {1}</value>
+    <comment>E.g. 1 week free, then $1.49/month</comment>
+  </data>
+  <data name="ContactUsText" xml:space="preserve">
+    <value>문의</value>
+  </data>
+  <data name="FeedbackText" xml:space="preserve">
+    <value>피드백</value>
+  </data>
+  <data name="SettingsFeedbackDescription" xml:space="preserve">
+    <value>피드백, 질문 또는 문제가 있는 경우 당사에 문의하십시오.</value>
+  </data>
+  <data name="FreeTrialTipDescription" xml:space="preserve">
+    <value>7일 무료 청구</value>
+  </data>
+  <data name="FreeTrialTipTitle" xml:space="preserve">
+    <value>무료 평가판 사용 가능</value>
+  </data>
+</root>

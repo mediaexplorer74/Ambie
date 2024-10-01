@@ -1,2 +1,0 @@
-Github autodeletes some folders with 'x86' and 'arm' names.
-So, rename '_arm' onto 'arm', '_x86' onto 'x86' before proj. compile.

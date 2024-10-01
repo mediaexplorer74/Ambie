@@ -1,4 +1,7 @@
-# Ambie v 1.0 for ARM (Windows 10 Mobile)
+# Ambie - andromeda branch 
+
+## About 
+This is draft version of Ambie v 2.x.x.x for Windows Core Andromeda on Lumia 950
 
 A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed.
 
@@ -6,7 +9,8 @@ A modern Windows app that plays soothing tones to help you be healthier, happier
 
 ## Motivation
 
-The motivation behind Ambie is to build a simple but beautiful soothing sounds player for Windows. 
+The motivation behind Ambie is to build a simple but beautiful soothing sounds player for some *special* Windows editions such as leaked Project Andromeda!
+ 
 Animations are used to enhance the experience. Only a few UI elements are available in the app. 
 This is on purpose because for Ambie, _less is more_.
 
@@ -33,11 +37,12 @@ New sounds are greatly appreciated. New sounds must
 
 ### One more little thing 
 
-I solved the strange "sdk 15063"-specific problem when grid "buttons" don't wont to be clicked... 
-All is ok, sound control enabled at now =)
-Enjoy a little xaml fluent implementation (thanx to special dlls at Libs folder for xaml ui "emulation").
-I hope, this funny mini-project could be continued... 
+My little plan is to adapt Ambie for "sdk 17314"... and research Andromeda compatibility :) 
 
-...Best wishes,
+I want to enjoy a little xaml fluent implementation. I hope, that after some time this funny mini-project could be continued... =) Cheers up!
 
-  [m][e] 2021
+## ..
+As is. No support. RnD only. DIY.
+
+## .
+  [m][e] 2024

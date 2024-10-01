@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CloseCompactMode.AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij Ambie Mini</value>
+  </data>
+  <data name="CloseCompactMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij Ambie Mini</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="Copyright.Text" xml:space="preserve">
+    <value>Prawa autorskie</value>
+  </data>
+  <data name="CopyrightJeniusApps.Text" xml:space="preserve">
+    <value>Właścicielem praw autorskich jest Jenius Apps</value>
+  </data>
+  <data name="HelloFromVancouver.Text" xml:space="preserve">
+    <value>Pozdrowienia z Vancouver</value>
+  </data>
+  <data name="LogoButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Informacje o aplikacji</value>
+  </data>
+  <data name="MoreButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Więcej opcji</value>
+  </data>
+  <data name="CompactMode" xml:space="preserve">
+    <value>Ambie Mini</value>
+  </data>
+  <data name="MoreButtonContact.Label" xml:space="preserve">
+    <value>Kontakt z twórcami</value>
+  </data>
+  <data name="RateUsText" xml:space="preserve">
+    <value>Oceń nas</value>
+  </data>
+  <data name="MoreButtonSettings.Label" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="MoreButtonShare.Label" xml:space="preserve">
+    <value>Udostępnij link do Ambie</value>
+  </data>
+  <data name="MoreButtonTranslate.Label" xml:space="preserve">
+    <value>Dodaj lub popraw tłumaczenie</value>
+  </data>
+  <data name="OffTextBlock.Text" xml:space="preserve">
+    <value>Wyłączone</value>
+  </data>
+  <data name="OnTextBlock.Text" xml:space="preserve">
+    <value>Włączone</value>
+  </data>
+  <data name="PauseTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Zatrzymaj licznik</value>
+  </data>
+  <data name="PlayerPauseText" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="PlayerPlayText" xml:space="preserve">
+    <value>Odtwarzaj</value>
+  </data>
+  <data name="PlayTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Wznów licznik</value>
+  </data>
+  <data name="ReadyToPlayText" xml:space="preserve">
+    <value>Gotowe</value>
+  </data>
+  <data name="SettingsTelemetrySwitch.Header" xml:space="preserve">
+    <value>Telemetria</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="SleepTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Ustawienia wyłącznika czasowego</value>
+  </data>
+  <data name="SleepTimerButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ustawienia wyłącznika czasowego</value>
+  </data>
+  <data name="Soundbeach" xml:space="preserve">
+    <value>Plaża</value>
+  </data>
+  <data name="Soundbirds" xml:space="preserve">
+    <value>Ptaki</value>
+  </data>
+  <data name="Soundcitystreet" xml:space="preserve">
+    <value>Ulica</value>
+  </data>
+  <data name="Soundcoffeeshop" xml:space="preserve">
+    <value>Kawiarnia</value>
+  </data>
+  <data name="Soundcreek" xml:space="preserve">
+    <value>Strumień</value>
+  </data>
+  <data name="Soundfireplace" xml:space="preserve">
+    <value>Ognisko</value>
+  </data>
+  <data name="Soundrain" xml:space="preserve">
+    <value>Deszcz</value>
+  </data>
+  <data name="Soundrainforest" xml:space="preserve">
+    <value>Las deszczowy</value>
+  </data>
+  <data name="Soundunderwater" xml:space="preserve">
+    <value>Pod wodą</value>
+  </data>
+  <data name="Soundwaterfall" xml:space="preserve">
+    <value>Wodospad</value>
+  </data>
+  <data name="Soundwhitenoise" xml:space="preserve">
+    <value>Biały szum</value>
+  </data>
+  <data name="SoundsLoadingRing.AutomationProperties.Name" xml:space="preserve">
+    <value>Ładowanie dźwięków</value>
+  </data>
+  <data name="SoundUnplayable" xml:space="preserve">
+    <value>Nie można odtworzyć dźwięku</value>
+  </data>
+  <data name="StopTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Zatrzymaj i wyzeruj licznik</value>
+  </data>
+  <data name="VolumeSlider.AutomationProperties.Name" xml:space="preserve">
+    <value>Głośność ogólna</value>
+  </data>
+  <data name="VolumeSliderSound.AutomationProperties.Name" xml:space="preserve">
+    <value>Głośność dźwięku</value>
+  </data>
+  <data name="SettingsThemeHeader.Text" xml:space="preserve">
+    <value>Motyw</value>
+  </data>
+  <data name="SettingsThemeDefaultRadio.Content" xml:space="preserve">
+    <value>Motyw systemowy</value>
+  </data>
+  <data name="SettingsThemeDarkRadio.Content" xml:space="preserve">
+    <value>Ciemny</value>
+  </data>
+  <data name="SettingsThemeLightRadio.Content" xml:space="preserve">
+    <value>Jasny</value>
+  </data>
+  <data name="Soundvacuum" xml:space="preserve">
+    <value>Odkurzacz</value>
+  </data>
+  <data name="Soundthunder" xml:space="preserve">
+    <value>Grzmoty</value>
+  </data>
+  <data name="SettingsNotificationsSwitch.Header" xml:space="preserve">
+    <value>Powiadomienie dla nowych dźwięków</value>
+  </data>
+  <data name="Soundwind" xml:space="preserve">
+    <value>Wiatr</value>
+  </data>
+  <data name="AlreadyDownloaded" xml:space="preserve">
+    <value>Już pobrano</value>
+    <comment>The sound is already downloaded</comment>
+  </data>
+  <data name="BackButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Wróć</value>
+    <comment>Going back to the previous page</comment>
+  </data>
+  <data name="CanDownload" xml:space="preserve">
+    <value>Możliwy do pobrania</value>
+    <comment>The sound can be downloaded</comment>
+  </data>
+  <data name="DownloadSoundButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Pobierz dźwięk</value>
+  </data>
+  <data name="DownloadSoundButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pobierz dźwięk</value>
+  </data>
+  <data name="OnlineSoundsList.AutomationProperties.Name" xml:space="preserve">
+    <value>Katalog dźwięków</value>
+  </data>
+  <data name="SoundsGridView.AutomationProperties.Name" xml:space="preserve">
+    <value>Dźwięki</value>
+    <comment>List of sounds</comment>
+  </data>
+  <data name="PrivacyPolicyButton.Content" xml:space="preserve">
+    <value>Polityka prywatności</value>
+  </data>
+  <data name="PrivacyPolicyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Polityka prywatności</value>
+  </data>
+  <data name="DeleteAppBarButton.Label" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="DeleteButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Usuń dźwięk</value>
+  </data>
+  <data name="DeleteTextBlock.Text" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="DownloadTextBlock.Text" xml:space="preserve">
+    <value>Pobierz</value>
+  </data>
+  <data name="RandomButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Odtwórz losowy dźwięk</value>
+  </data>
+  <data name="RandomButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Odtwórz losowy dźwięk</value>
+  </data>
+  <data name="ScreensaverMode" xml:space="preserve">
+    <value>Tryb wygaszacza ekranu</value>
+  </data>
+  <data name="SettingsScreensaverSwitch.Header" xml:space="preserve">
+    <value>Wygaszacz ekranu</value>
+  </data>
+  <data name="BuyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Kup dźwięk</value>
+  </data>
+  <data name="PreviewButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Podgląd dźwięku</value>
+  </data>
+  <data name="PreviewButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Podgląd dźwięku</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Wstrzymano</value>
+    <comment>Sound is paused</comment>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>Odtwarzanie</value>
+    <comment>Sound is playing</comment>
+  </data>
+  <data name="ActiveTrackListView.AutomationProperties.Name" xml:space="preserve">
+    <value>Odtwarzane dźwięki</value>
+  </data>
+  <data name="ClearActiveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Wyczyść odtwarzane dźwięki</value>
+  </data>
+  <data name="ClearActiveButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Wyczyść odtwarzane dźwięki</value>
+  </data>
+  <data name="ConfirmSaveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Potwierdź zapisanie zmian</value>
+  </data>
+  <data name="GlobalVolume" xml:space="preserve">
+    <value>Głośność ogólna</value>
+  </data>
+  <data name="NameInputBox.Header" xml:space="preserve">
+    <value>Nazwa miksu</value>
+  </data>
+  <data name="NameInputBox.PlaceholderText" xml:space="preserve">
+    <value>Opcjonalne</value>
+  </data>
+  <data name="RemoveActiveButton" xml:space="preserve">
+    <value>Usuń {0} z listy odtwarzanych dźwięków</value>
+    <comment>Remove a sound from the list of active playing sounds. The parameter is the name of the sound to remove.</comment>
+  </data>
+  <data name="SaveMixButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Zapisz własny mix</value>
+  </data>
+  <data name="SaveMixButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zapisz własny mix (Ctrl+S)</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="RenameText" xml:space="preserve">
+    <value>Zmień nazwę</value>
+  </data>
+  <data name="RenameAppBarButton.Label" xml:space="preserve">
+    <value>Zmień nazwę</value>
+  </data>
+  <data name="SignOutAppBarButton.Label" xml:space="preserve">
+    <value>Wyloguj</value>
+  </data>
+  <data name="SignInDescriptionText" xml:space="preserve">
+    <value>Umożliwia synchronizację pomiędzy urządzeniami.</value>
+  </data>
+  <data name="AccountOptionsButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Opcje konta</value>
+  </data>
+  <data name="AccountOptionsButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Opcje konta</value>
+  </data>
+  <data name="SignInButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Zaloguj</value>
+  </data>
+  <data name="SignInButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zaloguj</value>
+  </data>
+  <data name="SyncAppBarButton.Label" xml:space="preserve">
+    <value>Synchronizacja</value>
+  </data>
+  <data name="Attribution" xml:space="preserve">
+    <value>Uznanie autorstwa</value>
+  </data>
+  <data name="BrowseText" xml:space="preserve">
+    <value>Przeglądaj</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="NewSound" xml:space="preserve">
+    <value>Nowy dźwięk</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Odśwież</value>
+    <comment>Text for a button that will refresh a list with new data</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Zaloguj</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Na pewno?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Tak</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Opcjonalne</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Wymagane</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Przekaż datek</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>Warunki użytkowania</value>
+  </data>
+  <data name="FollowTwitter" xml:space="preserve">
+    <value>Obserwuj nas na Twitterze</value>
+  </data>
+  <data name="Dismiss" xml:space="preserve">
+    <value>Odrzuć</value>
+  </data>
+  <data name="FirstLaunchMessage" xml:space="preserve">
+    <value>Dziękujemy za wypróbowanie Ambie. Dla najlepszych doświadczeń, przypnij aplikację do paska zadań! Następnie usiądź i zrelaksuj się 🏝</value>
+  </data>
+  <data name="HelloAndWelcome" xml:space="preserve">
+    <value>Witamy serdecznie!</value>
+  </data>
+  <data name="PinToTaskbar" xml:space="preserve">
+    <value>Przypnij do paska zadań</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="Catalogue" xml:space="preserve">
+    <value>Katalog</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Kolekcja</value>
+  </data>
+  <data name="SelectSoundsPlaceholder" xml:space="preserve">
+    <value>Zmiksuj ze sobą do trzech dźwięków</value>
+  </data>
+  <data name="ThemeSettings" xml:space="preserve">
+    <value>Motyw</value>
+  </data>
+  <data name="SettingsResumeOnLaunch" xml:space="preserve">
+    <value>Automatycznie wznów odtwarzanie po uruchomieniu Ambie</value>
+  </data>
+  <data name="PricePerMonth" xml:space="preserve">
+    <value>{0} miesięcznie</value>
+    <comment>Price per month, where the parameter {0} is a price like $1.00.</comment>
+  </data>
+  <data name="SubscriptionText1" xml:space="preserve">
+    <value>Zyskaj dostęp do dźwięków o wysokiej jakości</value>
+  </data>
+  <data name="SubscriptionText2" xml:space="preserve">
+    <value>Pobierz wygaszacze ekranu</value>
+  </data>
+  <data name="SubscriptionText3" xml:space="preserve">
+    <value>Wesprzyj rozwój aplikacji</value>
+  </data>
+  <data name="ThankYouForSub" xml:space="preserve">
+    <value>Dziękujemy za kupienie subskrypcji!</value>
+    <comment>Thank you message shown after user purchases a subscription.</comment>
+  </data>
+  <data name="HelloAgain" xml:space="preserve">
+    <value>Witamy ponownie 👋🏽</value>
+  </data>
+  <data name="RateUsMessage" xml:space="preserve">
+    <value>Podoba ci się korzystanie z Ambie? Oceń nas!</value>
+  </data>
+  <data name="DownloadText" xml:space="preserve">
+    <value>Pobierz</value>
+  </data>
+  <data name="MissingSoundsMessage" xml:space="preserve">
+    <value>W celu odtworzenia konieczne jest pobranie dodatkowych dźwięków. Po pobraniu spróbuj odtworzyć ponownie. Rozpocząć pobieranie?</value>
+  </data>
+  <data name="MissingSoundsTitle" xml:space="preserve">
+    <value>Brakujące dźwięki</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Domyślne</value>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="SizeMegaByte" xml:space="preserve">
+    <value>{0} MB</value>
+  </data>
+  <data name="MoreScreensavers" xml:space="preserve">
+    <value>Więcej wygaszaczy</value>
+  </data>
+  <data name="ScreensaverCatalogue" xml:space="preserve">
+    <value>Katalog wygaszaczy</value>
+  </data>
+  <data name="ViewPremiumInfo" xml:space="preserve">
+    <value>Informacje o usłudze premium</value>
+  </data>
+  <data name="ToggleFullscreen" xml:space="preserve">
+    <value>Przełącz tryb pełnoekranowy</value>
+  </data>
+  <data name="GetAmbiePlus" xml:space="preserve">
+    <value>Kup Ambie+</value>
+  </data>
+  <data name="FocusText" xml:space="preserve">
+    <value>Koncentracja</value>
+  </data>
+  <data name="PauseTimer" xml:space="preserve">
+    <value>Wstrzymaj licznik</value>
+  </data>
+  <data name="StartTimer" xml:space="preserve">
+    <value>Uruchom licznik</value>
+  </data>
+  <data name="FocusSessionCompleteMessage" xml:space="preserve">
+    <value>Dobra robota!</value>
+  </data>
+  <data name="FocusSessionCompleteTitle" xml:space="preserve">
+    <value>Sesja koncentracji zakończona</value>
+  </data>
+  <data name="FocusSessionFocusMessage" xml:space="preserve">
+    <value>Czas na koncentrację</value>
+  </data>
+  <data name="FocusSessionRestMessage" xml:space="preserve">
+    <value>Czas odpoczynku</value>
+  </data>
+  <data name="RestText" xml:space="preserve">
+    <value>Odpoczynek</value>
+  </data>
+  <data name="FocusDotTooltip" xml:space="preserve">
+    <value>Sesja koncentracji aktywna!</value>
+  </data>
+  <data name="SessionTypeFocus" xml:space="preserve">
+    <value>Skoncentruj się</value>
+  </data>
+  <data name="SessionTypeRest" xml:space="preserve">
+    <value>Zrób sobie przerwę</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetTimer" xml:space="preserve">
+    <value>Wyzeruj licznik</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="FocusLength" xml:space="preserve">
+    <value>Czas koncentracji (w minutach)</value>
+  </data>
+  <data name="FocusNotesPlaceholder" xml:space="preserve">
+    <value>Tutaj możesz zapisać dowolne notatki 🙂</value>
+  </data>
+  <data name="FocusPlanningHeader" xml:space="preserve">
+    <value>Jaki mamy plan?</value>
+  </data>
+  <data name="Notepad" xml:space="preserve">
+    <value>Notatnik</value>
+  </data>
+  <data name="Repeats" xml:space="preserve">
+    <value>Powtórzenia</value>
+  </data>
+  <data name="RestLength" xml:space="preserve">
+    <value>Czas odpoczynku (w minutach)</value>
+  </data>
+  <data name="FocusTimerHelpAction" xml:space="preserve">
+    <value>Pokaż mi jak z niego korzystać</value>
+  </data>
+  <data name="FocusTimerHelpMessage" xml:space="preserve">
+    <value>Licznik koncentracji jest inspirowany techniką pomodoro. Technika ta opiera się na dłuższych okresach skupienia przerywanych krótkimi okresami odpoczynku. Powtarzanie tego cyklu pozwala ci skupić się na wykonaniu zadania!</value>
+  </data>
+  <data name="FocusTimerHelpTitle" xml:space="preserve">
+    <value>Witamy w liczniku koncentracji!</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Dalej</value>
+  </data>
+  <data name="TipFocusMessage" xml:space="preserve">
+    <value>Każdy cykl dzieli się na segment koncentracji i segment odpoczynku. Ustaw długość segmentu koncentracji. Na początek proponujemy okres 25 minut!</value>
+  </data>
+  <data name="TipFocusTitle" xml:space="preserve">
+    <value>Ustaw czas koncentracji</value>
+  </data>
+  <data name="TipRepeatsMessage" xml:space="preserve">
+    <value>Cykl koncentracji i odpoczynku może być wielokrotnie powtarzany. Dodaj jedno powtórzenie!</value>
+  </data>
+  <data name="TipRepeatsTitle" xml:space="preserve">
+    <value>Ustaw powtórzenia</value>
+  </data>
+  <data name="TipRestMessage" xml:space="preserve">
+    <value>Wybierz długość segmentu odpoczynku. Na początek proponujemy okres 5 minut!</value>
+  </data>
+  <data name="TipRestTitle" xml:space="preserve">
+    <value>Ustaw czas odpoczynku</value>
+  </data>
+  <data name="TipStartButtonMessage" xml:space="preserve">
+    <value>Uruchom licznik i skoncentruj się na swoim zadaniu. Kiedy przyjdzie czas na odpoczynek pojawi się powiadomienie. Do roboty!</value>
+  </data>
+  <data name="TipStartButtonTitle" xml:space="preserve">
+    <value>Na miejsca, gotowi, start</value>
+  </data>
+  <data name="RecentFocusAccessibleName" xml:space="preserve">
+    <value>{0} minut koncentracji, {1} minut odpoczynku, {2} powtórzeń.</value>
+  </data>
+  <data name="RecentFocusList" xml:space="preserve">
+    <value>Lista ostatnich konfiguracji licznika koncentracji.</value>
+  </data>
+  <data name="ZeroToMax" xml:space="preserve">
+    <value>0 do {0}</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="Interruptions" xml:space="preserve">
+    <value>Przerwy</value>
+  </data>
+  <data name="FocusHistoryPlaceholderText" xml:space="preserve">
+    <value>Ostatnie sesje pojawią się w tej sekcji</value>
+  </data>
+  <data name="LogInterruption" xml:space="preserve">
+    <value>Przerwy w pracy</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Potwierdź</value>
+  </data>
+  <data name="InterruptionMinutesTitle" xml:space="preserve">
+    <value>Czas przerwy (w minutach)</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notatki</value>
+  </data>
+  <data name="InterruptionMinutesHelpMessage" xml:space="preserve">
+    <value>Czy coś przeszkodziło ci w wykonaniu zadania? Monitoruj przerwy w pracy i zapisuj je w historii, aby móc dokonać ich późniejszego przeglądu.</value>
+  </data>
+  <data name="HistoryRecent" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="RoundsCompleted" xml:space="preserve">
+    <value>Ukończone cykle</value>
+  </data>
+  <data name="ResultMessageFail1" xml:space="preserve">
+    <value>Niezła próba</value>
+  </data>
+  <data name="ResultMessageSuccess1" xml:space="preserve">
+    <value>Świetnie ci idzie</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>Ambie</value>
+  </data>
+  <data name="TaskModuleNewTaskPlaceholder" xml:space="preserve">
+    <value>Dodaj zadania, na których chcesz się skupić, a następnie naciśnij przycisk Start</value>
+  </data>
+  <data name="TaskModuleTitle" xml:space="preserve">
+    <value>Zadania</value>
+  </data>
+  <data name="TaskModuleRecentCompleted" xml:space="preserve">
+    <value>Zakończono</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
+  <data name="TasksCompleted" xml:space="preserve">
+    <value>Ukończone zadania</value>
+  </data>
+  <data name="Timer" xml:space="preserve">
+    <value>Licznik</value>
+  </data>
+  <data name="TaskTitle" xml:space="preserve">
+    <value>Zadanie {0}</value>
+  </data>
+  <data name="SettingsCompactMode" xml:space="preserve">
+    <value>Otwórz Mini z licznikiem koncentracji</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="EndTimeText" xml:space="preserve">
+    <value>Koniec</value>
+  </data>
+  <data name="MiniText" xml:space="preserve">
+    <value>Mini</value>
+  </data>
+  <data name="CompactModeTooltipTitle" xml:space="preserve">
+    <value>Otwórz Ambie Mini</value>
+  </data>
+  <data name="CompactModeTooltipMessage" xml:space="preserve">
+    <value>W trybie Ambie Mini w zmniejszonym oknie pokazywane są tylko niezbędne elementy.</value>
+  </data>
+  <data name="PausesText" xml:space="preserve">
+    <value>Wstrzymania</value>
+  </data>
+  <data name="EmptyHomeMessage" xml:space="preserve">
+    <value>Pobierz muzykę z katalogu</value>
+  </data>
+  <data name="EditHomePage" xml:space="preserve">
+    <value>Edytuj stronę startową</value>
+  </data>
+  <data name="EditHomePageMessage" xml:space="preserve">
+    <value>Przeciągnij i upuść dźwięki, aby dostosować swoją kolekcję. Spróbuj!</value>
+  </data>
+  <data name="EmptyCatalogueMessage" xml:space="preserve">
+    <value>Ups! Nie udało się załadować katalogu. Sprawdź połączenie internetowe.</value>
+  </data>
+  <data name="AboutAmbie" xml:space="preserve">
+    <value>Informacje o aplikacji</value>
+  </data>
+  <data name="SettingsCompactModeDescription" xml:space="preserve">
+    <value>Ambie Mini otworzy się automatycznie podczas korzystania z licznika koncentracji</value>
+  </data>
+  <data name="SettingsNotificationsSwitchDescription" xml:space="preserve">
+    <value>Powiadomimy Cię, gdy pojawią się nowe dźwięki</value>
+  </data>
+  <data name="SettingsResumeOnLaunchDescription" xml:space="preserve">
+    <value>Po uruchomieniu, Ambie automatycznie wznowi odtwarzanie</value>
+  </data>
+  <data name="SettingsTelemetrySwitchDescription" xml:space="preserve">
+    <value>Zgłaszanie błędów i wysyłanie zanonimizowanych informacji o użytkowaniu w celu ulepszenia Ambie</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Tło</value>
+  </data>
+  <data name="CustomImage" xml:space="preserve">
+    <value>Niestandardowy obraz</value>
+  </data>
+  <data name="SettingsGeneralHeader" xml:space="preserve">
+    <value>Ustawienia ogólne</value>
+  </data>
+  <data name="SettingsTheme" xml:space="preserve">
+    <value>Wybierz motyw</value>
+  </data>
+  <data name="SettingsThemeDescription" xml:space="preserve">
+    <value>Zmień motyw Ambie</value>
+  </data>
+  <data name="ShareMessage" xml:space="preserve">
+    <value>Podziel się tym, czego słuchasz</value>
+  </data>
+  <data name="MissingShareSoundsMessage" xml:space="preserve">
+    <value>Zobaczmy, czy można je pobrać.</value>
+  </data>
+  <data name="MissingShareSoundsTitle" xml:space="preserve">
+    <value>Brakujące dźwięki</value>
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>Recenzja</value>
+  </data>
+  <data name="ShareText" xml:space="preserve">
+    <value>Udostępnij</value>
+  </data>
+  <data name="CopiedText" xml:space="preserve">
+    <value>Skopiowano!</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Kopiuj</value>
+  </data>
+  <data name="OrText" xml:space="preserve">
+    <value>Lub</value>
+  </data>
+  <data name="BuyDurableTooltip" xml:space="preserve">
+    <value>Odblokuj ten dźwięk</value>
+  </data>
+  <data name="PriceForLifetime" xml:space="preserve">
+    <value>{0} za dożywotnią licencję</value>
+  </data>
+  <data name="CheckForUpdatesText" xml:space="preserve">
+    <value>Sprawdź dostępność aktualizacji</value>
+  </data>
+  <data name="UpdatesPageMessage1" xml:space="preserve">
+    <value>Sprawdź, czy dostępne są aktualizacje dźwięków i filmów.</value>
+  </data>
+  <data name="UpdatesPageMessage2" xml:space="preserve">
+    <value>Aktualizacje zawierają ulepszenia tłumaczeń, jakości dźwięku i nie tylko.</value>
+  </data>
+  <data name="UpdatesText" xml:space="preserve">
+    <value>Aktualizacje</value>
+  </data>
+  <data name="UpdateAllText" xml:space="preserve">
+    <value>Zaktualizuj wszystko</value>
+  </data>
+  <data name="DataVersionColon" xml:space="preserve">
+    <value>Wersja danych:</value>
+  </data>
+  <data name="FileVersionColon" xml:space="preserve">
+    <value>Wersja pliku:</value>
+  </data>
+  <data name="UpdatesPlaceholderText" xml:space="preserve">
+    <value>W pełni aktualne. Wszystko gotowe.</value>
+  </data>
+  <data name="UpdateReasonFile" xml:space="preserve">
+    <value>Poprawia jakość odtwarzania</value>
+  </data>
+  <data name="UpdateReasonMetaData" xml:space="preserve">
+    <value>Poprawia tłumaczenia i inne metadane</value>
+  </data>
+  <data name="UpdateReasonMetaDataAndFile" xml:space="preserve">
+    <value>Poprawia jakość odtwarzania, tłumaczenia i inne metadane</value>
+  </data>
+  <data name="InterruptionInsightsMessage" xml:space="preserve">
+    <value>Jak uniknąć przyszłych przerw w pracy?</value>
+  </data>
+  <data name="RecentInterruptionsText" xml:space="preserve">
+    <value>Ostatnie przerwy</value>
+  </data>
+  <data name="InterruptionInsightsButtonText" xml:space="preserve">
+    <value>Potrzebujesz pomocy z przerwami?</value>
+  </data>
+  <data name="SettingsOutputDevice" xml:space="preserve">
+    <value>Urządzenie wyjściowe</value>
+  </data>
+  <data name="SettingsOutputDeviceDescription" xml:space="preserve">
+    <value>Wybierz urządzenie, które ma odtwarzać dźwięk</value>
+  </data>
+  <data name="SettingsPlayAfterFocusDescription" xml:space="preserve">
+    <value>Dźwięki będą nadal odtwarzane po zakończeniu sesji koncentracji</value>
+  </data>
+  <data name="SettingsPlayAfterFocusHeader" xml:space="preserve">
+    <value>Kontynuuj odtwarzanie po sesji koncentracji</value>
+  </data>
+  <data name="RelaxText" xml:space="preserve">
+    <value>Relaksować się</value>
+  </data>
+  <data name="BackgroundSoundsText" xml:space="preserve">
+    <value>Dźwięki tła</value>
+  </data>
+  <data name="MeditatingText" xml:space="preserve">
+    <value>Medytacji</value>
+  </data>
+  <data name="AlwaysAskMeText" xml:space="preserve">
+    <value>Zawsze mnie pytaj</value>
+  </data>
+  <data name="PlayRandom" xml:space="preserve">
+    <value>Odtwórz losowy dźwięk</value>
+  </data>
+  <data name="NowPlayingText" xml:space="preserve">
+    <value>Teraz odtwarzane</value>
+  </data>
+  <data name="SearchPageHeader" xml:space="preserve">
+    <value>Wyniki dla "{0}"</value>
+  </data>
+  <data name="SearchEmptyPlaceholderText" xml:space="preserve">
+    <value>Oops! Nie mogliśmy znaleźć tego dźwięku. Zobaczymy, czy uda nam się go dodać w przyszłości</value>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>Szukać</value>
+  </data>
+  <data name="QuickResumeTitle" xml:space="preserve">
+    <value>Szybkie wznawianie</value>
+  </data>
+  <data name="QuickResumeToastMessage" xml:space="preserve">
+    <value>Wznów swoją ostatnią atmosferę</value>
+  </data>
+  <data name="QuickResumeDescription" xml:space="preserve">
+    <value>Wznów ostatnią atmosferę jednym kliknięciem podczas uruchamiania komputera</value>
+  </data>
+  <data name="HomePageDownloadMessage" xml:space="preserve">
+    <value>Pobierz więcej dźwięków z katalogu</value>
+  </data>
+  <data name="SkipThisSegment" xml:space="preserve">
+    <value>Pomiń ten segment</value>
+  </data>
+  <data name="DayPlural" xml:space="preserve">
+    <value>{0} dni</value>
+  </data>
+  <data name="DaySingular" xml:space="preserve">
+    <value>1 dzień</value>
+  </data>
+  <data name="StreakHeader" xml:space="preserve">
+    <value>Moja passa</value>
+  </data>
+  <data name="StreakReminderMessage" xml:space="preserve">
+    <value>Utrzymuj swoją passę przy życiu!</value>
+  </data>
+  <data name="StreakReminderTitle" xml:space="preserve">
+    <value>{0}-dniowa passa</value>
+  </data>
+  <data name="DayStreakPhrase" xml:space="preserve">
+    <value>Seria dzienna</value>
+    <comment>A portion of a phrase that looks like '5-day streak'</comment>
+  </data>
+  <data name="StreakHelpMessage" xml:space="preserve">
+    <value>Codzienne słuchanie zwiększa twoją passę, ale pominięcie dnia ją resetuje!</value>
+  </data>
+  <data name="SettingsStreakReminderDescription" xml:space="preserve">
+    <value>Otrzymuj przypomnienia, które pomogą Ci utrzymać aktywną codzienną passę</value>
+  </data>
+  <data name="SettingsStreakReminderHeader" xml:space="preserve">
+    <value>Przypomnienia o serii</value>
+  </data>
+  <data name="SettingsBackgroundDescription" xml:space="preserve">
+    <value>Twoje tło jest obecnie wyłączone, aby pomóc Ci oszczędzać baterię!</value>
+  </data>
+  <data name="AddNewTaskText" xml:space="preserve">
+    <value>Dodaj nowe zadanie</value>
+  </data>
+  <data name="CatalogueSubtitle" xml:space="preserve">
+    <value>Uzyskaj dostęp do wbudowanego katalogu dźwięków. Pobierz swoją następną ulubioną muzykę tutaj.</value>
+  </data>
+  <data name="FocusSubtitle" xml:space="preserve">
+    <value>Pracujesz lub studiujesz? Skorzystaj z naszego innowacyjnego timera ostrości, który pomoże Ci zwiększyć produktywność.</value>
+  </data>
+  <data name="HomeSubtitle" xml:space="preserve">
+    <value>Przeglądaj zainstalowane dźwięki, odtwarzaj do 3 dźwięków i znajdź swoją ulubioną kombinację.</value>
+  </data>
+  <data name="MeditateSubtitle" xml:space="preserve">
+    <value>Skorzystaj z naszych przewodników medytacyjnych, które pomogą Ci się zrelaksować lub uspokoić nerwy.</value>
+  </data>
+  <data name="SettingsSubtitle" xml:space="preserve">
+    <value>Przełącz swoje ustawienia tutaj.</value>
+  </data>
+  <data name="UpdatesSubtitle" xml:space="preserve">
+    <value>Od czasu do czasu zaglądaj tutaj pod kątem aktualizacji zainstalowanych dźwięków.</value>
+  </data>
+  <data name="AddTaskPlaceholder" xml:space="preserve">
+    <value>Kliknij +, aby dodać zadanie.</value>
+  </data>
+  <data name="ModifyText" xml:space="preserve">
+    <value>Modyfikować</value>
+  </data>
+  <data name="SettingsModifySubDescription" xml:space="preserve">
+    <value>Modyfikowanie subskrypcji</value>
+  </data>
+  <data name="AppUpdateDescription" xml:space="preserve">
+    <value>Dostępna jest nowa aktualizacja! Uruchom ponownie teraz, aby zastosować aktualizację.</value>
+  </data>
+  <data name="SleepTimerDescription" xml:space="preserve">
+    <value>Ambie zatrzyma się, gdy skończy się odliczanie</value>
+  </data>
+  <data name="SleepTimerText" xml:space="preserve">
+    <value>Wyłącznik czasowy</value>
+  </data>
+  <data name="UnlockText" xml:space="preserve">
+    <value>Odblokować</value>
+  </data>
+  <data name="AdjustSoundVolume" xml:space="preserve">
+    <value>Dostosuj głośność dźwięku</value>
+  </data>
+  <data name="DownloadSounds" xml:space="preserve">
+    <value>Pobieranie dźwięków</value>
+  </data>
+  <data name="DisplayMode" xml:space="preserve">
+    <value>Tryb wyświetlania</value>
+  </data>
+  <data name="DisplayModeDarkScreen" xml:space="preserve">
+    <value>Ciemny ekran</value>
+  </data>
+  <data name="DisplayModeDarkScreenDescription" xml:space="preserve">
+    <value>Pomaga w zasypianiu</value>
+  </data>
+  <data name="DisplayModeSlideshow" xml:space="preserve">
+    <value>Pokaz slajdów</value>
+  </data>
+  <data name="DisplayModeSlideshowDescription" xml:space="preserve">
+    <value>Karuzela obrazów</value>
+  </data>
+  <data name="DisplayModeVideo" xml:space="preserve">
+    <value>Filmy</value>
+  </data>
+  <data name="DisplayModeVideoDescription" xml:space="preserve">
+    <value>Odtwarza filmy, jeśli są dostępne</value>
+  </data>
+  <data name="SettingsNotificationsSwitchHeader" xml:space="preserve">
+    <value>Powiadomienia o nowych dźwiękach</value>
+  </data>
+  <data name="SettingsTelemetrySwitchHeader" xml:space="preserve">
+    <value>Telemetria</value>
+  </data>
+  <data name="DownloadingVideoMessage" xml:space="preserve">
+    <value>Pobieranie filmu. Wkrótce będziemy gotowi.</value>
+  </data>
+  <data name="DownloadingText" xml:space="preserve">
+    <value>Pobieranie</value>
+  </data>
+  <data name="UnlockVideoText" xml:space="preserve">
+    <value>Odblokuj wideo</value>
+  </data>
+  <data name="AvailableText" xml:space="preserve">
+    <value>Dostępny</value>
+  </data>
+  <data name="IncludedText" xml:space="preserve">
+    <value>Zawarte</value>
+  </data>
+  <data name="SlideshowImagesText" xml:space="preserve">
+    <value>Obrazy pokazu slajdów</value>
+  </data>
+  <data name="VideoBackgroundText" xml:space="preserve">
+    <value>Tło wideo</value>
+  </data>
+  <data name="StartFreeTrialText" xml:space="preserve">
+    <value>Rozpocznij bezpłatny okres próbny</value>
+  </data>
+  <data name="SubWithTrialCaptionTemplate" xml:space="preserve">
+    <value>{0} za darmo, to {1}</value>
+    <comment>E.g. 1 week free, then $1.49/month</comment>
+  </data>
+  <data name="ContactUsText" xml:space="preserve">
+    <value>Skontaktuj się z nami</value>
+  </data>
+  <data name="FeedbackText" xml:space="preserve">
+    <value>Sprzężenie zwrotne</value>
+  </data>
+  <data name="SettingsFeedbackDescription" xml:space="preserve">
+    <value>Skontaktuj się z nami, jeśli masz uwagi, pytania lub problemy</value>
+  </data>
+  <data name="FreeTrialTipDescription" xml:space="preserve">
+    <value>Odbierz darmowe 7 dni</value>
+  </data>
+  <data name="FreeTrialTipTitle" xml:space="preserve">
+    <value>Dostępna bezpłatna wersja próbna</value>
+  </data>
+</root>

@@ -1,0 +1,1238 @@
+﻿[
+  {
+    "Id": "9947a323-8223-4593-8a82-04d9edfd4d4a",
+    "MetaDataVersion": 6,
+    "Name": "beach",
+    "ColourHex": "#c59758",
+    "ImagePath": "ms-appx:///Assets/Images/beach.png",
+    "FilePath": "ms-appx:///Assets/Sounds/beach.wav",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/BeachPreview7Sec.mp3",
+    "Attribution": "Sea Barcelona Beach Traffic Voices.wav by jordir -- https://freesound.org/s/360578/ -- License: Creative Commons 0. Photo by Ethan Robertson on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/reserve/O7A9fAvYSXC7NTdz8gLQ_IMGP1039.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1542391085-dd1c64a52bd5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1515404929826-76fff9fef6fe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1524307632631-86de8a10b0be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1594293390817-a4554dc6a713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1518872685743-d5c29385d581?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1563738068154-8d2e9f19ed62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Beach"
+      },
+      "cs": {
+        "Name": "Pláže"
+      },
+      "da": {
+        "Name": "Stranden"
+      },
+      "de": {
+        "Name": "Strand"
+      },
+      "es": {
+        "Name": "Playa"
+      },
+      "fr": {
+        "Name": "Plage"
+      },
+      "he": {
+        "Name": "החוף"
+      },
+      "hr": {
+        "Name": "Plaža"
+      },
+      "hu": {
+        "Name": "Part"
+      },
+      "it": {
+        "Name": "Spiaggia"
+      },
+      "ja": {
+        "Name": "ビーチ"
+      },
+      "ko": {
+        "Name": "해변"
+      },
+      "nl": {
+        "Name": "Strand"
+      },
+      "pl": {
+        "Name": "Plaża"
+      },
+      "pt": {
+        "Name": "Praia"
+      },
+      "sv": {
+        "Name": "Strand"
+      },
+      "tr": {
+        "Name": "Plaj"
+      },
+      "uk": {
+        "Name": "Пляж"
+      },
+      "zh": {
+        "Name": "海滩"
+      },
+      "fa": {
+        "Name": "ساحل"
+      },
+      "el": {
+        "Name": "Παραλία"
+      },
+      "bg": {
+        "Name": "Плаж"
+      },
+      "ar": {
+        "Name": "شاطئ"
+      },
+      "ro": {
+        "Name": "Vânt"
+      }
+    }
+  },
+  {
+    "Id": "19a43ab7-c964-4ab5-90f9-26c8a17d4f34",
+    "MetaDataVersion": 6,
+    "Name": "birds",
+    "ColourHex": "#5a8391",
+    "ImagePath": "ms-appx:///Assets/Images/birds.png",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/BirdsPreview6Sec.mp3",
+    "FilePath": "ms-appx:///Assets/Sounds/birds.wav",
+    "Attribution": "Spring Birds Raw (New Jersey) by hargissssound -- https://freesound.org/s/345851/ -- License: Creative Commons 0. Photo by Cathy Holewinski on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1606340506638-4928ccc0e5cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1526296609207-80e77afde33d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1589059218995-eb41db1ff6ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1534212758080-135b3affa932?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1589899543721-72c280168a92?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1499411824589-1bd7eeff52df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Birds"
+      },
+      "cs": {
+        "Name": "Ptáci"
+      },
+      "da": {
+        "Name": "Fugle"
+      },
+      "de": {
+        "Name": "Vögel"
+      },
+      "es": {
+        "Name": "Aves"
+      },
+      "fr": {
+        "Name": "Oiseaux"
+      },
+      "he": {
+        "Name": "ציפורים"
+      },
+      "hr": {
+        "Name": "Ptice"
+      },
+      "hu": {
+        "Name": "Madarak"
+      },
+      "it": {
+        "Name": "Uccelli"
+      },
+      "ja": {
+        "Name": "鳥のさえずり"
+      },
+      "ko": {
+        "Name": "새소리"
+      },
+      "nl": {
+        "Name": "Vogels"
+      },
+      "pl": {
+        "Name": "Ptaki"
+      },
+      "pt": {
+        "Name": "Pássaros"
+      },
+      "sv": {
+        "Name": "Fåglar"
+      },
+      "tr": {
+        "Name": "Kuşlar"
+      },
+      "uk": {
+        "Name": "Пташки"
+      },
+      "zh": {
+        "Name": "鸟啼"
+      },
+      "fa": {
+        "Name": "پرندگان"
+      },
+      "el": {
+        "Name": "Πουλιά"
+      },
+      "bg": {
+        "Name": "Птици"
+      },
+      "ar": {
+        "Name": "طيور"
+      },
+      "ro": {
+        "Name": "Păsări"
+      }
+    }
+  },
+  {
+    "Id": "f2940c11-0510-4db5-a0ea-5cb27d453bb2",
+    "MetaDataVersion": 7,
+    "Name": "citystreet",
+    "ColourHex": "#a2775c",
+    "ImagePath": "ms-appx:///Assets/Images/citystreet.png",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/CitystreetPreview6Sec.mp3",
+    "FilePath": "ms-appx:///Assets/Sounds/citystreet.wav",
+    "Attribution": "City park_1(traffic, cars, people, voices, shouting).wav by o_ciz -- https://freesound.org/s/475513/ -- License: Creative Commons 0. Photo by Yin Wong on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1490555057042-39428536226a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1510330745166-5911fed6eaad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1494488180300-4c634d1b2124?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1676289579259-9a1ed6994ac2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1506426305266-2b7e740fd828?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "City Street"
+      },
+      "cs": {
+        "Name": "Ulice"
+      },
+      "da": {
+        "Name": "Storby"
+      },
+      "de": {
+        "Name": "Straße"
+      },
+      "es": {
+        "Name": "Calle Urbana"
+      },
+      "fr": {
+        "Name": "Rue Urbaine"
+      },
+      "he": {
+        "Name": "רחוב העיר"
+      },
+      "hr": {
+        "Name": "Ulična Vreva"
+      },
+      "hu": {
+        "Name": "Városi Utca"
+      },
+      "it": {
+        "Name": "Strada Cittadina"
+      },
+      "ja": {
+        "Name": "市街"
+      },
+      "ko": {
+        "Name": "길거리"
+      },
+      "nl": {
+        "Name": "Straat in de Stad"
+      },
+      "pl": {
+        "Name": "Ulica"
+      },
+      "pt": {
+        "Name": "Rua da Cidade"
+      },
+      "sv": {
+        "Name": "Stadsgata"
+      },
+      "tr": {
+        "Name": "Şehir Sokağı"
+      },
+      "uk": {
+        "Name": "Міська вулиця"
+      },
+      "zh": {
+        "Name": "城镇街道"
+      },
+      "fa": {
+        "Name": "خیابان",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Οδός της πόλης",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Градска улица",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "شارع المدينة"
+      },
+      "ro": {
+        "Name": "Stradă"
+      }
+    }
+  },
+  {
+    "Id": "17b2af89-1008-4259-b545-dc8ca4ee473f",
+    "MetaDataVersion": 7,
+    "Name": "coffeeshop",
+    "ColourHex": "#636252",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/CoffeeshopPreview6Sec.mp3",
+    "ImagePath": "ms-appx:///Assets/Images/coffeeshop.png",
+    "FilePath": "ms-appx:///Assets/Sounds/coffeeshop.mp3",
+    "Attribution": "370973__waweee__coffee-shop-ambience_remastered.mp3 by C_Rogers -- https://freesound.org/s/453074/ -- License: Creative Commons 0. Photo by Nathan Dumlao on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1518739745383-0ef26e9dd7fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/41/EOZpjI3oSqKPNnF2S4Tp_Untitled.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1512663827140-3ef55c96cd49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1429681601148-75510b2cef43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1516342243255-ac2202f9f149?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1513491714241-33805f8ff175?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Coffee Shop"
+      },
+      "cs": {
+        "Name": "Kavárna"
+      },
+      "da": {
+        "Name": "Kaffebar"
+      },
+      "de": {
+        "Name": "Café"
+      },
+      "es": {
+        "Name": "Cafetería"
+      },
+      "fr": {
+        "Name": "Café"
+      },
+      "he": {
+        "Name": "בית קפה"
+      },
+      "hr": {
+        "Name": "Kafić"
+      },
+      "hu": {
+        "Name": "Kávéház"
+      },
+      "it": {
+        "Name": "Bar"
+      },
+      "ja": {
+        "Name": "コーヒーショップ"
+      },
+      "ko": {
+        "Name": "커피숍"
+      },
+      "nl": {
+        "Name": "Koffieshop"
+      },
+      "pl": {
+        "Name": "Kawiarnia"
+      },
+      "pt": {
+        "Name": "Cafeteria"
+      },
+      "sv": {
+        "Name": "Kafé"
+      },
+      "tr": {
+        "Name": "Kahve dükkanı"
+      },
+      "uk": {
+        "Name": "Кав'ярня"
+      },
+      "zh": {
+        "Name": "咖啡馆"
+      },
+      "fa": {
+        "Name": "کافی شاپ",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Καφετέρια",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Кафе-сладкарница",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "مَقْهًى"
+      },
+      "ro": {
+        "Name": "Cafenea"
+      }
+    }
+  },
+  {
+    "Id": "f32edd85-871e-4349-9e45-42b14fd5449b",
+    "MetaDataVersion": 6,
+    "Name": "creek",
+    "ColourHex": "#27281c",
+    "ImagePath": "ms-appx:///Assets/Images/creek.png",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/CreekPreview5Sec.mp3",
+    "FilePath": "ms-appx:///Assets/Sounds/creek.wav",
+    "Attribution": "Burbling Brook by hargissssound -- https://freesound.org/s/324591/ -- License: Creative Commons 0. Photo by Ed Paulino Photography - https://www.instagram.com/birdlifelist.",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1486868018400-960892a825f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1597241913543-2f33c261c4af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1552066004-af5eb8acc0f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1502265893532-5b93de22bed5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1436657640247-282c9abfb832?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80",
+      "https://images.unsplash.com/photo-1604246724076-38fe682b8695?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2247&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Creek"
+      },
+      "cs": {
+        "Name": "Potok"
+      },
+      "da": {
+        "Name": "Bæk"
+      },
+      "de": {
+        "Name": "Bach"
+      },
+      "es": {
+        "Name": "Riachuelo"
+      },
+      "fr": {
+        "Name": "Ruisseau"
+      },
+      "he": {
+        "Name": "הנחל"
+      },
+      "hr": {
+        "Name": "Žuborenje"
+      },
+      "hu": {
+        "Name": "Patak"
+      },
+      "it": {
+        "Name": "Torrente"
+      },
+      "ja": {
+        "Name": "小川"
+      },
+      "ko": {
+        "Name": "개울"
+      },
+      "nl": {
+        "Name": "Kreek"
+      },
+      "pl": {
+        "Name": "Strumień"
+      },
+      "pt": {
+        "Name": "Riacho"
+      },
+      "sv": {
+        "Name": "Bäck"
+      },
+      "tr": {
+        "Name": "Dere"
+      },
+      "uk": {
+        "Name": "Струмок"
+      },
+      "zh": {
+        "Name": "溪流"
+      },
+      "fa": {
+        "Name": "جوی آب"
+      },
+      "el": {
+        "Name": "Κολπίσκος"
+      },
+      "bg": {
+        "Name": "Тясно заливче"
+      },
+      "ar": {
+        "Name": "جدول"
+      },
+      "ro": {
+        "Name": "Pârâu"
+      }
+    }
+  },
+  {
+    "Id": "b22901eb-2269-4b3f-80ab-af2722e68ff1",
+    "MetaDataVersion": 8,
+    "Name": "fireplace",
+    "AssociatedVideoIds": [ "59c3b21c-3df1-44d0-a2f7-096bf55728c3" ],
+    "ColourHex": "#442f12",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/FireplacePreview5Sec.mp3",
+    "ImagePath": "ms-appx:///Assets/Images/fireplace.png",
+    "FilePath": "ms-appx:///Assets/Sounds/fireplace.wav",
+    "Attribution": "13_Fire in fireplace.wav by 16FThumaF -- https://freesound.org/s/499032/ -- License: Creative Commons 0. Photo by Oxana Lyashenko on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1554246248-8e077b50f22e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1523391571866-235461b18fae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1595770205769-84b55f75a053?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1598919849713-215ca088c5ce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1617125515261-2d47479a4b3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1555814523-4ab2bb6b72cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Fireplace"
+      },
+      "cs": {
+        "Name": "Krb"
+      },
+      "da": {
+        "Name": "Pejs"
+      },
+      "de": {
+        "Name": "Kamin"
+      },
+      "es": {
+        "Name": "Hoguera"
+      },
+      "fr": {
+        "Name": "Cheminée"
+      },
+      "he": {
+        "Name": "אש"
+      },
+      "hr": {
+        "Name": "Kamin"
+      },
+      "hu": {
+        "Name": "Kandalló"
+      },
+      "it": {
+        "Name": "Focolare"
+      },
+      "ja": {
+        "Name": "暖炉"
+      },
+      "ko": {
+        "Name": "벽난로"
+      },
+      "nl": {
+        "Name": "Open haard"
+      },
+      "pl": {
+        "Name": "Ognisko"
+      },
+      "pt": {
+        "Name": "Lareira"
+      },
+      "sv": {
+        "Name": "Eldstad"
+      },
+      "tr": {
+        "Name": "Şömine"
+      },
+      "uk": {
+        "Name": "Багаття"
+      },
+      "zh": {
+        "Name": "壁炉"
+      },
+      "fa": {
+        "Name": "شومینه",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Εστία",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Камина",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "مِدْفَأَة"
+      },
+      "ro": {
+        "Name": "Cămin"
+      }
+    }
+  },
+  {
+    "Id": "61ae9b16-8254-40f4-b4ae-eff4791f6a80",
+    "MetaDataVersion": 6,
+    "Name": "rain",
+    "ColourHex": "#334337",
+    "ImagePath": "ms-appx:///Assets/Images/rain.png",
+    "FilePath": "ms-appx:///Assets/Sounds/rain.wav",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/RainPreview5Sec.mp3",
+    "Attribution": "Rain heavy 1 (rural) by jmbphilmes -- https://freesound.org/s/200270/ -- License: Creative Commons 0. Photo by Priscilla Du Preez on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1496034663057-6245f11be793?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1498847559558-1e4b1a7f7a2f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1517964101322-a4cfaaf56e5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1603262439120-3e17d13bab3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1527766833261-b09c3163a791?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1501999635878-71cb5379c2d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Rain"
+      },
+      "cs": {
+        "Name": "Déšť"
+      },
+      "da": {
+        "Name": "Regn"
+      },
+      "de": {
+        "Name": "Regen"
+      },
+      "es": {
+        "Name": "Lluvia"
+      },
+      "fr": {
+        "Name": "Pluie"
+      },
+      "he": {
+        "Name": "גשם"
+      },
+      "hr": {
+        "Name": "Kiša"
+      },
+      "hu": {
+        "Name": "Eső"
+      },
+      "it": {
+        "Name": "Pioggia"
+      },
+      "ja": {
+        "Name": "雨"
+      },
+      "ko": {
+        "Name": "비"
+      },
+      "nl": {
+        "Name": "Regen"
+      },
+      "pl": {
+        "Name": "Deszcz"
+      },
+      "pt": {
+        "Name": "Chuva"
+      },
+      "sv": {
+        "Name": "Regn"
+      },
+      "tr": {
+        "Name": "Yağmur"
+      },
+      "uk": {
+        "Name": "Дощ"
+      },
+      "zh": {
+        "Name": "雨天"
+      },
+      "fa": {
+        "Name": "باران",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Βροχή",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Дъжд",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "مطر",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Ploaie"
+      }
+    }
+  },
+  {
+    "Id": "37988c11-b601-417b-9bb4-bb59fe939641",
+    "MetaDataVersion": 6,
+    "Name": "rainforest",
+    "ColourHex": "#152d0c",
+    "ImagePath": "ms-appx:///Assets/Images/rainforest.png",
+    "FilePath": "ms-appx:///Assets/Sounds/Rainforest.mp3",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/RainforestPreview6Sec.mp3",
+    "Attribution": "Rain Sound and Rainforest.mp3 by INNORECORDS -- https://freesound.org/s/457447/ -- License: Creative Commons 0. Photo by Jeremy Allouche on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1534531409543-069f6204c5b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1535025075092-5a1cf795130b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1570828066702-7706220a65f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1604956080929-0aaf39237d5c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Rainforest"
+      },
+      "cs": {
+        "Name": "Deštný prales"
+      },
+      "da": {
+        "Name": "Regnskov"
+      },
+      "de": {
+        "Name": "Regenwald"
+      },
+      "es": {
+        "Name": "Bosque tropical"
+      },
+      "fr": {
+        "Name": "Forêt tropicale"
+      },
+      "he": {
+        "Name": "יערות גשם"
+      },
+      "hr": {
+        "Name": "Prašuma"
+      },
+      "hu": {
+        "Name": "Esőerdő"
+      },
+      "it": {
+        "Name": "Foresta pluviale"
+      },
+      "ja": {
+        "Name": "雨の森"
+      },
+      "ko": {
+        "Name": "숲"
+      },
+      "nl": {
+        "Name": "Regenwoud"
+      },
+      "pl": {
+        "Name": "Las deszczowy"
+      },
+      "pt": {
+        "Name": "Floresta tropical"
+      },
+      "sv": {
+        "Name": "Regnskog"
+      },
+      "tr": {
+        "Name": "Yağmur ormanı"
+      },
+      "uk": {
+        "Name": "Тропічний ліс"
+      },
+      "zh": {
+        "Name": "雨林"
+      },
+      "fa": {
+        "Name": "جنگل",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Τροπικό δάσος",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Гори",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "الغابات المطيره",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Pădure"
+      }
+    }
+  },
+  {
+    "Id": "1628a20d-744e-4f99-b7e3-24088cba5090",
+    "MetaDataVersion": 6,
+    "Name": "thunder",
+    "ColourHex": "#00266f",
+    "ImagePath": "ms-appx:///Assets/Images/thunder.png",
+    "FilePath": "ms-appx:///Assets/Sounds/thunder.mp3",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/ThunderPreview6Sec.mp3",
+    "Attribution": "thunder by hifijohn -- https://freesound.org/s/242735/ -- License: Creative Commons 0. Photo by Michał Mancewicz on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1504427842454-5c3d7c926047?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1530981216452-882616a57214?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1632327536010-62f689648baf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1471724638242-7800ccb10614?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Thunder"
+      },
+      "cs": {
+        "Name": "Bouřka"
+      },
+      "da": {
+        "Name": "Torden"
+      },
+      "de": {
+        "Name": "Donner"
+      },
+      "es": {
+        "Name": "Trueno"
+      },
+      "fr": {
+        "Name": "Tonnerre"
+      },
+      "he": {
+        "Name": "רעם"
+      },
+      "hr": {
+        "Name": "Grmljavina"
+      },
+      "hu": {
+        "Name": "Mennydörgés"
+      },
+      "it": {
+        "Name": "Tuono"
+      },
+      "ja": {
+        "Name": "雷"
+      },
+      "ko": {
+        "Name": "천둥"
+      },
+      "nl": {
+        "Name": "Donder"
+      },
+      "pl": {
+        "Name": "Grzmoty"
+      },
+      "pt": {
+        "Name": "Trovões"
+      },
+      "sv": {
+        "Name": "Åska"
+      },
+      "tr": {
+        "Name": "Gök gürültüsü"
+      },
+      "uk": {
+        "Name": "Грім"
+      },
+      "zh": {
+        "Name": "雷鸣"
+      },
+      "fa": {
+        "Name": "تندر",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Βροντή",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Гръм",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "رعد",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Tunet"
+      }
+    }
+  },
+  {
+    "Id": "f8424751-d150-41bc-b4ab-c22c41b4b339",
+    "MetaDataVersion": 8,
+    "Name": "underwater",
+    "AssociatedVideoIds": [ "b80f1e29-3649-4c59-8cbf-817ce6466e3f" ],
+    "ColourHex": "#00c3d0",
+    "ImagePath": "ms-appx:///Assets/Images/underwater.png",
+    "FilePath": "ms-appx:///Assets/Sounds/underwater.wav",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/UnderwaterPreview5Sec.mp3",
+    "Attribution": "Underwater Ambience by Kinoton -- https://freesound.org/s/393819/ -- License: Creative Commons 0. Photo by Angus Gray on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1586695571674-bbe48b4be70f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1545605114-7b82dad7b990?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1551244072-5d12893278ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1596980299445-c381ec709df0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1530053969600-caed2596d242?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Underwater"
+      },
+      "cs": {
+        "Name": "Pod vodou"
+      },
+      "da": {
+        "Name": "Undervands"
+      },
+      "de": {
+        "Name": "Unterwasser"
+      },
+      "es": {
+        "Name": "Bajo el mar"
+      },
+      "fr": {
+        "Name": "Sous l'eau"
+      },
+      "he": {
+        "Name": "מתחת למים"
+      },
+      "hr": {
+        "Name": "Podmorje"
+      },
+      "hu": {
+        "Name": "Víz alatt"
+      },
+      "it": {
+        "Name": "Sott'acqua"
+      },
+      "ja": {
+        "Name": "水中"
+      },
+      "ko": {
+        "Name": "수중"
+      },
+      "nl": {
+        "Name": "Onder water"
+      },
+      "pl": {
+        "Name": "Pod wodą"
+      },
+      "pt": {
+        "Name": "Embaixo da água"
+      },
+      "sv": {
+        "Name": "Under vatten"
+      },
+      "tr": {
+        "Name": "Su altı"
+      },
+      "uk": {
+        "Name": "Під водою"
+      },
+      "zh": {
+        "Name": "水下"
+      },
+      "fa": {
+        "Name": "زیر آب",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Υποβρύχιος",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Подводни",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "تحت الماء",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Subacvatic"
+      }
+    }
+  },
+  {
+    "Id": "e0df152b-7166-402a-902d-c69d3a9f96bb",
+    "MetaDataVersion": 6,
+    "Name": "waterfall",
+    "ColourHex": "#8bbdd4",
+    "ImagePath": "ms-appx:///Assets/Images/waterfall.png",
+    "FilePath": "ms-appx:///Assets/Sounds/waterfall.wav",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/WaterfallPreview5Sec.mp3",
+    "Attribution": "River in Icelandic nature (ambience, 5 minutes) by askeseverin -- https://freesound.org/s/376202/ -- License: Creative Commons 0. Photo by Aditya Chinchure on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1564500601744-d5dfe4e7ab72?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1498329741116-4d1987b210d0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1570537398865-fe19c4531c84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1595063692453-3c8c23577724?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1459949293702-2ec939154ddb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1539146789170-c49ca355f9f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Waterfall"
+      },
+      "cs": {
+        "Name": "Vodopád"
+      },
+      "da": {
+        "Name": "Vandfald"
+      },
+      "de": {
+        "Name": "Wasserfall"
+      },
+      "es": {
+        "Name": "Cascada"
+      },
+      "fr": {
+        "Name": "Cascade"
+      },
+      "he": {
+        "Name": "מפל מים"
+      },
+      "hr": {
+        "Name": "Vodopad"
+      },
+      "hu": {
+        "Name": "Vízesés"
+      },
+      "it": {
+        "Name": "Cascata"
+      },
+      "ja": {
+        "Name": "滝"
+      },
+      "ko": {
+        "Name": "폭포"
+      },
+      "nl": {
+        "Name": "Waterval"
+      },
+      "pl": {
+        "Name": "Wodospad"
+      },
+      "pt": {
+        "Name": "Cascata"
+      },
+      "sv": {
+        "Name": "Vattenfall"
+      },
+      "tr": {
+        "Name": "Şelale"
+      },
+      "uk": {
+        "Name": "Водоспад"
+      },
+      "zh": {
+        "Name": "瀑布"
+      },
+      "fa": {
+        "Name": "آبشار",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Καταρράκτης",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Водопад",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "شلال",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Cascadă"
+      }
+    }
+  },
+  {
+    "Id": "aada6607-5dbe-42ff-934d-d5917e597284",
+    "MetaDataVersion": 6,
+    "Name": "whitenoise",
+    "ColourHex": "#5e5b49",
+    "ImagePath": "ms-appx:///Assets/Images/whitenoise.png",
+    "FilePath": "ms-appx:///Assets/Sounds/whitenoise.wav",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/WhitenoisePreview5Sec.mp3",
+    "Attribution": "Brown Noise by theundecided -- https://freesound.org/s/165056/ -- License: Creative Commons 0. Photo by Pierre Bamin on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1580243117731-a108c2953e2c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1523878288860-7ad281611901?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1577200080776-fe8b6c5559dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1504548840739-580b10ae7715?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1706790608898-eaa96ece269c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "White Noise"
+      },
+      "cs": {
+        "Name": "Bílý šum"
+      },
+      "da": {
+        "Name": "Hvid støj"
+      },
+      "de": {
+        "Name": "Weißes Rauschen"
+      },
+      "es": {
+        "Name": "Ruido Blanco"
+      },
+      "fr": {
+        "Name": "Bruit Blanc"
+      },
+      "he": {
+        "Name": "רעש לבן"
+      },
+      "hr": {
+        "Name": "Bijeli šum"
+      },
+      "hu": {
+        "Name": "Fehérzaj"
+      },
+      "it": {
+        "Name": "Rumore Bianco"
+      },
+      "ja": {
+        "Name": "ホワイトノイズ"
+      },
+      "ko": {
+        "Name": "백색 소음"
+      },
+      "nl": {
+        "Name": "Witte Ruis"
+      },
+      "pl": {
+        "Name": "Biały Szum"
+      },
+      "pt": {
+        "Name": "Ruído Branco"
+      },
+      "sv": {
+        "Name": "Vitt Brus"
+      },
+      "tr": {
+        "Name": "Beyaz Gürültü"
+      },
+      "uk": {
+        "Name": "Білий шум"
+      },
+      "zh": {
+        "Name": "白噪声"
+      },
+      "fa": {
+        "Name": "صدای برفک",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Λευκός θόρυβος",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Бял шум",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "الضوضاء البيضاء",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Zgomot Alb"
+      }
+    }
+  },
+  {
+    "Id": "38c73d89-6c2c-445b-8beb-52b2f72689a2",
+    "MetaDataVersion": 7,
+    "Name": "wind",
+    "AssociatedVideoIds": [ "04233954-8997-4ed0-8b6e-1a52643fbf67" ],
+    "ColourHex": "#0b2354",
+    "ImagePath": "ms-appx:///Assets/Images/wind.png",
+    "FilePath": "ms-appx:///Assets/Sounds/wind.wav",
+    "PreviewFilePath": "https://ambiecataloguestorage.blob.core.windows.net/soundpreviews/WindPreview5Sec.mp3",
+    "Attribution": "wind-noise.wav by jorge0000 -- https://freesound.org/s/361053/ -- License: Creative Commons 0. Photo by Mila Young on Unsplash",
+    "ScreensaverImagePaths": [
+      "https://images.unsplash.com/photo-1495401220594-550313c3046b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1456356627738-3a96db6e2e33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1489011397388-494518edf378?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+      "https://images.unsplash.com/photo-1454702762838-a6df8cc3517f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+    ],
+    "Localizations": {
+      "en": {
+        "Name": "Wind"
+      },
+      "cs": {
+        "Name": "Vítr"
+      },
+      "da": {
+        "Name": "Vind"
+      },
+      "de": {
+        "Name": "Wind"
+      },
+      "es": {
+        "Name": "Viento"
+      },
+      "fr": {
+        "Name": "Vent"
+      },
+      "he": {
+        "Name": "רוח"
+      },
+      "hr": {
+        "Name": "Vjetar"
+      },
+      "hu": {
+        "Name": "Szél"
+      },
+      "it": {
+        "Name": "Vento"
+      },
+      "ja": {
+        "Name": "風"
+      },
+      "ko": {
+        "Name": "바람"
+      },
+      "nl": {
+        "Name": "Wind"
+      },
+      "pl": {
+        "Name": "Wiatr"
+      },
+      "pt": {
+        "Name": "Vento"
+      },
+      "sv": {
+        "Name": "Vind"
+      },
+      "tr": {
+        "Name": "Rüzgar"
+      },
+      "uk": {
+        "Name": "Вітер"
+      },
+      "zh": {
+        "Name": "风声"
+      },
+      "fa": {
+        "Name": "باد",
+        "Description": ""
+      },
+      "el": {
+        "Name": "Άνεμος",
+        "Description": ""
+      },
+      "bg": {
+        "Name": "Вятър",
+        "Description": ""
+      },
+      "ar": {
+        "Name": "ريح",
+        "Description": ""
+      },
+      "ro": {
+        "Name": "Vânt"
+      }
+    }
+  }
+]

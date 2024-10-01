@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CloseCompactMode.AutomationProperties.Name" xml:space="preserve">
+    <value>Kompakt mód bezárása</value>
+  </data>
+  <data name="CloseCompactMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kompakt mód bezárása</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="Copyright.Text" xml:space="preserve">
+    <value>Szerzői jog</value>
+  </data>
+  <data name="CopyrightJeniusApps.Text" xml:space="preserve">
+    <value>Copyright Jenius Apps</value>
+  </data>
+  <data name="HelloFromVancouver.Text" xml:space="preserve">
+    <value>Hello Vancouverből</value>
+  </data>
+  <data name="LogoButton.AutomationProperties.Name" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MoreButton.AutomationProperties.Name" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MoreButtonContact.Label" xml:space="preserve">
+    <value>Fejlesztő elérése</value>
+  </data>
+  <data name="RateUsText" xml:space="preserve">
+    <value>Ambie értékelése</value>
+  </data>
+  <data name="MoreButtonSettings.Label" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="MoreButtonShare.Label" xml:space="preserve">
+    <value>Ambie megosztása linkkel</value>
+  </data>
+  <data name="MoreButtonTranslate.Label" xml:space="preserve">
+    <value>Fordítás hozzáadása vagy fejlesztése</value>
+  </data>
+  <data name="OffTextBlock.Text" xml:space="preserve">
+    <value>Ki</value>
+  </data>
+  <data name="OnTextBlock.Text" xml:space="preserve">
+    <value>Be</value>
+  </data>
+  <data name="PauseTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Időzítő leállítása</value>
+  </data>
+  <data name="PlayerPauseText" xml:space="preserve">
+    <value>Leállítás</value>
+  </data>
+  <data name="PlayerPlayText" xml:space="preserve">
+    <value>Elindítás</value>
+  </data>
+  <data name="PlayTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Időzítő folytatása</value>
+  </data>
+  <data name="ReadyToPlayText" xml:space="preserve">
+    <value>Kész a lejátszásra</value>
+  </data>
+  <data name="SettingsTelemetrySwitch.Header" xml:space="preserve">
+    <value>Telemetria</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="SleepTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Alvási időzítő beállítása. A hangok abbamaradnak az idő lejárta után.</value>
+  </data>
+  <data name="SleepTimerButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Alvási időzítő beállítása. A hangok abbamaradnak az idő lejárta után.</value>
+  </data>
+  <data name="Soundbeach" xml:space="preserve">
+    <value>Part</value>
+  </data>
+  <data name="Soundbirds" xml:space="preserve">
+    <value>Madarak</value>
+  </data>
+  <data name="Soundcitystreet" xml:space="preserve">
+    <value>Városi utca</value>
+  </data>
+  <data name="Soundcoffeeshop" xml:space="preserve">
+    <value>Kávéház</value>
+  </data>
+  <data name="Soundcreek" xml:space="preserve">
+    <value>Patak</value>
+  </data>
+  <data name="Soundfireplace" xml:space="preserve">
+    <value>Kandalló</value>
+  </data>
+  <data name="Soundrain" xml:space="preserve">
+    <value>Eső</value>
+  </data>
+  <data name="Soundrainforest" xml:space="preserve">
+    <value>Esőerdő</value>
+  </data>
+  <data name="Soundunderwater" xml:space="preserve">
+    <value>Víz alatt</value>
+  </data>
+  <data name="Soundwaterfall" xml:space="preserve">
+    <value>Vízesés</value>
+  </data>
+  <data name="Soundwhitenoise" xml:space="preserve">
+    <value>Fehérzaj</value>
+  </data>
+  <data name="SoundsLoadingRing.AutomationProperties.Name" xml:space="preserve">
+    <value>Hangok betöltése</value>
+  </data>
+  <data name="SoundUnplayable" xml:space="preserve">
+    <value>Nem lehet lejátszani</value>
+  </data>
+  <data name="StopTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Időzítő leállítása</value>
+  </data>
+  <data name="VolumeSlider.AutomationProperties.Name" xml:space="preserve">
+    <value>Hangerő változtatása</value>
+  </data>
+  <data name="SettingsThemeHeader.Text" xml:space="preserve">
+    <value>Téma</value>
+  </data>
+  <data name="SettingsThemeDefaultRadio.Content" xml:space="preserve">
+    <value>Automatikus</value>
+  </data>
+  <data name="SettingsThemeDarkRadio.Content" xml:space="preserve">
+    <value>Sötét</value>
+  </data>
+  <data name="SettingsThemeLightRadio.Content" xml:space="preserve">
+    <value>Világos</value>
+  </data>
+  <data name="Soundvacuum" xml:space="preserve">
+    <value>Porszívó</value>
+  </data>
+  <data name="Soundthunder" xml:space="preserve">
+    <value>Mennydörgés</value>
+  </data>
+  <data name="SettingsNotificationsSwitch.Header" xml:space="preserve">
+    <value>Értesítések új hangokról</value>
+  </data>
+  <data name="Soundwind" xml:space="preserve">
+    <value>Szél</value>
+  </data>
+  <data name="BackButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Vissza</value>
+    <comment>Going back to the previous page</comment>
+  </data>
+  <data name="DownloadSoundButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Hang letöltése</value>
+  </data>
+  <data name="DownloadSoundButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hang letöltése</value>
+  </data>
+  <data name="AlreadyDownloaded" xml:space="preserve">
+    <value>Már letöltött</value>
+    <comment>The sound is already downloaded</comment>
+  </data>
+  <data name="CanDownload" xml:space="preserve">
+    <value>Letölthető</value>
+    <comment>The sound can be downloaded</comment>
+  </data>
+  <data name="OnlineSoundsList.AutomationProperties.Name" xml:space="preserve">
+    <value>Hang katalógus</value>
+  </data>
+  <data name="SoundsGridView.AutomationProperties.Name" xml:space="preserve">
+    <value>Hangok</value>
+    <comment>List of sounds</comment>
+  </data>
+  <data name="PrivacyPolicyButton.Content" xml:space="preserve">
+    <value>Adatvédelmi irányelvek</value>
+  </data>
+  <data name="PrivacyPolicyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Adatvédelmi irányelvek</value>
+  </data>
+  <data name="DeleteButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Hang törlése</value>
+  </data>
+  <data name="DeleteTextBlock.Text" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="DownloadTextBlock.Text" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="DeleteAppBarButton.Label" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="RandomButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Véletlenszerű</value>
+  </data>
+  <data name="RandomButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Véletlenszerű hang lejátszása</value>
+  </data>
+  <data name="ScreensaverMode" xml:space="preserve">
+    <value>Képernyőkímélő</value>
+  </data>
+  <data name="SettingsScreensaverSwitch.Header" xml:space="preserve">
+    <value>Képernyőkímélő</value>
+  </data>
+  <data name="BuyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Hang vásárlása</value>
+  </data>
+  <data name="PreviewButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Minta</value>
+  </data>
+  <data name="PreviewButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Minta</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Megállítva</value>
+    <comment>Sound is paused</comment>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>Lejátszás</value>
+    <comment>Sound is playing</comment>
+  </data>
+  <data name="VolumeSliderSound.AutomationProperties.Name" xml:space="preserve">
+    <value>Hangerő</value>
+  </data>
+  <data name="ActiveTrackListView.AutomationProperties.Name" xml:space="preserve">
+    <value>Aktív hangok</value>
+  </data>
+  <data name="ClearActiveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Aktív hangok törlése</value>
+  </data>
+  <data name="ClearActiveButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aktív hangok törlése</value>
+  </data>
+  <data name="ConfirmSaveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Mentés megerősítése</value>
+  </data>
+  <data name="GlobalVolume" xml:space="preserve">
+    <value>Fő hangerő</value>
+  </data>
+  <data name="NameInputBox.Header" xml:space="preserve">
+    <value>Válogatás neve</value>
+  </data>
+  <data name="NameInputBox.PlaceholderText" xml:space="preserve">
+    <value>Lehetséges</value>
+  </data>
+  <data name="SaveMixButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Saját válogatás mentése</value>
+  </data>
+  <data name="SaveMixButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Saját válogatás mentése (Ctrl+S)</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="RenameText" xml:space="preserve">
+    <value>Átnevezés</value>
+  </data>
+  <data name="RenameAppBarButton.Label" xml:space="preserve">
+    <value>Átnevezés</value>
+  </data>
+  <data name="CompactMode" xml:space="preserve">
+    <value>Kompakt mód</value>
+  </data>
+  <data name="SignOutAppBarButton.Label" xml:space="preserve">
+    <value>Kijelentkezés</value>
+  </data>
+  <data name="SignInDescriptionText" xml:space="preserve">
+    <value>Megosztott Hang Katalógus az eszközein.</value>
+  </data>
+  <data name="AccountOptionsButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Fiók részletei</value>
+  </data>
+  <data name="AccountOptionsButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Fiók részletei</value>
+  </data>
+  <data name="SignInButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="SignInButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="SyncAppBarButton.Label" xml:space="preserve">
+    <value>Szinkronizálás</value>
+  </data>
+  <data name="BrowseText" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="Attribution" xml:space="preserve">
+    <value>Cimkék</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="NewSound" xml:space="preserve">
+    <value>Új hang</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Frissítés</value>
+    <comment>Text for a button that will refresh a list with new data</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Biztos benne?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Választható</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Kötelező</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>Használati feltételek</value>
+  </data>
+  <data name="FollowTwitter" xml:space="preserve">
+    <value>Kövessen minket Twitteren</value>
+  </data>
+  <data name="Dismiss" xml:space="preserve">
+    <value>Elvetés</value>
+  </data>
+  <data name="FirstLaunchMessage" xml:space="preserve">
+    <value>Köszönjük, hogy az Ambie-t használja. A legjobb felhasználói élményért fontolja meg az Ambie kitűzését a tálcára! Élvezze a nyugtató ittlétét 🏝</value>
+  </data>
+  <data name="HelloAndWelcome" xml:space="preserve">
+    <value>Üdvözöljük!</value>
+  </data>
+  <data name="PinToTaskbar" xml:space="preserve">
+    <value>Rögzítés a tálcára</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Előnézet</value>
+  </data>
+  <data name="Catalogue" xml:space="preserve">
+    <value>Katalógus</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Honlap</value>
+  </data>
+  <data name="SelectSoundsPlaceholder" xml:space="preserve">
+    <value>Keverje a hangokat maximum 3 elemig</value>
+  </data>
+  <data name="RemoveActiveButton" xml:space="preserve">
+    <value>{0} eltávolítása az aktív hangok közül</value>
+    <comment>Remove a sound from the list of active playing sounds. The parameter is the name of the sound to remove.</comment>
+  </data>
+  <data name="ThemeSettings" xml:space="preserve">
+    <value>Téma beállítások</value>
+  </data>
+  <data name="PricePerMonth" xml:space="preserve">
+    <value>{0} havonta</value>
+    <comment>Price per month, where the parameter {0} is a price like $1.00.</comment>
+  </data>
+  <data name="ThankYouForSub" xml:space="preserve">
+    <value>Köszönjük a feliratkozását!</value>
+    <comment>Thank you message shown after user purchases a subscription.</comment>
+  </data>
+  <data name="SubscriptionText1" xml:space="preserve">
+    <value>Prémium, magasabb minőségű hangok!</value>
+  </data>
+  <data name="SubscriptionText2" xml:space="preserve">
+    <value>Növekvő katalógus!</value>
+  </data>
+  <data name="SubscriptionText3" xml:space="preserve">
+    <value>Fejlesztés támogatása!</value>
+  </data>
+  <data name="HelloAgain" xml:space="preserve">
+    <value>Üdv újra 👋🏽</value>
+  </data>
+  <data name="RateUsMessage" xml:space="preserve">
+    <value>Élvezi az Ambie-t? Kérjük, fontolja meg az értékelésünket!</value>
+  </data>
+  <data name="SettingsResumeOnLaunch" xml:space="preserve">
+    <value>Automatikus folytatás az Ambie megnyitásakor</value>
+  </data>
+  <data name="DownloadText" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="MissingSoundsMessage" xml:space="preserve">
+    <value>Ennek lejátszásához le kell töltenünk néhány hangot. A letöltés után próbálja meg újra lejátszani. Elkezdi a letöltést?</value>
+  </data>
+  <data name="MissingSoundsTitle" xml:space="preserve">
+    <value>Hiányzó hangok</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Alapértelmezett</value>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>Töröl</value>
+  </data>
+  <data name="MoreScreensavers" xml:space="preserve">
+    <value>További képernyővédők</value>
+  </data>
+  <data name="ScreensaverCatalogue" xml:space="preserve">
+    <value>Képernyővédő katalógus</value>
+  </data>
+  <data name="ViewPremiumInfo" xml:space="preserve">
+    <value>Prémium információk megtekintése</value>
+  </data>
+  <data name="ToggleFullscreen" xml:space="preserve">
+    <value>Teljes képernyős váltás</value>
+  </data>
+  <data name="GetAmbiePlus" xml:space="preserve">
+    <value>Ambie+ vásárlása</value>
+  </data>
+  <data name="FocusText" xml:space="preserve">
+    <value>Fókusz</value>
+  </data>
+  <data name="PauseTimer" xml:space="preserve">
+    <value>Szüneteltetési időzítő</value>
+  </data>
+  <data name="StartTimer" xml:space="preserve">
+    <value>Indítási időzítő</value>
+  </data>
+  <data name="FocusSessionCompleteMessage" xml:space="preserve">
+    <value>Szép munka!</value>
+  </data>
+  <data name="FocusSessionCompleteTitle" xml:space="preserve">
+    <value>A fókusz munkamenet befejeződött</value>
+  </data>
+  <data name="FocusSessionFocusMessage" xml:space="preserve">
+    <value>Ideje összpontosítani</value>
+  </data>
+  <data name="FocusSessionRestMessage" xml:space="preserve">
+    <value>Ideje pihenni</value>
+  </data>
+  <data name="RestText" xml:space="preserve">
+    <value>Pihen</value>
+  </data>
+  <data name="FocusDotTooltip" xml:space="preserve">
+    <value>A fókusz aktív munkamenet!</value>
+  </data>
+  <data name="SessionTypeFocus" xml:space="preserve">
+    <value>Élességállítás</value>
+  </data>
+  <data name="SessionTypeRest" xml:space="preserve">
+    <value>Pihenő</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Szünet</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Átszed</value>
+  </data>
+  <data name="ResetTimer" xml:space="preserve">
+    <value>Állítsa vissza az időzítőt</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Elkezd</value>
+  </data>
+  <data name="FocusLength" xml:space="preserve">
+    <value>Fókuszban lévő percek</value>
+  </data>
+  <data name="FocusNotesPlaceholder" xml:space="preserve">
+    <value>Itt 🙂 feljegyezheti a jegyzeteket</value>
+  </data>
+  <data name="FocusPlanningHeader" xml:space="preserve">
+    <value>Mi a terv?</value>
+  </data>
+  <data name="Notepad" xml:space="preserve">
+    <value>Jegyzettömb</value>
+  </data>
+  <data name="RestLength" xml:space="preserve">
+    <value>Pihenő percek</value>
+  </data>
+  <data name="Repeats" xml:space="preserve">
+    <value>Megismétli</value>
+  </data>
+  <data name="FocusTimerHelpAction" xml:space="preserve">
+    <value>Használati módszer</value>
+  </data>
+  <data name="FocusTimerHelpMessage" xml:space="preserve">
+    <value>Ez egy intervallum időzítő, amelyet a pomodoro technika ihletett. A cél az, hogy hosszabb ideig összpontosítson egy feladatra, majd rövidebb pihenőt tartson. Ismételje meg ezt a ciklust, hogy továbbra is összpontosítson!</value>
+  </data>
+  <data name="FocusTimerHelpTitle" xml:space="preserve">
+    <value>Üdvözöljük a Focus Timer oldalon!</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Segítség</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Következő</value>
+  </data>
+  <data name="TipFocusMessage" xml:space="preserve">
+    <value>Minden ciklushoz tartozik egy fókuszszegmens és egy pihenő szegmens. Válassza ki, hogy az egyes fókuszszegmensek milyen hosszúak legyenek. Javasoljuk, hogy 25 perc legyen a kezdéshez!</value>
+  </data>
+  <data name="TipFocusTitle" xml:space="preserve">
+    <value>Fókuszpercek beállítása</value>
+  </data>
+  <data name="TipRepeatsMessage" xml:space="preserve">
+    <value>Minden fókusz- és pihenőciklus többször is megismétlődhet. Próbáljon meg hozzáadni 1 ismétlést!</value>
+  </data>
+  <data name="TipRepeatsTitle" xml:space="preserve">
+    <value>Ismétlések beállítása</value>
+  </data>
+  <data name="TipRestMessage" xml:space="preserve">
+    <value>Most válassza ki, hogy az egyes pihenőszakaszok milyen hosszúak legyenek. Egyelőre kb. 5 percet ajánlunk!</value>
+  </data>
+  <data name="TipRestTitle" xml:space="preserve">
+    <value>Pihenőpercek beállítása</value>
+  </data>
+  <data name="TipStartButtonMessage" xml:space="preserve">
+    <value>Indítsa el az időzítőt, és dolgozzon a feladatain. Értesítést küldünk neked, amikor eljön a pihenés ideje.</value>
+  </data>
+  <data name="TipStartButtonTitle" xml:space="preserve">
+    <value>Készen állsz, készen állsz, indulhatsz</value>
+  </data>
+  <data name="RecentFocusAccessibleName" xml:space="preserve">
+    <value>{0} fókuszpercek, {1} pihenőpercek {2} ismétlődnek.</value>
+  </data>
+  <data name="RecentFocusList" xml:space="preserve">
+    <value>A legutóbbi fókuszkonfigurációk listája.</value>
+  </data>
+  <data name="ZeroToMax" xml:space="preserve">
+    <value>0-tól {0}-ig</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Történelem</value>
+  </data>
+  <data name="Interruptions" xml:space="preserve">
+    <value>Megszakítások</value>
+  </data>
+  <data name="FocusHistoryPlaceholderText" xml:space="preserve">
+    <value>A közelmúlt története itt jelenik meg</value>
+  </data>
+  <data name="LogInterruption" xml:space="preserve">
+    <value>Napló megszakítása</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Megerősít</value>
+  </data>
+  <data name="InterruptionMinutesTitle" xml:space="preserve">
+    <value>Félbeszakadt percek</value>
+  </data>
+  <data name="InterruptionMinutesHelpMessage" xml:space="preserve">
+    <value>Félbeszakított valami? Itt követheti nyomon a megszakításokat, így később áttekintheti őket az előzményekben.</value>
+  </data>
+  <data name="HistoryRecent" xml:space="preserve">
+    <value>A közelmúlt történelme</value>
+  </data>
+  <data name="RoundsCompleted" xml:space="preserve">
+    <value>Befejezett fordulók</value>
+  </data>
+  <data name="ResultMessageFail1" xml:space="preserve">
+    <value>Jó erőfeszítés</value>
+  </data>
+  <data name="ResultMessageSuccess1" xml:space="preserve">
+    <value>Csodálatos vagy</value>
+  </data>
+  <data name="TaskModuleNewTaskPlaceholder" xml:space="preserve">
+    <value>Adja hozzá a fókuszálni kívánt feladatokat, majd nyomja meg a Start gombot</value>
+  </data>
+  <data name="TaskModuleTitle" xml:space="preserve">
+    <value>Feladatok</value>
+  </data>
+  <data name="TaskModuleRecentCompleted" xml:space="preserve">
+    <value>Nemrég befejezett</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="TasksCompleted" xml:space="preserve">
+    <value>Elvégzett feladatok</value>
+  </data>
+  <data name="Timer" xml:space="preserve">
+    <value>Időzítő</value>
+  </data>
+  <data name="TaskTitle" xml:space="preserve">
+    <value>Feladat {0}</value>
+  </data>
+  <data name="SettingsCompactMode" xml:space="preserve">
+    <value>Nyissa meg az Ambie Minit fókuszáláskor</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Időtartam</value>
+  </data>
+  <data name="EndTimeText" xml:space="preserve">
+    <value>Vég</value>
+  </data>
+  <data name="CompactModeTooltipTitle" xml:space="preserve">
+    <value>Nyissa meg az Ambie Minit</value>
+  </data>
+  <data name="CompactModeTooltipMessage" xml:space="preserve">
+    <value>Az Ambie Mini segítségével összezsugorítjuk az ablakot, és csak a szükséges elemeket jelenítjük meg, hogy segítsünk az összpontosításban.</value>
+  </data>
+  <data name="PausesText" xml:space="preserve">
+    <value>Megáll</value>
+  </data>
+  <data name="EmptyHomeMessage" xml:space="preserve">
+    <value>Hangok letöltése a katalógusból</value>
+  </data>
+  <data name="EditHomePage" xml:space="preserve">
+    <value>Kezdőlap szerkesztése</value>
+  </data>
+  <data name="EditHomePageMessage" xml:space="preserve">
+    <value>Húzza át a hangokat a kezdőlap személyre szabásához. Próbálja ki most!</value>
+  </data>
+  <data name="EmptyCatalogueMessage" xml:space="preserve">
+    <value>Sajnálom! Nem tudtuk betölteni a katalógust. Próbáld meg ellenőrizni az internetkapcsolatot.</value>
+  </data>
+  <data name="AboutAmbie" xml:space="preserve">
+    <value>Az Ambie-ról</value>
+  </data>
+  <data name="SettingsCompactModeDescription" xml:space="preserve">
+    <value>Az Ambie Mini automatikusan megnyílik fókuszáláskor</value>
+  </data>
+  <data name="SettingsNotificationsSwitchDescription" xml:space="preserve">
+    <value>Értesíteni fogjuk, ha új hangok jelennek meg</value>
+  </data>
+  <data name="SettingsResumeOnLaunchDescription" xml:space="preserve">
+    <value>Indításkor az Ambie automatikusan folytatja a lejátszást</value>
+  </data>
+  <data name="SettingsTelemetrySwitchDescription" xml:space="preserve">
+    <value>Az összeomlásokról és a névtelen használati adatokról a jelentések segítenek az Ambie fejlesztésében</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Háttérkép</value>
+  </data>
+  <data name="CustomImage" xml:space="preserve">
+    <value>Egyéni rendszerkép</value>
+  </data>
+  <data name="SettingsGeneralHeader" xml:space="preserve">
+    <value>Általános beállítások</value>
+  </data>
+  <data name="SettingsTheme" xml:space="preserve">
+    <value>Válassza ki a módot</value>
+  </data>
+  <data name="SettingsThemeDescription" xml:space="preserve">
+    <value>Az Ambie alkalmazásban megjelenő színek módosítása</value>
+  </data>
+  <data name="ShareMessage" xml:space="preserve">
+    <value>Ossza meg, amit hallgat</value>
+  </data>
+  <data name="MissingShareSoundsMessage" xml:space="preserve">
+    <value>Lássuk, letölthetők-e.</value>
+  </data>
+  <data name="MissingShareSoundsTitle" xml:space="preserve">
+    <value>Hiányzik néhány hang</value>
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>Szemle</value>
+  </data>
+  <data name="ShareText" xml:space="preserve">
+    <value>Részvény</value>
+  </data>
+  <data name="CopiedText" xml:space="preserve">
+    <value>Másolt!</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Másolat</value>
+  </data>
+  <data name="OrText" xml:space="preserve">
+    <value>Vagy</value>
+  </data>
+  <data name="BuyDurableTooltip" xml:space="preserve">
+    <value>Oldja fel ezt a hangot</value>
+  </data>
+  <data name="PriceForLifetime" xml:space="preserve">
+    <value>{0} élettartam</value>
+  </data>
+  <data name="CheckForUpdatesText" xml:space="preserve">
+    <value>Frissítések keresése</value>
+  </data>
+  <data name="UpdatesPageMessage1" xml:space="preserve">
+    <value>Itt megtekintheti a hangok és videók frissítéseit.</value>
+  </data>
+  <data name="UpdatesPageMessage2" xml:space="preserve">
+    <value>A frissítések a fordítások, a hangminőség és egyebek fejlesztéseit tartalmazzák.</value>
+  </data>
+  <data name="UpdatesText" xml:space="preserve">
+    <value>Frissítések</value>
+  </data>
+  <data name="UpdateAllText" xml:space="preserve">
+    <value>Az összes frissítése</value>
+  </data>
+  <data name="DataVersionColon" xml:space="preserve">
+    <value>Adatverzió:</value>
+  </data>
+  <data name="FileVersionColon" xml:space="preserve">
+    <value>Fájl verzió:</value>
+  </data>
+  <data name="UpdatesPlaceholderText" xml:space="preserve">
+    <value>Teljesen naprakész. Minden készen áll.</value>
+  </data>
+  <data name="UpdateReasonFile" xml:space="preserve">
+    <value>Javítja a lejátszás minőségét</value>
+  </data>
+  <data name="UpdateReasonMetaData" xml:space="preserve">
+    <value>Javítja a fordításokat és más metaadatokat</value>
+  </data>
+  <data name="UpdateReasonMetaDataAndFile" xml:space="preserve">
+    <value>Javítja a lejátszás minőségét, a fordításokat és az egyéb metaadatokat</value>
+  </data>
+  <data name="InterruptionInsightsMessage" xml:space="preserve">
+    <value>Van valami, amit megtanulhatunk a jövőbeli megszakítások elkerülése érdekében?</value>
+  </data>
+  <data name="RecentInterruptionsText" xml:space="preserve">
+    <value>Legutóbbi megszakítások</value>
+  </data>
+  <data name="InterruptionInsightsButtonText" xml:space="preserve">
+    <value>Segítségre van szüksége a megszakításokkal kapcsolatban?</value>
+  </data>
+  <data name="SettingsOutputDevice" xml:space="preserve">
+    <value>Kimeneti eszköz</value>
+  </data>
+  <data name="SettingsOutputDeviceDescription" xml:space="preserve">
+    <value>Válassza ki, hol szeretné lejátszani a hangot</value>
+  </data>
+  <data name="SettingsPlayAfterFocusDescription" xml:space="preserve">
+    <value>A hangok lejátszása a fókuszmunkamenet befejezése után is folytatódik</value>
+  </data>
+  <data name="SettingsPlayAfterFocusHeader" xml:space="preserve">
+    <value>Hangok folytatása fókuszálás után</value>
+  </data>
+  <data name="RelaxText" xml:space="preserve">
+    <value>Pihen</value>
+  </data>
+  <data name="BackgroundSoundsText" xml:space="preserve">
+    <value>Háttérhangok</value>
+  </data>
+  <data name="MeditatingText" xml:space="preserve">
+    <value>Meditál</value>
+  </data>
+  <data name="AlwaysAskMeText" xml:space="preserve">
+    <value>Mindig kérdezzen tőlem</value>
+  </data>
+  <data name="PlayRandom" xml:space="preserve">
+    <value>Véletlenszerű hang lejátszása</value>
+  </data>
+  <data name="NowPlayingText" xml:space="preserve">
+    <value>Most játszik</value>
+  </data>
+  <data name="SearchPageHeader" xml:space="preserve">
+    <value>Találatok a következőre: "{0}"</value>
+  </data>
+  <data name="SearchEmptyPlaceholderText" xml:space="preserve">
+    <value>Hoppá! Nem találtuk ezt a hangot. Meglátjuk, hogy a jövőben hozzá tudjuk-e adni</value>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="QuickResumeTitle" xml:space="preserve">
+    <value>Gyors folytatás</value>
+  </data>
+  <data name="QuickResumeToastMessage" xml:space="preserve">
+    <value>Folytassa az utolsó hangulatot</value>
+  </data>
+  <data name="QuickResumeDescription" xml:space="preserve">
+    <value>Folytassa az utolsó hangulatot egyetlen kattintással, amikor a számítógép elindul</value>
+  </data>
+  <data name="HomePageDownloadMessage" xml:space="preserve">
+    <value>Még több hang a katalógusból</value>
+  </data>
+  <data name="SkipThisSegment" xml:space="preserve">
+    <value>Szegmens kihagyása</value>
+  </data>
+  <data name="DayPlural" xml:space="preserve">
+    <value>{0} nap</value>
+  </data>
+  <data name="DaySingular" xml:space="preserve">
+    <value>1 nap</value>
+  </data>
+  <data name="StreakHeader" xml:space="preserve">
+    <value>Az én sorozatom</value>
+  </data>
+  <data name="StreakReminderMessage" xml:space="preserve">
+    <value>Tartsd életben a sorozatodat!</value>
+  </data>
+  <data name="StreakReminderTitle" xml:space="preserve">
+    <value>{0} napos sorozat</value>
+  </data>
+  <data name="DayStreakPhrase" xml:space="preserve">
+    <value>napi csík</value>
+    <comment>A portion of a phrase that looks like '5-day streak'</comment>
+  </data>
+  <data name="StreakHelpMessage" xml:space="preserve">
+    <value>A napi zenehallgatás növeli a sorozatot, de egy nap kihagyása visszaállítja!</value>
+  </data>
+  <data name="SettingsStreakReminderDescription" xml:space="preserve">
+    <value>Emlékeztetők fogadása a napi sorozat aktív fenntartásához</value>
+  </data>
+  <data name="SettingsStreakReminderHeader" xml:space="preserve">
+    <value>Csík emlékeztetők</value>
+  </data>
+  <data name="SettingsBackgroundDescription" xml:space="preserve">
+    <value>A háttér jelenleg le van tiltva, hogy segítsen megtakarítani az akkumulátort!</value>
+  </data>
+  <data name="AddNewTaskText" xml:space="preserve">
+    <value>Új feladat hozzáadása</value>
+  </data>
+  <data name="CatalogueSubtitle" xml:space="preserve">
+    <value>Hozzáférés a beépített hangszínkatalógushoz. Töltse le következő kedvenc zenéit itt.</value>
+  </data>
+  <data name="FocusSubtitle" xml:space="preserve">
+    <value>Dolgozol vagy tanulsz? Használja innovatív fókuszidőzítőnket, hogy produktív legyen.</value>
+  </data>
+  <data name="HomeSubtitle" xml:space="preserve">
+    <value>Tekintse meg a telepített hangszíneket, játsszon le akár 3 hangot, és keresse meg kedvenc kombinációját.</value>
+  </data>
+  <data name="MeditateSubtitle" xml:space="preserve">
+    <value>Használja meditációs útmutatóinkat, hogy segítsen ellazulni vagy megnyugtatni az idegeit.</value>
+  </data>
+  <data name="SettingsSubtitle" xml:space="preserve">
+    <value>Itt válthatja át a beállításokat.</value>
+  </data>
+  <data name="UpdatesSubtitle" xml:space="preserve">
+    <value>Időnként ellenőrizze itt a telepített hangok frissítéseit.</value>
+  </data>
+  <data name="AddTaskPlaceholder" xml:space="preserve">
+    <value>Kattintson a + gombra feladat hozzáadásához</value>
+  </data>
+  <data name="ModifyText" xml:space="preserve">
+    <value>Módosít</value>
+  </data>
+  <data name="SettingsModifySubDescription" xml:space="preserve">
+    <value>Az előfizetés módosítása</value>
+  </data>
+  <data name="AppUpdateDescription" xml:space="preserve">
+    <value>Új frissítés érhető el! Indítsa újra most a frissítés alkalmazásához.</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>Újraindítás</value>
+  </data>
+  <data name="SleepTimerDescription" xml:space="preserve">
+    <value>Az Ambie szünetel, amikor az időzítő véget ér</value>
+  </data>
+  <data name="SleepTimerText" xml:space="preserve">
+    <value>Elalvás időzítő</value>
+  </data>
+  <data name="UnlockText" xml:space="preserve">
+    <value>Kinyit</value>
+  </data>
+  <data name="AdjustSoundVolume" xml:space="preserve">
+    <value>Állítsa be a hangerőt</value>
+  </data>
+  <data name="DownloadSounds" xml:space="preserve">
+    <value>Hangok letöltése</value>
+  </data>
+  <data name="DisplayMode" xml:space="preserve">
+    <value>Dispaly mód</value>
+  </data>
+  <data name="DisplayModeDarkScreen" xml:space="preserve">
+    <value>Sötét képernyő</value>
+  </data>
+  <data name="DisplayModeDarkScreenDescription" xml:space="preserve">
+    <value>Segít az alvásban</value>
+  </data>
+  <data name="DisplayModeSlideshow" xml:space="preserve">
+    <value>Diavetítés</value>
+  </data>
+  <data name="DisplayModeSlideshowDescription" xml:space="preserve">
+    <value>Képek körhintája</value>
+  </data>
+  <data name="DisplayModeVideo" xml:space="preserve">
+    <value>Videók</value>
+  </data>
+  <data name="DisplayModeVideoDescription" xml:space="preserve">
+    <value>Videók lejátszása, ha rendelkezésre állnak</value>
+  </data>
+  <data name="SettingsNotificationsSwitchHeader" xml:space="preserve">
+    <value>Értesítés új hangokról</value>
+  </data>
+  <data name="SettingsTelemetrySwitchHeader" xml:space="preserve">
+    <value>Telemetria</value>
+  </data>
+  <data name="DownloadingVideoMessage" xml:space="preserve">
+    <value>A videó letöltése. Hamarosan készen állunk.</value>
+  </data>
+  <data name="DownloadingText" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="UnlockVideoText" xml:space="preserve">
+    <value>Videó feloldása</value>
+  </data>
+  <data name="AvailableText" xml:space="preserve">
+    <value>Beszerezhető</value>
+  </data>
+  <data name="IncludedText" xml:space="preserve">
+    <value>Tartalmazza</value>
+  </data>
+  <data name="SlideshowImagesText" xml:space="preserve">
+    <value>Diavetítés képei</value>
+  </data>
+  <data name="VideoBackgroundText" xml:space="preserve">
+    <value>Videó háttér</value>
+  </data>
+  <data name="StartFreeTrialText" xml:space="preserve">
+    <value>Ingyenes próbaidőszak megkezdése</value>
+  </data>
+  <data name="SubWithTrialCaptionTemplate" xml:space="preserve">
+    <value>{0} ingyenes, majd {1}</value>
+    <comment>E.g. 1 week free, then $1.49/month</comment>
+  </data>
+  <data name="ContactUsText" xml:space="preserve">
+    <value>Kapcsolat</value>
+  </data>
+  <data name="FeedbackText" xml:space="preserve">
+    <value>Visszacsatolás</value>
+  </data>
+  <data name="SettingsFeedbackDescription" xml:space="preserve">
+    <value>Vegye fel velünk a kapcsolatot, ha visszajelzése, kérdése vagy problémája van</value>
+  </data>
+  <data name="FreeTrialTipDescription" xml:space="preserve">
+    <value>Igényelje ingyenes 7 napját</value>
+  </data>
+  <data name="FreeTrialTipTitle" xml:space="preserve">
+    <value>Ingyenes próbaverzió érhető el</value>
+  </data>
+</root>

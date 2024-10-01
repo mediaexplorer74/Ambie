@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CloseCompactMode.AutomationProperties.Name" xml:space="preserve">
+    <value>Afslut kompakt tilstand</value>
+  </data>
+  <data name="CloseCompactMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Afslut kompakt tilstand</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Afslut</value>
+  </data>
+  <data name="Copyright.Text" xml:space="preserve">
+    <value>Ophavsret</value>
+  </data>
+  <data name="CopyrightJeniusApps.Text" xml:space="preserve">
+    <value>Ophavsret Jenius Apps</value>
+  </data>
+  <data name="HelloFromVancouver.Text" xml:space="preserve">
+    <value>Hej fra Vancouver</value>
+  </data>
+  <data name="LogoButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Klik for app informationer</value>
+  </data>
+  <data name="MoreButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Klik for flere valgmuligheder</value>
+  </data>
+  <data name="MoreButtonContact.Label" xml:space="preserve">
+    <value>Kontakt udvikleren</value>
+  </data>
+  <data name="RateUsText" xml:space="preserve">
+    <value>Bedøm os</value>
+  </data>
+  <data name="MoreButtonSettings.Label" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="MoreButtonShare.Label" xml:space="preserve">
+    <value>Del Ambie link</value>
+  </data>
+  <data name="MoreButtonTranslate.Label" xml:space="preserve">
+    <value>Tilføj eller forbedre oversættelse</value>
+  </data>
+  <data name="OffTextBlock.Text" xml:space="preserve">
+    <value>Slået fra</value>
+  </data>
+  <data name="OnTextBlock.Text" xml:space="preserve">
+    <value>Slået til</value>
+  </data>
+  <data name="PauseTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Afbryd timeren midlertidigt</value>
+  </data>
+  <data name="PlayerPauseText" xml:space="preserve">
+    <value>Pause afspilning</value>
+  </data>
+  <data name="PlayerPlayText" xml:space="preserve">
+    <value>Afspil lyd</value>
+  </data>
+  <data name="PlayTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Fortsæt timer</value>
+  </data>
+  <data name="ReadyToPlayText" xml:space="preserve">
+    <value>Klar til afspilning</value>
+  </data>
+  <data name="SettingsTelemetrySwitch.Header" xml:space="preserve">
+    <value>Telemetri</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="SleepTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Klik for opsætning af sleep-timer, hvorefter afspilning stoppes</value>
+  </data>
+  <data name="SleepTimerButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Klik for opsætning af sleep-timer, hvorefter afspilning stoppes</value>
+  </data>
+  <data name="Soundbirds" xml:space="preserve">
+    <value>Fugle</value>
+  </data>
+  <data name="Soundcitystreet" xml:space="preserve">
+    <value>Storby</value>
+  </data>
+  <data name="Soundcoffeeshop" xml:space="preserve">
+    <value>Kaffebar</value>
+  </data>
+  <data name="Soundcreek" xml:space="preserve">
+    <value>Bæk</value>
+  </data>
+  <data name="Soundfireplace" xml:space="preserve">
+    <value>Pejs</value>
+  </data>
+  <data name="Soundrain" xml:space="preserve">
+    <value>Regn</value>
+  </data>
+  <data name="Soundrainforest" xml:space="preserve">
+    <value>Regnskov</value>
+  </data>
+  <data name="Soundunderwater" xml:space="preserve">
+    <value>Undervands</value>
+  </data>
+  <data name="Soundwaterfall" xml:space="preserve">
+    <value>Vandfald</value>
+  </data>
+  <data name="Soundwhitenoise" xml:space="preserve">
+    <value>Hvid støj</value>
+  </data>
+  <data name="SoundsLoadingRing.AutomationProperties.Name" xml:space="preserve">
+    <value>lyde loades</value>
+  </data>
+  <data name="SoundUnplayable" xml:space="preserve">
+    <value>Lyd kan ikke afspilles</value>
+  </data>
+  <data name="StopTimerButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Stop og reset timer</value>
+  </data>
+  <data name="VolumeSlider.AutomationProperties.Name" xml:space="preserve">
+    <value>Juster lydstyrke</value>
+  </data>
+  <data name="SettingsThemeHeader.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="SettingsThemeDefaultRadio.Content" xml:space="preserve">
+    <value>Automatisk</value>
+  </data>
+  <data name="SettingsThemeDarkRadio.Content" xml:space="preserve">
+    <value>Mørkt</value>
+  </data>
+  <data name="SettingsThemeLightRadio.Content" xml:space="preserve">
+    <value>Lyst</value>
+  </data>
+  <data name="Soundvacuum" xml:space="preserve">
+    <value>Vakuum</value>
+  </data>
+  <data name="Soundthunder" xml:space="preserve">
+    <value>Torden</value>
+  </data>
+  <data name="SettingsNotificationsSwitch.Header" xml:space="preserve">
+    <value>Notifikation ved ny lyd</value>
+  </data>
+  <data name="Soundwind" xml:space="preserve">
+    <value>Vind</value>
+  </data>
+  <data name="AlreadyDownloaded" xml:space="preserve">
+    <value>Allerede downloaded</value>
+    <comment>The sound is already downloaded</comment>
+  </data>
+  <data name="BackButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Tilbage</value>
+    <comment>Going back to the previous page</comment>
+  </data>
+  <data name="CanDownload" xml:space="preserve">
+    <value>Kan downloades</value>
+    <comment>The sound can be downloaded</comment>
+  </data>
+  <data name="DownloadSoundButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Download lyd</value>
+  </data>
+  <data name="DownloadSoundButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Download lyd</value>
+  </data>
+  <data name="OnlineSoundsList.AutomationProperties.Name" xml:space="preserve">
+    <value>Lyd katalog</value>
+  </data>
+  <data name="SoundsGridView.AutomationProperties.Name" xml:space="preserve">
+    <value>Lyde</value>
+    <comment>List of sounds</comment>
+  </data>
+  <data name="PrivacyPolicyButton.Content" xml:space="preserve">
+    <value>Politik for beskyttelse af personlige oplysninger</value>
+  </data>
+  <data name="PrivacyPolicyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Politik for beskyttelse af personlige oplysninger</value>
+  </data>
+  <data name="DeleteAppBarButton.Label" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="DeleteButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Slet lyd</value>
+  </data>
+  <data name="DeleteTextBlock.Text" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="DownloadTextBlock.Text" xml:space="preserve">
+    <value>Downloade</value>
+  </data>
+  <data name="RandomButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Afspil tilfældig lyd</value>
+  </data>
+  <data name="RandomButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Afspil tilfældig lyd</value>
+  </data>
+  <data name="ScreensaverMode" xml:space="preserve">
+    <value>Pauseskærmstilstand</value>
+  </data>
+  <data name="SettingsScreensaverSwitch.Header" xml:space="preserve">
+    <value>Pauseskærm</value>
+  </data>
+  <data name="BuyButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Køb lyd</value>
+  </data>
+  <data name="PreviewButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Forhåndsvisning af lyd</value>
+  </data>
+  <data name="PreviewButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Forhåndsvisning af lyd</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Standsede</value>
+    <comment>Sound is paused</comment>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>Spille</value>
+    <comment>Sound is playing</comment>
+  </data>
+  <data name="VolumeSliderSound.AutomationProperties.Name" xml:space="preserve">
+    <value>Lydstyrke</value>
+  </data>
+  <data name="ActiveTrackListView.AutomationProperties.Name" xml:space="preserve">
+    <value>Aktive lyde</value>
+  </data>
+  <data name="ClearActiveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Ryd alle aktive lyde</value>
+  </data>
+  <data name="ClearActiveButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ryd alle aktive lyde</value>
+  </data>
+  <data name="ConfirmSaveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Bekræft gem</value>
+  </data>
+  <data name="GlobalVolume" xml:space="preserve">
+    <value>Global volumen</value>
+  </data>
+  <data name="NameInputBox.Header" xml:space="preserve">
+    <value>Navn på lydmix</value>
+  </data>
+  <data name="NameInputBox.PlaceholderText" xml:space="preserve">
+    <value>Valgfri</value>
+  </data>
+  <data name="SaveMixButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Gem brugerdefineret lydmix</value>
+  </data>
+  <data name="SaveMixButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Gem brugerdefineret lydmix (Ctrl+S)</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Aflyse</value>
+  </data>
+  <data name="RenameText" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="RenameAppBarButton.Label" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="CompactMode" xml:space="preserve">
+    <value>Ambie Mini</value>
+  </data>
+  <data name="SignOutAppBarButton.Label" xml:space="preserve">
+    <value>Logge af</value>
+  </data>
+  <data name="SignInDescriptionText" xml:space="preserve">
+    <value>Dette aktiverer synkronisering af lydgalleri på tværs af dine enheder.</value>
+  </data>
+  <data name="AccountOptionsButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Se kontoindstillinger</value>
+  </data>
+  <data name="AccountOptionsButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Se kontoindstillinger</value>
+  </data>
+  <data name="SignInButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Log på</value>
+  </data>
+  <data name="SignInButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Log på</value>
+  </data>
+  <data name="SyncAppBarButton.Label" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="Soundbeach" xml:space="preserve">
+    <value>Stranden</value>
+  </data>
+  <data name="BrowseText" xml:space="preserve">
+    <value>Gennemse</value>
+  </data>
+  <data name="Attribution" xml:space="preserve">
+    <value>Attribution</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="NewSound" xml:space="preserve">
+    <value>Ny lyd</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Opdatere</value>
+    <comment>Text for a button that will refresh a list with new data</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Log på</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Er du sikker?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Valgfri</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Kræves</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Donere</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>Vilkår for anvendelse</value>
+  </data>
+  <data name="FollowTwitter" xml:space="preserve">
+    <value>Følg os på Twitter</value>
+  </data>
+  <data name="Dismiss" xml:space="preserve">
+    <value>Afskedige</value>
+  </data>
+  <data name="FirstLaunchMessage" xml:space="preserve">
+    <value>Tak fordi du prøvede Ambie. For den bedste oplevelse, prøv at fastgøre os til din proceslinje! Nyd dit afslappende ophold 🏝</value>
+  </data>
+  <data name="HelloAndWelcome" xml:space="preserve">
+    <value>Hej og velkommen!</value>
+  </data>
+  <data name="PinToTaskbar" xml:space="preserve">
+    <value>Fastgør til proceslinjen</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Catalogue" xml:space="preserve">
+    <value>Katalog</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hjem</value>
+  </data>
+  <data name="SelectSoundsPlaceholder" xml:space="preserve">
+    <value>Bland og match op til 3 lyde</value>
+  </data>
+  <data name="RemoveActiveButton" xml:space="preserve">
+    <value>Fjern {0} fra aktiv liste</value>
+    <comment>Remove a sound from the list of active playing sounds. The parameter is the name of the sound to remove.</comment>
+  </data>
+  <data name="ThemeSettings" xml:space="preserve">
+    <value>Tema indstillinger</value>
+  </data>
+  <data name="PricePerMonth" xml:space="preserve">
+    <value>{0} pr. måned</value>
+    <comment>Price per month, where the parameter {0} is a price like $1.00.</comment>
+  </data>
+  <data name="ThankYouForSub" xml:space="preserve">
+    <value>Tak fordi du abonnerede!</value>
+    <comment>Thank you message shown after user purchases a subscription.</comment>
+  </data>
+  <data name="SubscriptionText1" xml:space="preserve">
+    <value>Få adgang til førsteklasses lyde i høj kvalitet</value>
+  </data>
+  <data name="SubscriptionText2" xml:space="preserve">
+    <value>Download video pauseskærme</value>
+  </data>
+  <data name="SubscriptionText3" xml:space="preserve">
+    <value>Støt udviklingen</value>
+  </data>
+  <data name="HelloAgain" xml:space="preserve">
+    <value>Hej igen 👋🏽</value>
+  </data>
+  <data name="RateUsMessage" xml:space="preserve">
+    <value>Nyder du Ambie? Overvej at bedømme os!</value>
+  </data>
+  <data name="SettingsResumeOnLaunch" xml:space="preserve">
+    <value>Automatisk genoptagelse, når Ambie åbnes</value>
+  </data>
+  <data name="DownloadText" xml:space="preserve">
+    <value>Downloade</value>
+  </data>
+  <data name="MissingSoundsMessage" xml:space="preserve">
+    <value>Vi er nødt til at downloade nogle lyde for at kunne afspille dette. Når du er downloadet, kan du prøve at spille dette igen. Start download?</value>
+  </data>
+  <data name="MissingSoundsTitle" xml:space="preserve">
+    <value>Manglende lyde</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>Slette</value>
+  </data>
+  <data name="SizeMegaByte" xml:space="preserve">
+    <value>{0} MB</value>
+  </data>
+  <data name="MoreScreensavers" xml:space="preserve">
+    <value>Flere pauseskærme</value>
+  </data>
+  <data name="ScreensaverCatalogue" xml:space="preserve">
+    <value>Katalog over pauseskærme</value>
+  </data>
+  <data name="ViewPremiumInfo" xml:space="preserve">
+    <value>Se premium info</value>
+  </data>
+  <data name="ToggleFullscreen" xml:space="preserve">
+    <value>Skift fuldskærm</value>
+  </data>
+  <data name="GetAmbiePlus" xml:space="preserve">
+    <value>Hent Ambie+</value>
+  </data>
+  <data name="FocusText" xml:space="preserve">
+    <value>Fokus</value>
+  </data>
+  <data name="PauseTimer" xml:space="preserve">
+    <value>Pausetimer</value>
+  </data>
+  <data name="StartTimer" xml:space="preserve">
+    <value>Start timer</value>
+  </data>
+  <data name="FocusSessionCompleteMessage" xml:space="preserve">
+    <value>Godt gået!</value>
+  </data>
+  <data name="FocusSessionCompleteTitle" xml:space="preserve">
+    <value>Fokussessionen er fuldført</value>
+  </data>
+  <data name="FocusSessionFocusMessage" xml:space="preserve">
+    <value>Tid til at fokusere</value>
+  </data>
+  <data name="FocusSessionRestMessage" xml:space="preserve">
+    <value>Tid til at hvile</value>
+  </data>
+  <data name="RestText" xml:space="preserve">
+    <value>Hvile</value>
+  </data>
+  <data name="FocusDotTooltip" xml:space="preserve">
+    <value>Fokussession er aktiv!</value>
+  </data>
+  <data name="SessionTypeFocus" xml:space="preserve">
+    <value>Fokusere</value>
+  </data>
+  <data name="SessionTypeRest" xml:space="preserve">
+    <value>Hvile</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Nulstille</value>
+  </data>
+  <data name="ResetTimer" xml:space="preserve">
+    <value>Nulstil timer</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Begynde</value>
+  </data>
+  <data name="FocusLength" xml:space="preserve">
+    <value>Fokus minutter</value>
+  </data>
+  <data name="FocusNotesPlaceholder" xml:space="preserve">
+    <value>Du kan notere eventuelle noter her 🙂</value>
+  </data>
+  <data name="FocusPlanningHeader" xml:space="preserve">
+    <value>Hvad er planen?</value>
+  </data>
+  <data name="Notepad" xml:space="preserve">
+    <value>Notesblok</value>
+  </data>
+  <data name="RestLength" xml:space="preserve">
+    <value>Hvileminutter</value>
+  </data>
+  <data name="Repeats" xml:space="preserve">
+    <value>Gentager</value>
+  </data>
+  <data name="FocusTimerHelpAction" xml:space="preserve">
+    <value>Vis mig, hvordan jeg bruger det</value>
+  </data>
+  <data name="FocusTimerHelpMessage" xml:space="preserve">
+    <value>Dette er en intervaltimer inspireret af pomodoro-teknikken. Målet er at fokusere på en opgave i en længere periode og derefter tage en kortere hvilepause. Gentag denne cyklus for at holde fokus!</value>
+  </data>
+  <data name="FocusTimerHelpTitle" xml:space="preserve">
+    <value>Velkommen til Focus Timer!</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjælp</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Næste</value>
+  </data>
+  <data name="TipFocusMessage" xml:space="preserve">
+    <value>Hver cyklus har et fokussegment og et hvilesegment. Vælg, hvor langt hvert fokussegment skal være. Vi anbefaler 25 minutter at starte!</value>
+  </data>
+  <data name="TipFocusTitle" xml:space="preserve">
+    <value>Indstil fokusminutter</value>
+  </data>
+  <data name="TipRepeatsMessage" xml:space="preserve">
+    <value>Hver fokus- og hvilecyklus kan gentages flere gange. Prøv at tilføje 1 gentagelse!</value>
+  </data>
+  <data name="TipRepeatsTitle" xml:space="preserve">
+    <value>Indstil gentagelser</value>
+  </data>
+  <data name="TipRestMessage" xml:space="preserve">
+    <value>Vælg nu, hvor langt hvert hvilesegment vil være. Vi anbefaler ca. 5 minutter for nu!</value>
+  </data>
+  <data name="TipRestTitle" xml:space="preserve">
+    <value>Indstil hvileminutter</value>
+  </data>
+  <data name="TipStartButtonMessage" xml:space="preserve">
+    <value>Start timeren og arbejd på dine opgaver. Vi sender dig meddelelser, når det er tid til at hvile.</value>
+  </data>
+  <data name="TipStartButtonTitle" xml:space="preserve">
+    <value>Klar, parat, go</value>
+  </data>
+  <data name="RecentFocusAccessibleName" xml:space="preserve">
+    <value>{0} fokusminutter, {1} hvileminutter gentager {2}.</value>
+  </data>
+  <data name="RecentFocusList" xml:space="preserve">
+    <value>Liste over de seneste fokuskonfigurationer.</value>
+  </data>
+  <data name="ZeroToMax" xml:space="preserve">
+    <value>0 til {0}</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historie</value>
+  </data>
+  <data name="Interruptions" xml:space="preserve">
+    <value>Afbrydelser</value>
+  </data>
+  <data name="FocusHistoryPlaceholderText" xml:space="preserve">
+    <value>Din seneste historie vises her</value>
+  </data>
+  <data name="LogInterruption" xml:space="preserve">
+    <value>Afbrydelse af logfiler</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bekræfte</value>
+  </data>
+  <data name="InterruptionMinutesTitle" xml:space="preserve">
+    <value>Minutter afbrudt</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Noter</value>
+  </data>
+  <data name="InterruptionMinutesHelpMessage" xml:space="preserve">
+    <value>Blev du afbrudt af noget? Hold styr på dine afbrydelser her, så du kan gennemgå dem senere i din historie.</value>
+  </data>
+  <data name="HistoryRecent" xml:space="preserve">
+    <value>Seneste historie</value>
+  </data>
+  <data name="RoundsCompleted" xml:space="preserve">
+    <value>Runder afsluttet</value>
+  </data>
+  <data name="ResultMessageFail1" xml:space="preserve">
+    <value>God indsats</value>
+  </data>
+  <data name="ResultMessageSuccess1" xml:space="preserve">
+    <value>Du er fantastisk</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>Ambie</value>
+  </data>
+  <data name="TaskModuleNewTaskPlaceholder" xml:space="preserve">
+    <value>Tilføj opgaver, der skal fokuseres på, og tryk derefter på startknappen</value>
+  </data>
+  <data name="TaskModuleTitle" xml:space="preserve">
+    <value>Opgaver</value>
+  </data>
+  <data name="TaskModuleRecentCompleted" xml:space="preserve">
+    <value>Nyligt afsluttet</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="TasksCompleted" xml:space="preserve">
+    <value>Udførte opgaver</value>
+  </data>
+  <data name="Timer" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="TaskTitle" xml:space="preserve">
+    <value>Opgave {0}</value>
+  </data>
+  <data name="SettingsCompactMode" xml:space="preserve">
+    <value>Åbn Ambie Mini, når du fokuserer</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Varighed</value>
+  </data>
+  <data name="EndTimeText" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="MiniText" xml:space="preserve">
+    <value>Mini</value>
+  </data>
+  <data name="CompactModeTooltipTitle" xml:space="preserve">
+    <value>Åben Ambie Mini</value>
+  </data>
+  <data name="CompactModeTooltipMessage" xml:space="preserve">
+    <value>Med Ambie Mini krymper vi vinduet og viser kun de nødvendige elementer, der hjælper dig med at fokusere.</value>
+  </data>
+  <data name="PausesText" xml:space="preserve">
+    <value>Pauser</value>
+  </data>
+  <data name="EmptyHomeMessage" xml:space="preserve">
+    <value>Download lyde fra kataloget</value>
+  </data>
+  <data name="EditHomePage" xml:space="preserve">
+    <value>Rediger startside</value>
+  </data>
+  <data name="EditHomePageMessage" xml:space="preserve">
+    <value>Træk og slip lyde for at tilpasse din startside. Prøv det nu!</value>
+  </data>
+  <data name="EmptyCatalogueMessage" xml:space="preserve">
+    <value>Det beklager vi! Vi kunne ikke indlæse kataloget. Prøv at tjekke din internetforbindelse.</value>
+  </data>
+  <data name="AboutAmbie" xml:space="preserve">
+    <value>Om Ambie</value>
+  </data>
+  <data name="SettingsCompactModeDescription" xml:space="preserve">
+    <value>Ambie Mini åbnes automatisk, når der fokuseres</value>
+  </data>
+  <data name="SettingsNotificationsSwitchDescription" xml:space="preserve">
+    <value>Vi giver dig besked, når nye lyde er tilgængelige</value>
+  </data>
+  <data name="SettingsResumeOnLaunchDescription" xml:space="preserve">
+    <value>Ved lanceringen genoptager Ambie afspilningen automatisk</value>
+  </data>
+  <data name="SettingsTelemetrySwitchDescription" xml:space="preserve">
+    <value>Nedbrud og anonyme brugsoplysninger rapporteres for at hjælpe med at forbedre Ambie</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Baggrundsbillede</value>
+  </data>
+  <data name="CustomImage" xml:space="preserve">
+    <value>Brugerdefineret billede</value>
+  </data>
+  <data name="SettingsGeneralHeader" xml:space="preserve">
+    <value>Generelle indstillinger</value>
+  </data>
+  <data name="SettingsTheme" xml:space="preserve">
+    <value>Vælg din tilstand</value>
+  </data>
+  <data name="SettingsThemeDescription" xml:space="preserve">
+    <value>Ændre de farver, der vises i Ambie</value>
+  </data>
+  <data name="ShareMessage" xml:space="preserve">
+    <value>Del det, du lytter til</value>
+  </data>
+  <data name="MissingShareSoundsMessage" xml:space="preserve">
+    <value>Lad os se, om de kan downloades.</value>
+  </data>
+  <data name="MissingShareSoundsTitle" xml:space="preserve">
+    <value>Du mangler nogle lyde</value>
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>Anmeldelse</value>
+  </data>
+  <data name="ShareText" xml:space="preserve">
+    <value>Aktie</value>
+  </data>
+  <data name="CopiedText" xml:space="preserve">
+    <value>Kopieres!</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Eksemplar</value>
+  </data>
+  <data name="OrText" xml:space="preserve">
+    <value>Eller</value>
+  </data>
+  <data name="BuyDurableTooltip" xml:space="preserve">
+    <value>Lås denne lyd op</value>
+  </data>
+  <data name="PriceForLifetime" xml:space="preserve">
+    <value>{0} levetid</value>
+  </data>
+  <data name="CheckForUpdatesText" xml:space="preserve">
+    <value>Søg efter opdateringer</value>
+  </data>
+  <data name="UpdatesPageMessage1" xml:space="preserve">
+    <value>Se her for opdateringer til dine lyde og videoer.</value>
+  </data>
+  <data name="UpdatesPageMessage2" xml:space="preserve">
+    <value>Opdateringer indeholder forbedringer af oversættelser, lydkvalitet og meget mere.</value>
+  </data>
+  <data name="UpdatesText" xml:space="preserve">
+    <value>Opdateringer</value>
+  </data>
+  <data name="UpdateAllText" xml:space="preserve">
+    <value>Opdater alle</value>
+  </data>
+  <data name="DataVersionColon" xml:space="preserve">
+    <value>Dataversion:</value>
+  </data>
+  <data name="FileVersionColon" xml:space="preserve">
+    <value>Filversion:</value>
+  </data>
+  <data name="UpdatesPlaceholderText" xml:space="preserve">
+    <value>Fuldt opdateret. Du er klar.</value>
+  </data>
+  <data name="UpdateReasonFile" xml:space="preserve">
+    <value>Forbedrer afspilningskvaliteten</value>
+  </data>
+  <data name="UpdateReasonMetaData" xml:space="preserve">
+    <value>Forbedrer oversættelser og andre metadata</value>
+  </data>
+  <data name="UpdateReasonMetaDataAndFile" xml:space="preserve">
+    <value>Forbedrer afspilningskvaliteten, oversættelser og andre metadata</value>
+  </data>
+  <data name="InterruptionInsightsMessage" xml:space="preserve">
+    <value>Er der noget, vi kan lære for at undgå fremtidige afbrydelser?</value>
+  </data>
+  <data name="RecentInterruptionsText" xml:space="preserve">
+    <value>Nylige afbrydelser</value>
+  </data>
+  <data name="InterruptionInsightsButtonText" xml:space="preserve">
+    <value>Har du brug for hjælp til afbrydelser?</value>
+  </data>
+  <data name="SettingsOutputDevice" xml:space="preserve">
+    <value>Output enhed</value>
+  </data>
+  <data name="SettingsOutputDeviceDescription" xml:space="preserve">
+    <value>Vælg, hvor du vil afspille lyd</value>
+  </data>
+  <data name="SettingsPlayAfterFocusDescription" xml:space="preserve">
+    <value>Lydene afspilles fortsat, når din fokussession slutter</value>
+  </data>
+  <data name="SettingsPlayAfterFocusHeader" xml:space="preserve">
+    <value>Fortsæt lyde efter fokusering</value>
+  </data>
+  <data name="RelaxText" xml:space="preserve">
+    <value>Slappe af</value>
+  </data>
+  <data name="BackgroundSoundsText" xml:space="preserve">
+    <value>Baggrundslyde</value>
+  </data>
+  <data name="MeditatingText" xml:space="preserve">
+    <value>Meditere</value>
+  </data>
+  <data name="AlwaysAskMeText" xml:space="preserve">
+    <value>Spørg mig altid</value>
+  </data>
+  <data name="PlayRandom" xml:space="preserve">
+    <value>Afspil tilfældig lyd</value>
+  </data>
+  <data name="NowPlayingText" xml:space="preserve">
+    <value>Spiller nu</value>
+  </data>
+  <data name="SearchPageHeader" xml:space="preserve">
+    <value>Resultater for "{0}"</value>
+  </data>
+  <data name="SearchEmptyPlaceholderText" xml:space="preserve">
+    <value>Ups! Vi kunne ikke finde den lyd. Vi får se, om vi kan tilføje det i fremtiden</value>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>Søge</value>
+  </data>
+  <data name="QuickResumeTitle" xml:space="preserve">
+    <value>Hurtig genoptagelse</value>
+  </data>
+  <data name="QuickResumeToastMessage" xml:space="preserve">
+    <value>Genoptag din sidste atmosfære</value>
+  </data>
+  <data name="QuickResumeDescription" xml:space="preserve">
+    <value>Genoptag din sidste atmosfære med et enkelt klik, når din pc starter</value>
+  </data>
+  <data name="HomePageDownloadMessage" xml:space="preserve">
+    <value>Få flere lyde fra kataloget</value>
+  </data>
+  <data name="SkipThisSegment" xml:space="preserve">
+    <value>Spring dette segment over</value>
+  </data>
+  <data name="DayPlural" xml:space="preserve">
+    <value>{0} dage</value>
+  </data>
+  <data name="DaySingular" xml:space="preserve">
+    <value>1 dag</value>
+  </data>
+  <data name="StreakHeader" xml:space="preserve">
+    <value>Min stribe</value>
+  </data>
+  <data name="StreakReminderMessage" xml:space="preserve">
+    <value>Hold din streak i live!</value>
+  </data>
+  <data name="StreakReminderTitle" xml:space="preserve">
+    <value>{0}-dages streak</value>
+  </data>
+  <data name="DayStreakPhrase" xml:space="preserve">
+    <value>dag streak</value>
+    <comment>A portion of a phrase that looks like '5-day streak'</comment>
+  </data>
+  <data name="StreakHelpMessage" xml:space="preserve">
+    <value>At lytte dagligt øger din streak, men at springe en dag over nulstiller den!</value>
+  </data>
+  <data name="SettingsStreakReminderDescription" xml:space="preserve">
+    <value>Modtag påmindelser for at hjælpe med at holde din daglige streak aktiv</value>
+  </data>
+  <data name="SettingsStreakReminderHeader" xml:space="preserve">
+    <value>Streak påmindelser</value>
+  </data>
+  <data name="SettingsBackgroundDescription" xml:space="preserve">
+    <value>Din baggrund er i øjeblikket deaktiveret for at hjælpe dig med at spare batteri!</value>
+  </data>
+  <data name="AddNewTaskText" xml:space="preserve">
+    <value>Tilføj ny opgave</value>
+  </data>
+  <data name="CatalogueSubtitle" xml:space="preserve">
+    <value>Få adgang til det indbyggede katalog med lyde. Download din næste yndlingsmusik her.</value>
+  </data>
+  <data name="FocusSubtitle" xml:space="preserve">
+    <value>Arbejder eller studerer du? Brug vores innovative fokustimer til at hjælpe dig med at være produktiv.</value>
+  </data>
+  <data name="HomeSubtitle" xml:space="preserve">
+    <value>Se de lyde, du har installeret, afspil op til 3 lyde, og find din yndlingskombination.</value>
+  </data>
+  <data name="MeditateSubtitle" xml:space="preserve">
+    <value>Brug vores meditationsguider til at hjælpe dig med at slappe af eller berolige dine nerver.</value>
+  </data>
+  <data name="SettingsSubtitle" xml:space="preserve">
+    <value>Skift dine indstillinger her.</value>
+  </data>
+  <data name="UpdatesSubtitle" xml:space="preserve">
+    <value>Tjek her lejlighedsvis for opdateringer til de lyde, du har installeret.</value>
+  </data>
+  <data name="AddTaskPlaceholder" xml:space="preserve">
+    <value>Klik på + for at tilføje en opgave</value>
+  </data>
+  <data name="ModifyText" xml:space="preserve">
+    <value>Modificere</value>
+  </data>
+  <data name="SettingsModifySubDescription" xml:space="preserve">
+    <value>Rediger dit abonnement</value>
+  </data>
+  <data name="AppUpdateDescription" xml:space="preserve">
+    <value>Der er en ny opdatering tilgængelig! Genstart nu for at anvende opdateringen.</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>Genstarte</value>
+  </data>
+  <data name="SleepTimerDescription" xml:space="preserve">
+    <value>Ambie holder pause, når timeren slutter</value>
+  </data>
+  <data name="SleepTimerText" xml:space="preserve">
+    <value>Sleep-timer</value>
+  </data>
+  <data name="UnlockText" xml:space="preserve">
+    <value>Låse</value>
+  </data>
+  <data name="AdjustSoundVolume" xml:space="preserve">
+    <value>Juster lydstyrken</value>
+  </data>
+  <data name="DownloadSounds" xml:space="preserve">
+    <value>Download lyde</value>
+  </data>
+  <data name="DisplayMode" xml:space="preserve">
+    <value>Dispaly-tilstand</value>
+  </data>
+  <data name="DisplayModeDarkScreen" xml:space="preserve">
+    <value>Mørk skærm</value>
+  </data>
+  <data name="DisplayModeDarkScreenDescription" xml:space="preserve">
+    <value>Hjælper med at sove</value>
+  </data>
+  <data name="DisplayModeSlideshow" xml:space="preserve">
+    <value>Diasshow</value>
+  </data>
+  <data name="DisplayModeSlideshowDescription" xml:space="preserve">
+    <value>Karrusel af billeder</value>
+  </data>
+  <data name="DisplayModeVideo" xml:space="preserve">
+    <value>Videoer</value>
+  </data>
+  <data name="DisplayModeVideoDescription" xml:space="preserve">
+    <value>Afspiller videoer, hvis de er tilgængelige</value>
+  </data>
+  <data name="SettingsNotificationsSwitchHeader" xml:space="preserve">
+    <value>Meddelelse om nye lyde</value>
+  </data>
+  <data name="SettingsTelemetrySwitchHeader" xml:space="preserve">
+    <value>Telemetri</value>
+  </data>
+  <data name="DownloadingVideoMessage" xml:space="preserve">
+    <value>Download af din video. Vi er snart klar.</value>
+  </data>
+  <data name="DownloadingText" xml:space="preserve">
+    <value>Downloade</value>
+  </data>
+  <data name="UnlockVideoText" xml:space="preserve">
+    <value>Lås video op</value>
+  </data>
+  <data name="AvailableText" xml:space="preserve">
+    <value>Tilgængelig</value>
+  </data>
+  <data name="IncludedText" xml:space="preserve">
+    <value>Inkluderet</value>
+  </data>
+  <data name="SlideshowImagesText" xml:space="preserve">
+    <value>Diasshowbilleder</value>
+  </data>
+  <data name="VideoBackgroundText" xml:space="preserve">
+    <value>Video baggrund</value>
+  </data>
+  <data name="StartFreeTrialText" xml:space="preserve">
+    <value>Start gratis prøveversion</value>
+  </data>
+  <data name="SubWithTrialCaptionTemplate" xml:space="preserve">
+    <value>{0} gratis, så {1}</value>
+    <comment>E.g. 1 week free, then $1.49/month</comment>
+  </data>
+  <data name="ContactUsText" xml:space="preserve">
+    <value>Kontakt os</value>
+  </data>
+  <data name="SettingsFeedbackDescription" xml:space="preserve">
+    <value>Kontakt os, hvis du har feedback, spørgsmål eller problemer</value>
+  </data>
+  <data name="FreeTrialTipDescription" xml:space="preserve">
+    <value>Gør krav på dine gratis 7 dage</value>
+  </data>
+  <data name="FreeTrialTipTitle" xml:space="preserve">
+    <value>Gratis prøveversion tilgængelig</value>
+  </data>
+</root>

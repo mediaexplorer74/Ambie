@@ -6,7 +6,7 @@ using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Toolkit.Uwp.UI.Animations;
 
 namespace AmbientSounds.Controls;
@@ -55,7 +55,7 @@ public sealed partial class SoundItemControl : UserControl
     private async void OnEditHomePageClicked(object sender, RoutedEventArgs e)
     {
         await App.Services.GetRequiredService<IDialogService>().OpenTutorialAsync();
-        App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.ReorderClicked);
+        //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.ReorderClicked);
     }
 
     private void OnPointerEntered(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)

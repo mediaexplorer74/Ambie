@@ -2,7 +2,6 @@
 using AmbientSounds.Services;
 using AmbientSounds.Tools;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
 using JeniusApps.Common.Tools;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Toolkit.Uwp.UI.Animations;
@@ -12,12 +11,14 @@ using System.ComponentModel;
 using System.Threading;
 using System.Threading.Tasks;
 using Windows.Media.Core;
+using Windows.System;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
+//using JeniusApps.Common.Telemetry;
 
 #nullable enable
 
@@ -82,8 +83,9 @@ public sealed partial class XboxShellPage : Page
 
     protected override async void OnNavigatedTo(NavigationEventArgs e)
     {
-        var telemetry = App.Services.GetRequiredService<ITelemetry>();
-        telemetry.TrackPageView(nameof(XboxShellPage));
+        //RnD
+        //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+        //telemetry.TrackPageView(nameof(XboxShellPage));
 
         CoreWindow.GetForCurrentThread().KeyDown += OnKeyDown;
         _timer.IntervalElapsed += OnTimerElapsed;
@@ -142,12 +144,14 @@ public sealed partial class XboxShellPage : Page
         {
             foreach (var combo in _fadeOutCombos)
             {
-                await TryFadeOutAsync(combo.Item1, combo.Item2, combo.Item3, _slideshowTransitionCts.Token);
+                await TryFadeOutAsync(combo.Item1, combo.Item2, combo.Item3,
+                    _slideshowTransitionCts.Token);
             }
 
             foreach (var combo in _fadeInCombos)
             {
-                if (await TryTriggerFadeInAsync(combo.Item1, combo.Item2, combo.Item3, _slideshowTransitionCts.Token))
+                if (await TryTriggerFadeInAsync(combo.Item1, combo.Item2, combo.Item3,
+                    _slideshowTransitionCts.Token))
                 {
                     break;
                 }
@@ -162,7 +166,8 @@ public sealed partial class XboxShellPage : Page
         }
     }
 
-    private async Task TryFadeOutAsync(SlideshowMode mode, UIElement control, AnimationSet fadeOutAnimation, CancellationToken ct)
+    private async Task TryFadeOutAsync(SlideshowMode mode, UIElement control, 
+        AnimationSet fadeOutAnimation, CancellationToken ct)
     {
         if (ViewModel.SlideshowMode != mode &&
             control.Visibility is Visibility.Visible)
@@ -178,7 +183,8 @@ public sealed partial class XboxShellPage : Page
         }
     }
 
-    private async Task<bool> TryTriggerFadeInAsync(SlideshowMode mode, UIElement control, AnimationSet fadeInAnimation, CancellationToken ct)
+    private async Task<bool> TryTriggerFadeInAsync(SlideshowMode mode, UIElement control, 
+        AnimationSet fadeInAnimation, CancellationToken ct)
     {
         if (ViewModel.SlideshowMode == mode)
         {
@@ -202,7 +208,8 @@ public sealed partial class XboxShellPage : Page
 
     private void OnXboxSoundItemFocused(object sender, RoutedEventArgs e)
     {
-        if (sender is GridViewItem { DataContext: SoundViewModel vm, FocusState: Windows.UI.Xaml.FocusState.Keyboard })
+        if (sender is GridViewItem { DataContext: SoundViewModel vm, 
+            FocusState: Windows.UI.Xaml.FocusState.Keyboard })
         {
             vm.IsKeyPadFocused = true;
         }

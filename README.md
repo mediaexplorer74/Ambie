@@ -6,7 +6,7 @@ This is draft version of Ambie v 2.x.x.x for Windows Core Andromeda on Lumia 950
 A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed.
 
 ## Screenshot(s) (or Proto/Design because of Andromeda edition is not ready...)
-![Ambie v2.x.x.x](Images/Ambie.png)
+![Ambie v2.x.x.x](Images/shot01.png)
 
 ## Motivation
 

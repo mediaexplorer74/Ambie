@@ -10,7 +10,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 namespace AmbientSounds.ViewModels
 {
@@ -20,7 +20,7 @@ namespace AmbientSounds.ViewModels
         private readonly IFocusTaskService _taskService;
         private readonly IDispatcherQueue _dispatcherQueue;
         private readonly IDialogService _dialogService;
-        private readonly ITelemetry _telemetry;
+        //private readonly ITelemetry _telemetry;
         private readonly IRelayCommand<FocusTaskViewModel> _deleteCommand;
         private readonly IRelayCommand<FocusTaskViewModel> _completeCommand;
         private readonly IRelayCommand<FocusTaskViewModel> _reopenCommand;
@@ -35,18 +35,19 @@ namespace AmbientSounds.ViewModels
         public FocusTaskModuleViewModel(
             IFocusTaskService focusTaskService,
             IDispatcherQueue dispatcherQueue,
-            IDialogService dialogService,
-            ITelemetry telemetry)
+            IDialogService dialogService
+            //,ITelemetry telemetry
+        )
         {
             Guard.IsNotNull(focusTaskService, nameof(focusTaskService));
             Guard.IsNotNull(dispatcherQueue, nameof(dispatcherQueue));
             Guard.IsNotNull(dialogService, nameof(dialogService));
-            Guard.IsNotNull(telemetry, nameof(telemetry));
+            //Guard.IsNotNull(telemetry, nameof(telemetry));
 
             _taskService = focusTaskService;
             _dispatcherQueue = dispatcherQueue;
             _dialogService = dialogService;
-            _telemetry = telemetry;
+            //_telemetry = telemetry;
 
             _deleteCommand = new RelayCommand<FocusTaskViewModel>(DeleteTask);
             _completeCommand = new RelayCommand<FocusTaskViewModel>(CompleteTask);
@@ -99,11 +100,11 @@ namespace AmbientSounds.ViewModels
             if (Tasks.Count > 0)
             {
                 // require >0 to reduce telemetry noise.
-                _telemetry.TrackEvent(TelemetryConstants.TasksLoaded, new Dictionary<string, string>
-                {
-                    { "openCount", Tasks.Count.ToString() },
-                    { "completedCount", CompletedTasks.Count.ToString() },
-                });
+                //_telemetry.TrackEvent(TelemetryConstants.TasksLoaded, new Dictionary<string, string>
+                //{
+                //    { "openCount", Tasks.Count.ToString() },
+                //    { "completedCount", CompletedTasks.Count.ToString() },
+                //});
             }
         }
 
@@ -132,10 +133,10 @@ namespace AmbientSounds.ViewModels
 
             Tasks.Add(CreateTaskVm(newTask, false));
             NewTask = string.Empty;
-            _telemetry.TrackEvent(TelemetryConstants.TaskAdded, new Dictionary<string, string>
-            {
-                { "location", "focusTaskModule" }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.TaskAdded, new Dictionary<string, string>
+            //{
+            //    { "location", "focusTaskModule" }
+            //});
         }
 
         public void OnItemsReordered()
@@ -145,7 +146,7 @@ namespace AmbientSounds.ViewModels
                 return;
             }
 
-            _telemetry.TrackEvent(TelemetryConstants.TaskReordered);
+            //_telemetry.TrackEvent(TelemetryConstants.TaskReordered);
             _ = _taskService.ReorderAsync(Tasks.Select(x => x.Task.Id)).ConfigureAwait(false);
         }
 
@@ -170,10 +171,10 @@ namespace AmbientSounds.ViewModels
 
             Tasks.Remove(task);
             _ = _taskService.UpdateCompletionAsync(task.Task.Id, true).ConfigureAwait(false);
-            _telemetry.TrackEvent(TelemetryConstants.TaskCompleted, new Dictionary<string, string>
-            {
-                { "inSession", "false" }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.TaskCompleted, new Dictionary<string, string>
+            //{
+            //    { "inSession", "false" }
+            //});
         }
 
         private void ReopenTask(FocusTaskViewModel? task)
@@ -204,10 +205,10 @@ namespace AmbientSounds.ViewModels
             }
 
             _ = _taskService.DeleteTaskAsync(task.Task.Id).ConfigureAwait(false);
-            _telemetry.TrackEvent(TelemetryConstants.TaskDeleted, new Dictionary<string, string>
-            {
-                { "completed", task.IsCompleted.ToString() }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.TaskDeleted, new Dictionary<string, string>
+            //{
+            //    { "completed", task.IsCompleted.ToString() }
+            //});
         }
 
         private async void EditTask(FocusTaskViewModel? task)
@@ -226,7 +227,7 @@ namespace AmbientSounds.ViewModels
 
                 // Update the cache
                 _ = _taskService.UpdateTextAsync(task.Task.Id, newText!).ConfigureAwait(false);
-                _telemetry.TrackEvent(TelemetryConstants.TaskEdited);
+                //_telemetry.TrackEvent(TelemetryConstants.TaskEdited);
             }
         }
 

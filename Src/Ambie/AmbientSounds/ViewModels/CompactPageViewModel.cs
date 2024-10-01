@@ -4,9 +4,9 @@ using CommunityToolkit.Diagnostics;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+//using JeniusApps.Common.Telemetry;
 
 #nullable enable
 
@@ -17,7 +17,7 @@ public sealed partial class CompactPageViewModel : ObservableObject
     private readonly IUserSettings _userSettings;
     private readonly INavigator _navigator;
     private readonly ICompactNavigator _compactNavigator;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
 
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(IsHomeSelected))]
@@ -27,17 +27,18 @@ public sealed partial class CompactPageViewModel : ObservableObject
     public CompactPageViewModel(
         INavigator navigator,
         IUserSettings userSettings,
-        ICompactNavigator compactNavigator,
-        ITelemetry telemetry)
+        ICompactNavigator compactNavigator
+        //,ITelemetry telemetry
+        )
     {                   
         Guard.IsNotNull(navigator);
         Guard.IsNotNull(userSettings);
         Guard.IsNotNull(compactNavigator);
-        Guard.IsNotNull(telemetry);
+        //Guard.IsNotNull(telemetry);
         _navigator = navigator;
         _userSettings = userSettings;
         _compactNavigator = compactNavigator;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
     }
 
     public bool IsHomeSelected => CurrentView == CompactViewMode.Home;
@@ -64,10 +65,10 @@ public sealed partial class CompactPageViewModel : ObservableObject
 
     public void NavigateTo(CompactViewMode requestedViewMode)
     {
-        _telemetry.TrackEvent(TelemetryConstants.MiniNavigate, new Dictionary<string, string>
-        {
-            { "to", requestedViewMode.ToString() }
-        });
+        //_telemetry.TrackEvent(TelemetryConstants.MiniNavigate, new Dictionary<string, string>
+        //{
+        //    { "to", requestedViewMode.ToString() }
+        //});
 
         CurrentView = requestedViewMode;
         _compactNavigator.NavigateTo(requestedViewMode);
@@ -76,7 +77,7 @@ public sealed partial class CompactPageViewModel : ObservableObject
     [RelayCommand]
     private async Task CloseCompactAsync()
     {
-        _telemetry.TrackEvent(TelemetryConstants.MiniBack);
+        //_telemetry.TrackEvent(TelemetryConstants.MiniBack);
         await _navigator.CloseCompactOverlayAsync(CurrentView);
     }
 }

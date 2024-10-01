@@ -2,8 +2,6 @@
 using AmbientSounds.Models;
 using AmbientSounds.Services;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -13,6 +11,9 @@ using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
+using JeniusApps.Common.Settings;
+//using JeniusApps.Common.Telemetry;
+
 
 #nullable enable
 
@@ -73,7 +74,8 @@ public sealed partial class ShellPage : Page
         ViewModel.Uninitialize();
     }
 
-    private async void TeachingTip_ActionButtonClick(Microsoft.UI.Xaml.Controls.TeachingTip sender, object args)
+    private async void TeachingTip_ActionButtonClick(Microsoft.UI.Xaml.Controls.TeachingTip sender, 
+        object args)
     {
         ViewModel.IsRatingMessageVisible = false;
         var storeContext = StoreContext.GetDefault();
@@ -81,12 +83,13 @@ public sealed partial class ShellPage : Page
         App.Services.GetRequiredService<IUserSettings>().Set(
             UserSettingsConstants.HasRated,
             true);
-        App.Services.GetRequiredService<ITelemetry>().TrackEvent(
-            TelemetryConstants.OobeRateUsClicked,
-            new Dictionary<string, string>
-            {
-                { "status", result.Status.ToString() }
-            });
+
+        //App.Services.GetRequiredService<ITelemetry>().TrackEvent(
+        //    TelemetryConstants.OobeRateUsClicked,
+        //    new Dictionary<string, string>
+        //    {
+        //        { "status", result.Status.ToString() }
+        //    });
     }
 
     private void TeachingTip_CloseButtonClick(Microsoft.UI.Xaml.Controls.TeachingTip sender, object args)
@@ -96,7 +99,8 @@ public sealed partial class ShellPage : Page
             UserSettingsConstants.RatingDismissed,
             DateTime.UtcNow,
             AmbieJsonSerializerContext.Default.DateTime);
-        App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.OobeRateUsDismissed);
+
+        //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.OobeRateUsDismissed);
     }
 
     private async void OnTextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)

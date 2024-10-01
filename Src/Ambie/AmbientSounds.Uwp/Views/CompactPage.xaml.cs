@@ -2,13 +2,14 @@
 using AmbientSounds.Services;
 using AmbientSounds.ViewModels;
 using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
+//using JeniusApps.Common.Telemetry;
+
 
 #nullable enable
 
@@ -36,7 +37,8 @@ public sealed partial class CompactPage : Page
 
     public CompactPageViewModel ViewModel => (CompactPageViewModel)this.DataContext;
 
-    private string BackgroundImagePath => _userSettings.Get<string>(UserSettingsConstants.BackgroundImage) ?? "http://localhost";
+    private string BackgroundImagePath => _userSettings.Get<string>(UserSettingsConstants.BackgroundImage)
+        ?? "http://localhost";
 
     protected override async void OnNavigatedTo(NavigationEventArgs e)
     {
@@ -48,8 +50,8 @@ public sealed partial class CompactPage : Page
         _coreTitleBar.LayoutMetricsChanged += TitleBarLayoutMetricsChanged;
         Window.Current.SetTitleBar(AppTitleBar);
 
-        var telemetry = App.Services.GetRequiredService<ITelemetry>();
-        telemetry.TrackPageView(nameof(CompactPage));
+        //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+        //telemetry.TrackPageView(nameof(CompactPage));
 
         if (e.Parameter is CompactViewMode requestedViewMode)
         {

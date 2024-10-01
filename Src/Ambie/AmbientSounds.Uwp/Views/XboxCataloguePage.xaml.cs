@@ -1,6 +1,6 @@
 ﻿using AmbientSounds.Services;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -28,8 +28,8 @@ public sealed partial class XboxCataloguePage : Page
 
     protected override async void OnNavigatedTo(NavigationEventArgs e)
     {
-        var telemetry = App.Services.GetRequiredService<ITelemetry>();
-        telemetry.TrackPageView(nameof(XboxCataloguePage));
+        //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+        //telemetry.TrackPageView(nameof(XboxCataloguePage));
 
         _systemNavigationManager.BackRequested += OnBackRequested;
 

@@ -1,7 +1,7 @@
 ﻿using AmbientSounds.Constants;
 using AmbientSounds.ViewModels;
 using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Threading;
@@ -30,7 +30,7 @@ public sealed partial class CataloguePage : Page
             UserSettingsConstants.ShowHomePageDownloadMessageKey,
             false);
 
-        App.Services.GetRequiredService<ITelemetry>().TrackPageView(nameof(CataloguePage));
+        //App.Services.GetRequiredService<ITelemetry>().TrackPageView(nameof(CataloguePage));
 
         string? navArgs = e.Parameter is string s ? s : null;
 

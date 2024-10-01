@@ -3,7 +3,7 @@ using AmbientSounds.Events;
 using AmbientSounds.Models;
 using AmbientSounds.Services;
 using AmbientSounds.Tools;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using JeniusApps.Common.Tools;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -23,7 +23,7 @@ public sealed partial class Slideshow : UserControl
     private const int SlideTimeLength = 30000; // 30 seconds
     private readonly ITimerService _timerService;
     private readonly IMixMediaPlayerService _mediaPlayerService;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
     private readonly ISoundService _soundDataProvider;
     private readonly IDispatcherQueue _dispatcherQueue;
     private readonly SemaphoreSlim _soundsChangedLock = new(1, 1);
@@ -52,7 +52,9 @@ public sealed partial class Slideshow : UserControl
 
         _timerService = App.Services.GetRequiredService<ITimerService>();
         _mediaPlayerService = App.Services.GetRequiredService<IMixMediaPlayerService>();
-        _telemetry = App.Services.GetRequiredService<ITelemetry>();
+
+        //_telemetry = App.Services.GetRequiredService<ITelemetry>();
+        
         _soundDataProvider = App.Services.GetRequiredService<ISoundService>();
         _dispatcherQueue = App.Services.GetRequiredService<IDispatcherQueue>();
 

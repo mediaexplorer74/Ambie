@@ -2,7 +2,7 @@
 using AmbientSounds.Services;
 using AmbientSounds.ViewModels;
 using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -55,8 +55,8 @@ public sealed partial class ScreensaverPage : Page
         var settings = App.Services.GetRequiredService<IUserSettings>();
         await ViewModel.InitializeAsync(settings.Get<string>(UserSettingsConstants.LastUsedScreensaverKey));
 
-        var telemetry = App.Services.GetRequiredService<ITelemetry>();
-        telemetry.TrackPageView(nameof(ScreensaverPage));
+        //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+        //telemetry.TrackPageView(nameof(ScreensaverPage));
 
         var coreWindow = CoreWindow.GetForCurrentThread();
         coreWindow.KeyDown += CoreWindow_KeyDown;
@@ -230,12 +230,12 @@ public sealed partial class ScreensaverPage : Page
         else
         {
             view.TryEnterFullScreenMode();
-            var telemetry = App.Services.GetRequiredService<ITelemetry>();
-            telemetry.TrackEvent(TelemetryConstants.ScreensaverFullscreen, new Dictionary<string, string>
-            {
-                { "id", ViewModel.CurrentSelection?.Id ?? "null" },
-                { "name", ViewModel.CurrentSelection?.Text ?? string.Empty }
-            });
+            //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+            //telemetry.TrackEvent(TelemetryConstants.ScreensaverFullscreen, new Dictionary<string, string>
+            //{
+            //    { "id", ViewModel.CurrentSelection?.Id ?? "null" },
+            //    { "name", ViewModel.CurrentSelection?.Text ?? string.Empty }
+            //});
         }
     }
 

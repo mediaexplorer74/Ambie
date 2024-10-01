@@ -4,7 +4,7 @@ using AmbientSounds.Models;
 using AmbientSounds.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using JeniusApps.Common.Tools;
 using System;
 using System.Collections.Generic;
@@ -22,16 +22,18 @@ public partial class MeditatePageViewModel : ObservableObject
     private readonly IDialogService _dialogService;
     private readonly IIapService _iapService;
     private readonly IDispatcherQueue _dispatcherQueue;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
 
-    public MeditatePageViewModel(
+    public MeditatePageViewModel
+    (
         IGuideService guideService,
         IGuideVmFactory guideVmFactory,
         IDialogService dialogService,
         IIapService iapService,
         IMixMediaPlayerService mixMediaPlayerService,
-        IDispatcherQueue dispatcherQueue,
-        ITelemetry telemetry)
+        IDispatcherQueue dispatcherQueue
+        //, ITelemetry telemetry
+    )
     {
         _guideService = guideService;
         _guideVmFactory = guideVmFactory;
@@ -39,7 +41,7 @@ public partial class MeditatePageViewModel : ObservableObject
         _dialogService = dialogService;
         _iapService = iapService;
         _dispatcherQueue = dispatcherQueue;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
     }
 
     public ObservableCollection<GuideViewModel> Guides { get; } = new();
@@ -119,10 +121,10 @@ public partial class MeditatePageViewModel : ObservableObject
         try
         {
             await _guideService.DownloadAsync(guideVm.OnlineGuide, guideVm.DownloadProgress);
-            _telemetry.TrackEvent(TelemetryConstants.GuideDownloaded, new Dictionary<string, string>
-            {
-                { "name", guideVm.Name }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.GuideDownloaded, new Dictionary<string, string>
+            //{
+            //    { "name", guideVm.Name }
+            //});
         }
         catch (TaskCanceledException)
         {
@@ -139,10 +141,10 @@ public partial class MeditatePageViewModel : ObservableObject
         }
 
         await _guideService.PlayAsync(guideVm.OnlineGuide);
-        _telemetry.TrackEvent(TelemetryConstants.GuidePlayed, new Dictionary<string, string>
-        {
-            { "name", guideVm.Name }
-        });
+        //_telemetry.TrackEvent(TelemetryConstants.GuidePlayed, new Dictionary<string, string>
+        //{
+        //    { "name", guideVm.Name }
+        //});
     }
 
     [RelayCommand]
@@ -151,10 +153,10 @@ public partial class MeditatePageViewModel : ObservableObject
         if (guideVm is not null)
         {
             _guideService.Stop(guideVm.OnlineGuide.Id);
-            _telemetry.TrackEvent(TelemetryConstants.GuideStopped, new Dictionary<string, string>
-            {
-                { "name", guideVm.Name }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.GuideStopped, new Dictionary<string, string>
+            //{
+            //    { "name", guideVm.Name }
+            //});
         }
     }
 
@@ -168,10 +170,10 @@ public partial class MeditatePageViewModel : ObservableObject
 
             if (deleted)
             {
-                _telemetry.TrackEvent(TelemetryConstants.GuideDeleted, new Dictionary<string, string>
-                {
-                    { "name", guideVm.Name }
-                });
+                //_telemetry.TrackEvent(TelemetryConstants.GuideDeleted, new Dictionary<string, string>
+                //{
+                //    { "name", guideVm.Name }
+                //});
             }
         }
     }
@@ -180,7 +182,7 @@ public partial class MeditatePageViewModel : ObservableObject
     private async Task PurchaseAsync()
     {
         await _dialogService.OpenPremiumAsync();
-        _telemetry.TrackEvent(TelemetryConstants.GuidePurchaseClicked);
+        //_telemetry.TrackEvent(TelemetryConstants.GuidePurchaseClicked);
     }
 
     private void OnPlaybackChanged(object sender, MediaPlaybackState updatedState)

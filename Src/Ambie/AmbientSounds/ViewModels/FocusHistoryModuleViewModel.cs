@@ -8,15 +8,15 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
-using JeniusApps.Common.Telemetry;
 using JeniusApps.Common.Tools;
+//using JeniusApps.Common.Telemetry;
 
 namespace AmbientSounds.ViewModels;
 
 public partial class FocusHistoryModuleViewModel : ObservableObject
 {
     private readonly IFocusHistoryService _focusHistoryService;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
     private readonly IDialogService _dialogService;
     private readonly IDispatcherQueue _dispatcherQueue;
 
@@ -28,17 +28,17 @@ public partial class FocusHistoryModuleViewModel : ObservableObject
 
     public FocusHistoryModuleViewModel(
         IFocusHistoryService focusHistoryService,
-        ITelemetry telemetry,
+        //ITelemetry telemetry,
         IDialogService dialogService,
         IDispatcherQueue dispatcherQueue)
     {
         Guard.IsNotNull(focusHistoryService);
-        Guard.IsNotNull(telemetry);
+        //Guard.IsNotNull(telemetry);
         Guard.IsNotNull(dialogService);
         Guard.IsNotNull(dispatcherQueue);
 
         _focusHistoryService = focusHistoryService;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
         _dialogService = dialogService;
         _dispatcherQueue = dispatcherQueue;
     }
@@ -92,10 +92,10 @@ public partial class FocusHistoryModuleViewModel : ObservableObject
 
         await _dialogService.OpenHistoryDetailsAsync(vm);
 
-        _telemetry.TrackEvent(TelemetryConstants.FocusHistoryClicked, new Dictionary<string, string>
-        {
-            { "index", Items.IndexOf(vm).ToString() },
-            { "percentComplete", vm.PercentComplete }
-        });
+        //_telemetry.TrackEvent(TelemetryConstants.FocusHistoryClicked, new Dictionary<string, string>
+        //{
+        //    { "index", Items.IndexOf(vm).ToString() },
+        //    { "percentComplete", vm.PercentComplete }
+        //});
     }
 }

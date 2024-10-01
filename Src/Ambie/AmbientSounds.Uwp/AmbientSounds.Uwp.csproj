@@ -828,6 +828,10 @@
       <Project>{3354de16-cd32-4c68-8268-297fa1cdc0e5}</Project>
       <Name>JeniusApps.Common.Uwp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\JeniusApps.Common\JeniusApps.Common.csproj">
+      <Project>{bd19ae15-58a6-4a82-ad5e-9f61a7ab0662}</Project>
+      <Name>JeniusApps.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PRIResource Include="Strings\en-US\Resources.resw">

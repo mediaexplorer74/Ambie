@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Toolkit.Uwp.Connectivity;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
@@ -38,7 +39,9 @@ sealed partial class App : Application
     private static readonly bool _isTenFootPc = false;
     private AppServiceConnection? _appServiceConnection;
     private BackgroundTaskDeferral? _appServiceDeferral;
+    
     private static PlayerTelemetryTracker? _playerTracker;
+    
     private IUserSettings? _userSettings;
     private static Frame? AppFrame;
 
@@ -60,6 +63,7 @@ sealed partial class App : Application
         }
     }
 
+    //RnD
     private void OnNetworkChanged(object sender, EventArgs e)
     {
         //var presence = _serviceProvider?.GetService<IPresenceService>();
@@ -78,6 +82,8 @@ sealed partial class App : Application
         //}
     }
 
+
+    //RnD
     private void OnResuming(object sender, object e)
     {
         //if (_serviceProvider?.GetService<IPresenceService>() is IPresenceService presenceService)
@@ -86,10 +92,14 @@ sealed partial class App : Application
         //}
     }
 
+
+    //RnD
     private async void OnSuspension(object sender, SuspendingEventArgs e)
     {
         var deferral = e.SuspendingOperation.GetDeferral();
+        
         _playerTracker?.TrackDuration(DateTimeOffset.Now);
+
         if (_serviceProvider is { } serviceProvider)
         {
             var flushTask = serviceProvider.GetRequiredService<ITelemetry>().FlushAsync();
@@ -104,7 +114,10 @@ sealed partial class App : Application
             }
 
             await serviceProvider.GetRequiredService<IFocusNotesService>().SaveNotesToStorageAsync();
-            //await serviceProvider.GetRequiredService<IPresenceService>().DisconnectAsync();
+            
+            
+            await serviceProvider.GetRequiredService<IPresenceService>().DisconnectAsync();
+            
             await flushTask;
         }
 
@@ -147,12 +160,12 @@ sealed partial class App : Application
 
             // Must be performed after activate async
             // because the services are setup in that method.
-            Services.GetRequiredService<ITelemetry>().TrackEvent(
-                TelemetryConstants.LaunchViaToast,
-                new Dictionary<string, string>
-                {
-                    { "args", toastActivationArgs.Argument }
-                });
+            //Services.GetRequiredService<ITelemetry>().TrackEvent(
+            //  TelemetryConstants.LaunchViaToast,
+            //    new Dictionary<string, string>
+            //    {
+            //        { "args", toastActivationArgs.Argument }
+            //    });
         }
         else if (args is IProtocolActivatedEventArgs protocolActivatedEventArgs)
         {
@@ -174,7 +187,8 @@ sealed partial class App : Application
         }
     }
 
-    private async void OnAppServiceRequestReceived(AppServiceConnection sender, AppServiceRequestReceivedEventArgs args)
+    private async void OnAppServiceRequestReceived(AppServiceConnection sender, 
+        AppServiceRequestReceivedEventArgs args)
     {
         AppServiceDeferral messageDeferral = args.GetDeferral();
         var controller = App.Services.GetService<AppServiceController>();
@@ -242,7 +256,8 @@ sealed partial class App : Application
 
                     if (firstPageOverride is null &&
                         _userSettings is { } settings &&
-                        settings.Get<string>(UserSettingsConstants.LastUsedContentPageKey) is { Length: > 0 } contentPage &&
+                        settings.Get<string>(UserSettingsConstants.LastUsedContentPageKey) 
+                        is { Length: > 0 } contentPage &&
                         Enum.TryParse(contentPage, out ContentPageType pageType))
                     {
                         firstPageOverride = pageType;
@@ -275,7 +290,8 @@ sealed partial class App : Application
         }
         catch (Exception ex)
         {
-            Services.GetRequiredService<ITelemetry>().TrackError(ex);
+            //Services.GetRequiredService<ITelemetry>().TrackError(ex);
+            Debug.WriteLine(ex.Message);
         }
 
         // Clear stale toasts
@@ -283,7 +299,8 @@ sealed partial class App : Application
 
         var resumeService = Services.GetRequiredService<IResumeOnLaunchService>();
         await resumeService.LoadSoundsFromPreviousSessionAsync();
-        resumeService.TryResumePlayback(force: launchArguments is LaunchConstants.QuickResumeArgument or LaunchConstants.StreakReminderArgument);
+        resumeService.TryResumePlayback(force: launchArguments is LaunchConstants.QuickResumeArgument 
+            or LaunchConstants.StreakReminderArgument);
 
         // Reset tasks on launch
         var bgServices = Services.GetRequiredService<IBackgroundTaskService>();
@@ -316,7 +333,8 @@ sealed partial class App : Application
                 {
                     controller.ProcessShareProtocolArguments(arg);
                 }
-                else if (uri.Segments.LastOrDefault()?.Contains("autoplay", StringComparison.OrdinalIgnoreCase) == true)
+                else if (uri.Segments.LastOrDefault()?.Contains("autoplay", 
+                    StringComparison.OrdinalIgnoreCase) == true)
                 {
                     await controller.ProcessAutoPlayProtocolArgumentsAsync(arg);
                 }
@@ -410,10 +428,10 @@ sealed partial class App : Application
 
     private async void OnUnhandledException(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs e)
     {
-        if (_serviceProvider?.GetRequiredService<ITelemetry>() is { } telemetry)
-        {
-            telemetry.TrackError(e.Exception);
-            await telemetry.FlushAsync();
-        }
+        //if (_serviceProvider?.GetRequiredService<ITelemetry>() is { } telemetry)
+        //{
+        //    telemetry.TrackError(e.Exception);
+        //    await telemetry.FlushAsync();
+        //}
     }
 }

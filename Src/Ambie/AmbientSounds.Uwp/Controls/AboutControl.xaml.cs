@@ -12,6 +12,6 @@ namespace AmbientSounds.Controls
             this.InitializeComponent();
         }
 
-        private string Version => SystemInformation.Instance.ApplicationVersion.ToFormattedString();
+        private string Version => "1.0";//SystemInformation.Instance.ApplicationVersion.ToFormattedString();
     }
 }

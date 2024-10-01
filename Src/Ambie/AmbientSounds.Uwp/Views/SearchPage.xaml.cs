@@ -1,6 +1,6 @@
 ﻿using AmbientSounds.Constants;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Toolkit.Uwp.UI;
 using System.Collections.Generic;
@@ -31,7 +31,7 @@ public sealed partial class SearchPage : Page
             await ViewModel.TriggerSearchAsync(searchQuery);
         }
 
-        App.Services.GetRequiredService<ITelemetry>().TrackPageView(nameof(SearchPage));
+        //App.Services.GetRequiredService<ITelemetry>().TrackPageView(nameof(SearchPage));
     }
 
     protected override void OnNavigatedFrom(NavigationEventArgs e)

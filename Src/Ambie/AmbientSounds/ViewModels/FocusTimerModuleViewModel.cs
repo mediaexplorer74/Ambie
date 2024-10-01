@@ -5,7 +5,6 @@ using AmbientSounds.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
 using JeniusApps.Common.Tools;
 using System;
 using System.Collections.Generic;
@@ -13,6 +12,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using INavigator = AmbientSounds.Services.INavigator;
+//using JeniusApps.Common.Telemetry;
+
 
 namespace AmbientSounds.ViewModels;
 
@@ -27,7 +28,7 @@ public partial class FocusTimerModuleViewModel : ObservableObject
     private readonly IFocusService _focusService;
     private readonly IUserSettings _userSettings;
     private readonly ILocalizer _localizer;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
     private readonly IRecentFocusService _recentFocusService;
     private readonly IFocusHistoryService _focusHistoryService;
     private readonly IFocusTaskService _taskService;
@@ -88,7 +89,7 @@ public partial class FocusTimerModuleViewModel : ObservableObject
         IFocusService focusService,
         ILocalizer localizer,
         IRecentFocusService recentFocusService,
-        ITelemetry telemetry,
+        //ITelemetry telemetry,
         IFocusHistoryService focusHistoryService,
         IUserSettings userSettings,
         IFocusTaskService taskService,
@@ -101,7 +102,7 @@ public partial class FocusTimerModuleViewModel : ObservableObject
         _focusService = focusService;
         _userSettings = userSettings;
         _localizer = localizer;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
         _recentFocusService = recentFocusService;
         _focusHistoryService = focusHistoryService;
         _taskService = taskService;
@@ -365,10 +366,10 @@ public partial class FocusTimerModuleViewModel : ObservableObject
 
         _focusHistoryService.LogTaskCompleted(task.Task.Id);
         _ = _taskService.UpdateCompletionAsync(task.Task.Id, true).ConfigureAwait(false);
-        _telemetry.TrackEvent(TelemetryConstants.TaskCompleted, new Dictionary<string, string>
-        {
-            { "inSession", "true" }
-        });
+        //_telemetry.TrackEvent(TelemetryConstants.TaskCompleted, new Dictionary<string, string>
+        //{
+        //    { "inSession", "true" }
+        //});
     }
 
     [RelayCommand]
@@ -419,13 +420,13 @@ public partial class FocusTimerModuleViewModel : ObservableObject
             await InitializeTasksAsync();
             SecondsRemaining = 60;
             successfullyStarted = _focusService.StartTimer(FocusLength, RestLength, Repetitions);
-            _telemetry.TrackEvent(TelemetryConstants.FocusStarted, new Dictionary<string, string>
-            {
-                { "focusLength", FocusLength.ToString() },
-                { "restLenth", RestLength.ToString() },
-                { "repetitions", Repetitions.ToString() },
-                { "hourOfDay", DateTime.Now.Hour.ToString() }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.FocusStarted, new Dictionary<string, string>
+            //{
+            //    { "focusLength", FocusLength.ToString() },
+            //    { "restLenth", RestLength.ToString() },
+            //    { "repetitions", Repetitions.ToString() },
+            //    { "hourOfDay", DateTime.Now.Hour.ToString() }
+            //});
 
             if (successfullyStarted)
             {
@@ -565,7 +566,7 @@ public partial class FocusTimerModuleViewModel : ObservableObject
         }
 
         SkipSegmentRequested = _focusService.SkipSegment();
-        _telemetry.TrackEvent(TelemetryConstants.FocusSkipClicked);
+        //_telemetry.TrackEvent(TelemetryConstants.FocusSkipClicked);
     }
 
     [RelayCommand]
@@ -582,9 +583,9 @@ public partial class FocusTimerModuleViewModel : ObservableObject
         if (minutes > 0)
         {
             OnPropertyChanged(nameof(InterruptionCount));
-            _telemetry.TrackEvent(
-                TelemetryConstants.FocusInterruptionLogged,
-                _focusHistoryService.GatherInterruptionTelemetry(minutes, notes, false));
+            //_telemetry.TrackEvent(
+            //    TelemetryConstants.FocusInterruptionLogged,
+            //    _focusHistoryService.GatherInterruptionTelemetry(minutes, notes, false));
         }
     }
 

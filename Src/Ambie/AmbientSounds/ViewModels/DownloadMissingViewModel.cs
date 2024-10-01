@@ -19,7 +19,7 @@ public partial class DownloadMissingViewModel : ObservableObject
     private readonly IShareService _shareService;
     private readonly ICatalogueService _catalogueService;
     private readonly ISoundVmFactory _vmFactory;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
     private readonly ISoundService _soundService;
     private readonly IMixMediaPlayerService _player;
 
@@ -30,21 +30,21 @@ public partial class DownloadMissingViewModel : ObservableObject
         IShareService shareService,
         ICatalogueService catalogueService,
         ISoundVmFactory vmFactory,
-        ITelemetry telemetry,
+        //ITelemetry telemetry,
         ISoundService soundService,
         IMixMediaPlayerService player)
     {
         Guard.IsNotNull(shareService);
         Guard.IsNotNull(catalogueService);
         Guard.IsNotNull(vmFactory);
-        Guard.IsNotNull(telemetry);
+        //Guard.IsNotNull(telemetry);
         Guard.IsNotNull(soundService);
         Guard.IsNotNull(player);
 
         _shareService = shareService;
         _catalogueService = catalogueService;
         _vmFactory = vmFactory;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
         _soundService = soundService;
         _player = player;
     }

@@ -19,7 +19,7 @@ public sealed partial class SettingsControl : UserControl
 
     public SettingsViewModel ViewModel => (SettingsViewModel)this.DataContext;
 
-    private string Version => SystemInformation.Instance.ApplicationVersion.ToFormattedString();
+    private string Version => "1.0";//SystemInformation.Instance.ApplicationVersion.ToFormattedString();
     
     public async void Initialize() => await ViewModel.InitializeAsync();
 

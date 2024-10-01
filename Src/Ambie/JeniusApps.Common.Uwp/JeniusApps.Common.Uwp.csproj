@@ -129,15 +129,8 @@
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>bin\</PackageOutputPath>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="..\..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>
-      </PackagePath>
-    </None>
-  </ItemGroup>
+
   <ItemGroup>
     <Compile Include="Authentication\WindowsMsalClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

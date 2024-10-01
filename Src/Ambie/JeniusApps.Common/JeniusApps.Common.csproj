@@ -5,7 +5,6 @@
     <RootNamespace>JeniusApps.Common</RootNamespace>
     <PackageId>JeniusApps.Common</PackageId>
     <AssemblyName>JeniusApps.Common</AssemblyName>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.41-preview</Version>
     <PackageTags>jeniusapps,apps,common</PackageTags>

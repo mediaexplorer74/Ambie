@@ -1,6 +1,6 @@
 ﻿using AmbientSounds.Services;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using Windows.UI.Core;
 using Windows.UI.Xaml.Controls;
@@ -32,8 +32,8 @@ public sealed partial class UpdatesPage : Page
             _systemNavigationManager.BackRequested += OnBackRequested;
         }
 
-        var telemetry = App.Services.GetRequiredService<ITelemetry>();
-        telemetry.TrackPageView(nameof(UpdatesPage));
+        //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+        //telemetry.TrackPageView(nameof(UpdatesPage));
 
         await ViewModel.CheckUpdatesCommand.ExecuteAsync(null);
     }

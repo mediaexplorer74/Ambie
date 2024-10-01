@@ -1,6 +1,6 @@
 ﻿using AmbientSounds.Services;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using Windows.UI.Core;
 using Windows.UI.Xaml.Controls;
@@ -27,8 +27,9 @@ public sealed partial class XboxSettingsPage : Page
     {
         _systemNavigationManager.BackRequested += OnBackRequested;
         await ViewModel.InitializeAsync();
-        var telemetry = App.Services.GetRequiredService<ITelemetry>();
-        telemetry.TrackPageView(nameof(XboxSettingsPage));
+
+        //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+        //telemetry.TrackPageView(nameof(XboxSettingsPage));
     }
 
     protected override void OnNavigatedFrom(NavigationEventArgs e)

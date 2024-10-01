@@ -1,7 +1,6 @@
 ﻿using AmbientSounds.Services.Uwp;
 using AmbientSounds.Services;
 using CommunityToolkit.Diagnostics;
-using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using AmbientSounds.ViewModels;
@@ -21,6 +20,7 @@ using Windows.Storage;
 using Windows.System.Profile;
 using JeniusApps.Common.Settings;
 using JeniusApps.Common.Settings.Uwp;
+using JeniusApps.Common.Telemetry;
 
 #nullable enable
 
@@ -58,8 +58,14 @@ partial class App
 
         // Manually register additional services requiring more customization
         collection.AddSingleton(appsettings ?? new AppSettings());
-        collection.AddSingleton<IUserSettings, LocalSettings>(s => new LocalSettings(UserSettingsConstants.Defaults));
-        collection.AddSingleton<IExperimentationService, LocalExperimentationService>(s => new LocalExperimentationService(ExperimentConstants.AllKeys, s.GetRequiredService<IUserSettings>()));
+
+               
+        collection.AddSingleton<IUserSettings, LocalSettings>(s => 
+        new LocalSettings(UserSettingsConstants.Defaults));
+        collection.AddSingleton<IExperimentationService, LocalExperimentationService>(
+            s => new LocalExperimentationService(
+            ExperimentConstants.AllKeys, s.GetRequiredService<IUserSettings>()));
+        
         collection.AddSingleton<ITelemetry, AppInsightsTelemetry>(s =>
         {
             var apiKey = s.GetRequiredService<IAppSettings>().TelemetryApiKey;
@@ -71,7 +77,7 @@ partial class App
             }
             return new AppInsightsTelemetry(apiKey, isEnabled: isEnabled, context: context);
         });
-
+     
         IServiceProvider provider = collection.BuildServiceProvider();
 
         // Preload telemetry so it's configured as soon as possible.
@@ -91,10 +97,17 @@ partial class App
     {
         var context = new TelemetryContext();
         context.Session.Id = Guid.NewGuid().ToString();
-        context.Component.Version = SystemInformation.Instance.ApplicationVersion.ToFormattedString();
-        context.GlobalProperties.Add("isFirstRun", SystemInformation.Instance.IsFirstRun.ToString());
 
-        if (ApplicationData.Current.LocalSettings.Values[UserSettingsConstants.LocalUserIdKey] is string { Length: > 0 } id)
+        //RnD
+        context.Component.Version = "1.0";//SystemInformation.Instance.ApplicationVersion.ToFormattedString();
+        context.GlobalProperties.Add
+        (
+            "isFirstRun", 
+            "true"//SystemInformation.Instance.IsFirstRun.ToString()
+        );
+
+        if (ApplicationData.Current.LocalSettings.Values[UserSettingsConstants.LocalUserIdKey]
+        is string { Length: > 0 } id)
         {
             context.User.Id = id;
         }

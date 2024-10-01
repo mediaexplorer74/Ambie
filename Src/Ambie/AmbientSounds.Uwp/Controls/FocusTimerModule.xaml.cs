@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 namespace AmbientSounds.Controls;
 
@@ -117,10 +117,10 @@ public sealed partial class FocusTimerModule : UserControl, ICanInitialize
         if (e.ClickedItem is RecentFocusSettingsViewModel s)
         {
             ViewModel.LoadRecentSettings(s);
-            App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.FocusRecentClicked, new Dictionary<string, string>
-            {
-                { "index", ViewModel.RecentSettings.IndexOf(s).ToString() }
-            });
+            //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.FocusRecentClicked, new Dictionary<string, string>
+            //{
+            //    { "index", ViewModel.RecentSettings.IndexOf(s).ToString() }
+            //});
         }
     }
 

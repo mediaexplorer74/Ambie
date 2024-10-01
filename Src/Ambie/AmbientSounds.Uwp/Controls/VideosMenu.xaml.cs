@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 namespace AmbientSounds.Controls
 {
@@ -36,7 +36,8 @@ namespace AmbientSounds.Controls
 
         private void Flyout_Opened(object sender, object e)
         {
-            App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.VideoPremiumClicked);
+            //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.VideoPremiumClicked);
+            //TODO
         }
     }
 }

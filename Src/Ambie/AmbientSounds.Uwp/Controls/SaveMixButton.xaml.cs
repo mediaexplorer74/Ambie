@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 #nullable enable
 
@@ -33,10 +33,10 @@ namespace AmbientSounds.Controls
                 if (!string.IsNullOrEmpty(id))
                 {
                     MixSaved?.Invoke(this, EventArgs.Empty);
-                    App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.MixSaved, new Dictionary<string, string>
-                    {
-                        { "invokedBy", "keyboard" }
-                    });
+                    //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.MixSaved, new Dictionary<string, string>
+                    //{
+                    //    { "invokedBy", "keyboard" }
+                    //});
                 }
             }
         }
@@ -55,10 +55,11 @@ namespace AmbientSounds.Controls
             if (!string.IsNullOrEmpty(id))
             {
                 MixSaved?.Invoke(this, EventArgs.Empty);
-                App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.MixSaved, new Dictionary<string, string>
-                {
-                    { "invokedBy", "button" }
-                });
+                //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.MixSaved, 
+                //    new Dictionary<string, string>
+                //{
+                //    { "invokedBy", "button" }
+                //});
             }
         }
     }

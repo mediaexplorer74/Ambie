@@ -1,6 +1,6 @@
 ﻿using AmbientSounds.Constants;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using Windows.UI.Xaml.Controls;
@@ -24,7 +24,7 @@ public sealed partial class MeditatePage : Page
     {
         await ViewModel.InitializeAsync();
 
-        App.Services.GetRequiredService<ITelemetry>().TrackPageView(nameof(MeditatePage));
+        //App.Services.GetRequiredService<ITelemetry>().TrackPageView(nameof(MeditatePage));
     }
 
     protected override void OnNavigatedFrom(NavigationEventArgs e)

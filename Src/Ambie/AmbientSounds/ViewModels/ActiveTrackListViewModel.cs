@@ -6,8 +6,6 @@ using AmbientSounds.Services;
 using CommunityToolkit.Diagnostics;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
 using JeniusApps.Common.Tools;
 using System;
 using System.Collections.Generic;
@@ -15,6 +13,9 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
+using JeniusApps.Common.Settings;
+//using JeniusApps.Common.Telemetry;
+
 
 namespace AmbientSounds.ViewModels;
 
@@ -24,7 +25,7 @@ public partial class ActiveTrackListViewModel : ObservableObject
     private readonly ISoundVmFactory _soundVmFactory;
     private readonly IUserSettings _userSettings;
     private readonly ISoundService _soundDataProvider;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
     private readonly IPresenceService _presenceService;
     private readonly IShareService _shareService;
     private readonly IDispatcherQueue _dispatcherQueue;
@@ -37,7 +38,7 @@ public partial class ActiveTrackListViewModel : ObservableObject
         IMixMediaPlayerService player,
         ISoundVmFactory soundVmFactory,
         IUserSettings userSettings,
-        ITelemetry telemetry,
+        //ITelemetry telemetry,
         ISoundService soundDataProvider,
         IAppSettings appSettings,
         IPresenceService presenceService,
@@ -48,14 +49,14 @@ public partial class ActiveTrackListViewModel : ObservableObject
         Guard.IsNotNull(soundVmFactory);
         Guard.IsNotNull(userSettings);
         Guard.IsNotNull(soundDataProvider);
-        Guard.IsNotNull(telemetry);
+        //Guard.IsNotNull(telemetry);
         Guard.IsNotNull(appSettings);
         Guard.IsNotNull(presenceService);
         Guard.IsNotNull(shareService);
         Guard.IsNotNull(dispatcherQueue);
 
         _loadPreviousState = appSettings.LoadPreviousState;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
         _soundDataProvider = soundDataProvider;
         _userSettings = userSettings;
         _soundVmFactory = soundVmFactory;
@@ -138,7 +139,8 @@ public partial class ActiveTrackListViewModel : ObservableObject
     private void UpdateStoredState()
     {
         var ids = ActiveTracks.Select(static x => x.Sound.Id).ToArray();
-        _userSettings.SetAndSerialize(UserSettingsConstants.ActiveTracks, ids, AmbieJsonSerializerContext.Default.StringArray);
+        _userSettings.SetAndSerialize(UserSettingsConstants.ActiveTracks, ids, 
+            AmbieJsonSerializerContext.Default.StringArray);
         _userSettings.Set(UserSettingsConstants.ActiveMixId, _player.CurrentMixId);
     }
 
@@ -223,11 +225,11 @@ public partial class ActiveTrackListViewModel : ObservableObject
                 await Task.Delay(300); // delay needed because for some reason sounds don't play without it.
             }
 
-            _telemetry.TrackEvent(TelemetryConstants.SharePlayed, new Dictionary<string, string>
-            {
-                { "missingSounds", (sounds.Count < soundIds.Count).ToString() },
-                { "id count", soundIds.Count.ToString() }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.SharePlayed, new Dictionary<string, string>
+            //{
+            //    { "missingSounds", (sounds.Count < soundIds.Count).ToString() },
+            //    { "id count", soundIds.Count.ToString() }
+            //});
         }
     }
 }

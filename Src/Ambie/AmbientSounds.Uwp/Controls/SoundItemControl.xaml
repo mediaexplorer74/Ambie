@@ -362,12 +362,13 @@
             Margin="6"
             HorizontalAlignment="Right"
             VerticalAlignment="Bottom">
+
+            <!--Fill="{x:Bind controls:UIHelper.ToDarkerBrush(ViewModel.ColourHex, 0.1), Mode=OneWay}"-->
             <Ellipse
                 Width="24"
                 Height="24"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Fill="{x:Bind controls:UIHelper.ToDarkerBrush(ViewModel.ColourHex, 0.1), Mode=OneWay}"
                 RenderTransformOrigin="0.5,0.5"
                 Visibility="{x:Bind ViewModel.IsCurrentlyPlaying, Mode=OneWay}">
                 <Ellipse.RenderTransform>
@@ -375,12 +376,12 @@
                 </Ellipse.RenderTransform>
             </Ellipse>
 
-            <Ellipse
+            <!--Fill="{x:Bind controls:UIHelper.ToLighterBrush(ViewModel.ColourHex, 0.2), Mode=OneWay}"-->
+                <Ellipse
                 Width="14.4"
                 Height="14.4"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Fill="{x:Bind controls:UIHelper.ToLighterBrush(ViewModel.ColourHex, 0.2), Mode=OneWay}"
                 RenderTransformOrigin="0.5,0.5"
                 Visibility="{x:Bind ViewModel.IsCurrentlyPlaying, Mode=OneWay}">
                 <Ellipse.RenderTransform>
@@ -389,12 +390,12 @@
             </Ellipse>
         </Grid>
 
-        <Grid
+        <!--Background="{x:Bind controls:UIHelper.ToDarkerBrush(ViewModel.ColourHex, 0.2), Mode=OneWay}"-->
+            <Grid
             Margin="0,8,0,0"
             Padding="4"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Background="{x:Bind controls:UIHelper.ToDarkerBrush(ViewModel.ColourHex, 0.2), Mode=OneWay}"
             CornerRadius="4"
             Visibility="{x:Bind ViewModel.LockIconVisible, Mode=OneWay}">
             <FontIcon

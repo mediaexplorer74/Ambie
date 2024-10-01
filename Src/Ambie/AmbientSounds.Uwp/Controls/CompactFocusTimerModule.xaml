@@ -60,10 +60,12 @@
                 Width="60"
                 Content="{x:Bind ViewModel.FocusLength, Mode=OneWay}">
                 <winui:DropDownButton.Flyout>
-                    <Flyout
+
+                    <!--ShouldConstrainToRootBounds="False"-->
+                        <Flyout
                         FlyoutPresenterStyle="{StaticResource DropdownFlyoutStyle}"
                         Placement="Bottom"
-                        ShouldConstrainToRootBounds="False">
+                        >
                         <Grid Width="200">
                             <local:TimerSlider
                                 AutomationName="{x:Bind strings:Resources.FocusLength}"
@@ -89,10 +91,11 @@
                 Width="60"
                 Content="{x:Bind ViewModel.RestLength, Mode=OneWay}">
                 <winui:DropDownButton.Flyout>
-                    <Flyout
+                    <!--ShouldConstrainToRootBounds="False"-->
+                        <Flyout
                         FlyoutPresenterStyle="{StaticResource DropdownFlyoutStyle}"
                         Placement="Bottom"
-                        ShouldConstrainToRootBounds="False">
+                        >
                         <Grid Width="200">
                             <local:TimerSlider
                                 AutomationName="{x:Bind strings:Resources.RestLength}"
@@ -118,10 +121,11 @@
                 Width="54"
                 Content="{x:Bind ViewModel.Repetitions, Mode=OneWay}">
                 <winui:DropDownButton.Flyout>
-                    <Flyout
+                    <!--ShouldConstrainToRootBounds="False"-->
+                        <Flyout
                         FlyoutPresenterStyle="{StaticResource DropdownFlyoutStyle}"
                         Placement="Bottom"
-                        ShouldConstrainToRootBounds="False">
+                        >
                         <Grid Width="200">
                             <local:TimerSlider
                                 AutomationName="{x:Bind strings:Resources.Repeats}"

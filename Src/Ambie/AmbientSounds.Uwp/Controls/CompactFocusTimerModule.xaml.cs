@@ -1,6 +1,6 @@
 ﻿using AmbientSounds.Constants;
 using AmbientSounds.ViewModels;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -39,10 +39,11 @@ public sealed partial class CompactFocusTimerModule : UserControl, ICanInitializ
 
         if (success)
         {
-            App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.TaskAdded, new Dictionary<string, string>
-            {
-                { "location", "ambieMini" }
-            });
+            //App.Services.GetRequiredService<ITelemetry>().TrackEvent(TelemetryConstants.TaskAdded, 
+            //    new Dictionary<string, string>
+            //{
+            //    { "location", "ambieMini" }
+            //});
         }
     }
 }

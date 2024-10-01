@@ -2,10 +2,11 @@
 using AmbientSounds.Models;
 using AmbientSounds.Tools;
 using CommunityToolkit.Diagnostics;
-using JeniusApps.Common.Settings;
-using JeniusApps.Common.Telemetry;
 using System;
 using System.Collections.Generic;
+using JeniusApps.Common.Settings;
+//using JeniusApps.Common.Telemetry;
+
 
 namespace AmbientSounds.Services;
 
@@ -14,7 +15,7 @@ public class FocusService : IFocusService
     private readonly ITimerService _timerService;
     private readonly IFocusToastService _focusToastService;
     private readonly IMixMediaPlayerService _mixMediaPlayerService;
-    private readonly ITelemetry _telemetry;
+    //private readonly ITelemetry _telemetry;
     private readonly IFocusHistoryService _focusHistoryService;
     private readonly IUserSettings _userSettings;
     private readonly Queue<FocusSession> _sessionQueue = new();
@@ -30,19 +31,19 @@ public class FocusService : IFocusService
         IFocusToastService focusToastService,
         IMixMediaPlayerService mixMediaPlayerService,
         IFocusHistoryService focusHistoryService,
-        ITelemetry telemetry,
+        //ITelemetry telemetry,
         IUserSettings userSettings)
     {
         Guard.IsNotNull(timerService);
         Guard.IsNotNull(focusToastService);
         Guard.IsNotNull(mixMediaPlayerService);
-        Guard.IsNotNull(telemetry);
+        //Guard.IsNotNull(telemetry);
         Guard.IsNotNull(focusHistoryService);
         Guard.IsNotNull(userSettings);
         _timerService = timerService;
         _focusToastService = focusToastService;
         _mixMediaPlayerService = mixMediaPlayerService;
-        _telemetry = telemetry;
+        //_telemetry = telemetry;
         _focusHistoryService = focusHistoryService;
         _userSettings = userSettings;
 
@@ -51,7 +52,8 @@ public class FocusService : IFocusService
         _mixMediaPlayerService.PlaybackStateChanged += OnPlaybackStateChanged;
     }
 
-    public FocusSession CurrentSession { get; private set; } = new FocusSession(SessionType.None, TimeSpan.Zero, 0, 0);
+    public FocusSession CurrentSession { get; private set; } 
+        = new FocusSession(SessionType.None, TimeSpan.Zero, 0, 0);
 
     public SessionType CurrentSessionType => CurrentSession.SessionType;
 
@@ -156,7 +158,7 @@ public class FocusService : IFocusService
                 _focusToastService.SendCompletionToast();
             }
 
-            _telemetry.TrackEvent(TelemetryConstants.FocusCompleted);
+            //_telemetry.TrackEvent(TelemetryConstants.FocusCompleted);
             _focusHistoryService.TrackHistoryCompletion(
                 DateTime.UtcNow.Ticks,
                 CurrentSession.SessionType);
@@ -256,7 +258,7 @@ public class FocusService : IFocusService
                 _mixMediaPlayerService.GlobalVolume = CurrentSession.SessionType == SessionType.Rest ? 0 : _previousGlobalVolume;
                 _timerService.Remaining = CurrentSession.Remaining;
                 _timerService.Start();
-                _telemetry.TrackEvent(TelemetryConstants.FocusSegmentCompleted);
+                //_telemetry.TrackEvent(TelemetryConstants.FocusSegmentCompleted);
             }
             else
             {

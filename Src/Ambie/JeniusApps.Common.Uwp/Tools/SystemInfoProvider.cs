@@ -16,13 +16,15 @@ public class SystemInfoProvider : ISystemInfoProvider
     /// <inheritdoc/>
     public DateTime FirstUseDate()
     {
-        return SystemInformation.Instance.FirstUseTime;
+        //TODO
+        return DateTime.Now;//SystemInformation.Instance.FirstUseTime;
     }
 
     /// <inheritdoc/>
     public string GetCulture()
     {
-        return SystemInformation.Instance.Culture.Name;
+        //TODO
+        return "US-EN";//SystemInformation.Instance.Culture.Name;
     }
 
     /// <inheritdoc/>
@@ -40,7 +42,8 @@ public class SystemInfoProvider : ISystemInfoProvider
     /// <inheritdoc/>
     public bool IsFirstRun()
     {
-        return SystemInformation.Instance.IsFirstRun;
+        //TODO
+        return true;//SystemInformation.Instance.IsFirstRun;
     }
 
     /// <inheritdoc/>

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 namespace AmbientSounds.Controls;
 

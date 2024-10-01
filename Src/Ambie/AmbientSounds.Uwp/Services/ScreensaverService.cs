@@ -3,7 +3,7 @@ using CommunityToolkit.Diagnostics;
 using System;
 using System.Collections.Generic;
 using Windows.UI.Xaml;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 #nullable enable
 
@@ -12,21 +12,21 @@ namespace AmbientSounds.Services.Uwp
     public class ScreensaverService : IScreensaverService
     {
         private const int ScreensaverTimeout = 60; // seconds
-        private readonly ITelemetry _telemetry;
+        //private readonly ITelemetry _telemetry;
         private readonly INavigator _navigator;
         private readonly IMixMediaPlayerService _mediaPlayerService;
         private DispatcherTimer? _screensaverTriggerTimer;
 
         public ScreensaverService(
-            ITelemetry telemetry,
+            //ITelemetry telemetry,
             INavigator navigator,
             IMixMediaPlayerService mediaPlayerService)
         {
-            Guard.IsNotNull(telemetry, nameof(telemetry));
+            //Guard.IsNotNull(telemetry, nameof(telemetry));
             Guard.IsNotNull(navigator, nameof(navigator));
             Guard.IsNotNull(mediaPlayerService, nameof(mediaPlayerService));
             _mediaPlayerService = mediaPlayerService;
-            _telemetry = telemetry;
+            //_telemetry = telemetry;
             _navigator = navigator;
         }
 
@@ -46,7 +46,10 @@ namespace AmbientSounds.Services.Uwp
                 return;
             }
 
-            _screensaverTriggerTimer = new DispatcherTimer() { Interval = TimeSpan.FromSeconds(ScreensaverTimeout) };
+            _screensaverTriggerTimer = new DispatcherTimer() 
+             { 
+                Interval = TimeSpan.FromSeconds(ScreensaverTimeout) 
+             };
             _screensaverTriggerTimer.Tick += ScreensaverTriggered;
             _screensaverTriggerTimer.Start();
         }
@@ -80,10 +83,11 @@ namespace AmbientSounds.Services.Uwp
                 return;
             }
 
-            _telemetry.TrackEvent(TelemetryConstants.ScreensaverTriggered, new Dictionary<string, string>()
-            {
-                { "trigger", "timer" }
-            });
+            //_telemetry.TrackEvent(TelemetryConstants.ScreensaverTriggered, new Dictionary<string, string>()
+            //{
+            //    { "trigger", "timer" }
+            //});
+
             _navigator.ToScreensaver();
 
             // Once we navigate to the screensaver,

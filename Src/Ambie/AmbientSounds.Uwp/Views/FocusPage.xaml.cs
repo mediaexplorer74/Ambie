@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AmbientSounds.Controls;
 using System.Linq;
-using JeniusApps.Common.Telemetry;
+//using JeniusApps.Common.Telemetry;
 
 namespace AmbientSounds.Views
 {
@@ -34,8 +34,8 @@ namespace AmbientSounds.Views
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            var telemetry = App.Services.GetRequiredService<ITelemetry>();
-            telemetry.TrackPageView(nameof(FocusPage));
+            //var telemetry = App.Services.GetRequiredService<ITelemetry>();
+            //telemetry.TrackPageView(nameof(FocusPage));
 
             var mainTask = ViewModel.InitializeAsync();
             await Task.WhenAll(_controlsToInitialize.Select(x => x.InitializeAsync()));
